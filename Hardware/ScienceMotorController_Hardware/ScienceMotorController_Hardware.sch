@@ -3200,4 +3200,24 @@ NoConn ~ 5825 1950
 NoConn ~ 5825 1850
 NoConn ~ 5825 1750
 NoConn ~ 5825 1650
+Wire Wire Line
+	10975 4950 11075 4950
+Wire Wire Line
+	11075 4950 11075 4850
+Connection ~ 11075 4850
+Wire Wire Line
+	10975 2850 11075 2850
+Wire Wire Line
+	11075 2850 11075 2750
+Connection ~ 11075 2750
+Wire Wire Line
+	7425 2850 7525 2850
+Wire Wire Line
+	7525 2850 7525 2750
+Connection ~ 7525 2750
+Wire Wire Line
+	7425 4950 7525 4950
+Wire Wire Line
+	7525 4950 7525 4850
+Connection ~ 7525 4850
 $EndSCHEMATC
