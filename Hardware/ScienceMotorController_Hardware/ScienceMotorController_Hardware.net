@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\Andrew\Documents\GitHub\Science-Motor-Controller\Hardware\ScienceMotorController_Hardware\ScienceMotorController_Hardware.sch)
-    (date "2019-10-08 11:36:00 PM")
+    (date "2019-10-10 6:37:08 PM")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
