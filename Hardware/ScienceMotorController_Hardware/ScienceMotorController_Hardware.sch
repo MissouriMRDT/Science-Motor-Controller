@@ -1614,9 +1614,9 @@ Text GLabel 2500 8725 0    50   Output ~ 0
 M1_IN_B
 Text GLabel 3600 8625 2    50   Input ~ 0
 M2_CS
-Text GLabel 2500 8825 0    50   Output ~ 0
-M2_IN_A
 Text GLabel 3600 8925 2    50   Output ~ 0
+M2_IN_A
+Text GLabel 2500 8825 0    50   Output ~ 0
 M2_PWM
 Text GLabel 2500 8925 0    50   Output ~ 0
 M2_IN_B
@@ -3140,9 +3140,14 @@ MSW_5
 Wire Wire Line
 	2600 8425 2500 8425
 Connection ~ 8500 8100
-Connection ~ 9575 8600
-Wire Wire Line
-	9575 8600 9575 8500
 Wire Wire Line
 	9575 8500 9575 9025
+NoConn ~ 3500 8325
+NoConn ~ 3500 8225
+NoConn ~ 3500 8125
+NoConn ~ 3500 8725
+NoConn ~ 3500 7100
+NoConn ~ 3500 7000
+NoConn ~ 3500 7600
+NoConn ~ 3500 7700
 $EndSCHEMATC
