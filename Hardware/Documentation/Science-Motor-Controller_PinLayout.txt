@@ -1,0 +1,50 @@
+TM4C129E_Launchpad
+-----X9:A1-----
++3.3V              :+3V3:A1_1
+SW_IND_1           :PD3 :A1_7
+SW_IND_2           :PC7 :A1_8
+SW_IND_3           :PB2 :A1_9
+SW_IND_4           :PB3 :A1_10
+
+-----X9:B1----- 
+GND                :GND :B1_2 
+LS_1               :PD7 :B1_7 
+LS_2               :PA6 :B1_8 
+
+-----X9:C1-----
+MSW_3              :PF1 :C1_1 
+MSW_4              :PF2 :C1_2 
+MSW_1              :PF3 :C1_3 
+MSW_2              :PG0 :C1_4 
+MSW_5              :PL4 :C1_5 
+M1_PWM             :PL5 :C1_6 
+M1_IN_A            :PL0 :C1_7 
+M1_IN_B            :PL1 :C1_8 
+M2_PWM             :PL2 :C1_9 
+M2_IN_A            :PL3 :C1_10
+
+-----X9:D1-----
+GND                :GND :D1_1 
+M1_CS              :PD1 :D1_6 
+M1_CS              :PD0 :D1_7 
+M2_IN_B            :PP2 :D1_10
+
+-----X7:A2-----
++3.3V              :+3v3:A2_1
+
+-----X7:B2-----
+GND                :GND :B2_2 
+M3_CS              :PB5 :B2_4 
+M4_CS              :PK0 :B2_5 
+
+-----X7:C2-----
+M3_PWM             :PG1 :C2_1 
+M4_PWM             :PK4 :C2_2 
+
+-----X7:D2-----
+GND                :GND :D2_1 
+M3_IN_A            :PQ3 :D2_7 
+M3_IN_B            :PP3 :D2_8 
+M4_IN_A            :PQ1 :D2_9 
+M4_IN_B            :PM6 :D2_10
+/////////////////////////////////////////////////////////////////
