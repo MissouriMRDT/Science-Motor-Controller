@@ -2212,7 +2212,7 @@ L Device:LED_Small D7
 U 1 1 61F7100F
 P 12950 3550
 F 0 "D7" H 12950 3675 50  0000 C CNN
-F 1 "SW_IND_4_LED" H 12950 3475 50  0000 C CNN
+F 1 "SW_ERR_LED" H 12950 3475 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12950 3550 50  0001 C CNN
 F 3 "~" V 12950 3550 50  0001 C CNN
 	1    12950 3550
@@ -2494,13 +2494,13 @@ Text GLabel 7825 7250 0    50   Output ~ 0
 LS_1
 Text GLabel 7825 7700 0    50   Output ~ 0
 LS_2
-Text GLabel 3950 7000 2    50   Input ~ 0
-MSW_1
 Text GLabel 3950 7100 2    50   Input ~ 0
+MSW_1
+Text GLabel 3950 7300 2    50   Input ~ 0
 MSW_2
 Text GLabel 3950 7200 2    50   Input ~ 0
 MSW_3
-Text GLabel 3950 7300 2    50   Input ~ 0
+Text GLabel 2850 7400 0    50   Input ~ 0
 MSW_4
 Wire Notes Line
 	2000 900  13500 900 
@@ -2521,7 +2521,7 @@ Wire Notes Line
 Wire Wire Line
 	3950 7200 3850 7200
 Wire Wire Line
-	3950 7300 3850 7300
+	2850 7400 2950 7400
 Text GLabel 6525 7700 2    50   Output ~ 0
 SW_IND_1
 Text GLabel 6525 7600 2    50   Output ~ 0
@@ -2543,9 +2543,9 @@ Wire Wire Line
 Wire Wire Line
 	3950 6675 3950 6900
 Wire Wire Line
-	3850 7000 3950 7000
-Wire Wire Line
 	3850 7100 3950 7100
+Wire Wire Line
+	3850 7300 3950 7300
 Text GLabel 12350 2500 0    50   Input ~ 0
 SW_IND_1
 Text GLabel 12350 2850 0    50   Input ~ 0
@@ -2852,12 +2852,10 @@ F 3 "" H 10175 9175 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Connection ~ 10175 9075
-Wire Wire Line
-	9100 8250 9100 8775
-Text GLabel 2850 7400 0    50   Input ~ 0
+Text GLabel 3950 7000 2    50   Input ~ 0
 MSW_5
 Wire Wire Line
-	2950 7400 2850 7400
+	3850 7000 3950 7000
 Wire Wire Line
 	10175 8550 10175 9075
 NoConn ~ 3850 8325
@@ -3013,7 +3011,7 @@ L Device:LED_Small D10
 U 1 1 5DFF39F0
 P 12950 4925
 F 0 "D10" H 12950 5050 50  0000 C CNN
-F 1 "LS_2_LED" H 12950 4850 50  0000 C CNN
+F 1 "LS_4_LED" H 12950 4850 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12950 4925 50  0001 C CNN
 F 3 "~" V 12950 4925 50  0001 C CNN
 	1    12950 4925
@@ -3024,7 +3022,7 @@ L Device:LED_Small D2
 U 1 1 5DFF39F7
 P 12950 4575
 F 0 "D2" H 12950 4700 50  0000 C CNN
-F 1 "LS_1_LED" H 12950 4500 50  0000 C CNN
+F 1 "LS_3_LED" H 12950 4500 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 12950 4575 50  0001 C CNN
 F 3 "~" V 12950 4575 50  0001 C CNN
 	1    12950 4575
@@ -3333,4 +3331,7 @@ F 3 "" H 9400 8775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 9600 8875
+Wire Wire Line
+	9100 8150 9100 8775
+Connection ~ 9100 8150
 $EndSCHEMATC

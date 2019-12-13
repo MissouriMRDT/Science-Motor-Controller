@@ -2494,13 +2494,13 @@ Text GLabel 7825 7250 0    50   Output ~ 0
 LS_1
 Text GLabel 7825 7700 0    50   Output ~ 0
 LS_2
-Text GLabel 3950 7000 2    50   Input ~ 0
-MSW_1
 Text GLabel 3950 7100 2    50   Input ~ 0
+MSW_1
+Text GLabel 3950 7300 2    50   Input ~ 0
 MSW_2
 Text GLabel 3950 7200 2    50   Input ~ 0
 MSW_3
-Text GLabel 3950 7300 2    50   Input ~ 0
+Text GLabel 2850 7400 0    50   Input ~ 0
 MSW_4
 Wire Notes Line
 	2000 900  13500 900 
@@ -2521,7 +2521,7 @@ Wire Notes Line
 Wire Wire Line
 	3950 7200 3850 7200
 Wire Wire Line
-	3950 7300 3850 7300
+	2850 7400 2950 7400
 Text GLabel 6525 7700 2    50   Output ~ 0
 SW_IND_1
 Text GLabel 6525 7600 2    50   Output ~ 0
@@ -2543,9 +2543,9 @@ Wire Wire Line
 Wire Wire Line
 	3950 6675 3950 6900
 Wire Wire Line
-	3850 7000 3950 7000
-Wire Wire Line
 	3850 7100 3950 7100
+Wire Wire Line
+	3850 7300 3950 7300
 Text GLabel 12350 2500 0    50   Input ~ 0
 SW_IND_1
 Text GLabel 12350 2850 0    50   Input ~ 0
@@ -2852,12 +2852,10 @@ F 3 "" H 10175 9175 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Connection ~ 10175 9075
-Wire Wire Line
-	9100 8250 9100 8775
-Text GLabel 2850 7400 0    50   Input ~ 0
+Text GLabel 3950 7000 2    50   Input ~ 0
 MSW_5
 Wire Wire Line
-	2950 7400 2850 7400
+	3850 7000 3950 7000
 Wire Wire Line
 	10175 8550 10175 9075
 NoConn ~ 3850 8325
@@ -3333,4 +3331,7 @@ F 3 "" H 9400 8775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 9600 8875
+Wire Wire Line
+	9100 8150 9100 8775
+Connection ~ 9100 8150
 $EndSCHEMATC
