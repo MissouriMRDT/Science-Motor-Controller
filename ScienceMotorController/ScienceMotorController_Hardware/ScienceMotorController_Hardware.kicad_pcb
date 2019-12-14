@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 80)
+    (drawings 76)
     (tracks 1222)
     (zones 0)
     (modules 122)
@@ -25,7 +25,7 @@
     (41 Cmts.User user)
     (42 Eco1.User user)
     (43 Eco2.User user)
-    (44 Edge.Cuts user hide)
+    (44 Edge.Cuts user)
     (45 Margin user)
     (46 B.CrtYd user)
     (47 F.CrtYd user)
@@ -4866,7 +4866,7 @@
   )
 
   (module MRDT_Silkscreens:z_sig_SanfanLiu_sig21.8mmx12.3mm1 (layer F.Cu) (tedit 0) (tstamp 5DA3C30B)
-    (at 92.075 147.447)
+    (at 92.075 157.48)
     (fp_text reference G*** (at 13.462 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -6224,7 +6224,7 @@
   )
 
   (module MRDT_Silkscreens:z_sig_Andrew_Phillips_Sig_19.7mmx7.7mm (layer F.Cu) (tedit 0) (tstamp 5DA3C33A)
-    (at 91.948 157.734)
+    (at 91.948 148.59)
     (fp_text reference G*** (at 13.589 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -9465,6 +9465,11 @@
     )
   )
 
+  (gr_line (start 38.608 46.228) (end 38.608 150.114) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 163.068 46.228) (end 163.068 117.094) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 40.64 44.196) (end 161.036 44.196) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 40.64 46.228) (end 40.64 44.196) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5DF54362))
+  (gr_arc (start 161.036 46.228) (end 163.068 46.228) (angle -90) (layer Edge.Cuts) (width 0.15) (tstamp 5DF54362))
   (gr_text CCW (at 47.244 120.396) (layer F.SilkS) (tstamp 5E01598A)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
@@ -9485,8 +9490,6 @@
   )
   (gr_line (start 131.572 130.937) (end 103.632 130.937) (layer F.SilkS) (width 0.2))
   (gr_line (start 131.572 116.205) (end 103.632 116.205) (layer F.SilkS) (width 0.2))
-  (gr_line (start 163.068 61.976) (end 163.068 46.228) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 38.608 61.976) (end 38.608 46.228) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 76.073 130.937) (end 76.073 103.378) (layer F.SilkS) (width 0.2))
   (gr_line (start 39.497 122.682) (end 39.497 130.937) (layer F.SilkS) (width 0.2))
   (gr_line (start 76.073 130.937) (end 39.497 130.937) (layer F.SilkS) (width 0.2))
@@ -9599,13 +9602,6 @@
   (gr_text "Software 1" (at 107.823 118.999) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_line (start 163.068 83.566) (end 163.068 61.976) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 38.608 61.976) (end 38.608 83.566) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 40.64 46.2534) (end 40.64 44.2214) (angle -90) (layer Edge.Cuts) (width 0.15))
-  (gr_arc (start 161.036 46.2534) (end 163.068 46.2534) (angle -90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 161.036 44.2214) (end 40.64 44.2214) (layer Edge.Cuts) (width 0.15) (tstamp 5DA1BC4F))
-  (gr_line (start 38.608 150.114) (end 38.608 83.566) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 163.068 117.094) (end 163.068 83.566) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 145.288 119.126) (end 161.036 119.126) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 145.288 139.954) (end 145.288 119.126) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 161.036 139.954) (end 145.288 139.954) (layer Edge.Cuts) (width 0.15))
