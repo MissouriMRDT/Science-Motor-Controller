@@ -283,4 +283,32 @@ Wire Wire Line
 	6350 1900 6450 1900
 Wire Wire Line
 	6450 1900 6450 2150
+Text Notes 7100 1600 0    79   ~ 0
+Reminder:\nNeed High Current 10A bus\nNeed Low Current 3A bus
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 3 1 5F759AF7
+P 1500 1350
+F 0 "Conn?" H 1708 1737 60  0000 C CNN
+F 1 "AndersonPP" H 1708 1631 60  0000 C CNN
+F 2 "" H 1350 800 60  0001 C CNN
+F 3 "" H 1350 800 60  0001 C CNN
+	3    1500 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1250 2050 1250
+Wire Wire Line
+	2050 1250 2050 1000
+$Comp
+L power:+12VA #PWR?
+U 1 1 5F75C024
+P 2050 1000
+F 0 "#PWR?" H 2050 850 50  0001 C CNN
+F 1 "+12VA" H 2065 1173 50  0000 C CNN
+F 2 "" H 2050 1000 50  0001 C CNN
+F 3 "" H 2050 1000 50  0001 C CNN
+	1    2050 1000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
