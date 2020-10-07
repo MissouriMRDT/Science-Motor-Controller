@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 11
+Sheet 11 11
 Title ""
 Date ""
 Rev ""
@@ -118,12 +118,204 @@ Wire Wire Line
 	4150 2850 4150 2950
 Wire Wire Line
 	4150 2950 4350 2950
-Text GLabel 2450 2100 0    50   Output ~ 0
+Text GLabel 2300 2100 0    50   Output ~ 0
 Limit_Switch_1
-Text GLabel 2450 3000 0    50   Output ~ 0
+Text GLabel 2300 3000 0    50   Output ~ 0
 Limit_Switch_2
-Text GLabel 4350 2100 0    50   Output ~ 0
+Text GLabel 4200 2100 0    50   Output ~ 0
 Limit_Switch_3
-Text GLabel 4350 3050 0    50   Output ~ 0
+Text GLabel 4200 3050 0    50   Output ~ 0
 Limit_Switch_4
+Wire Wire Line
+	4350 2100 4300 2100
+Wire Wire Line
+	2450 2100 2400 2100
+Wire Wire Line
+	2450 3000 2400 3000
+Wire Wire Line
+	4200 3050 4300 3050
+$Comp
+L Device:LED D?
+U 1 1 5FAEAF9B
+P 3700 2350
+F 0 "D?" H 3550 2450 50  0000 C CNN
+F 1 "Blue" H 3700 2450 50  0000 C CNN
+F 2 "" H 3700 2350 50  0001 C CNN
+F 3 "~" H 3700 2350 50  0001 C CNN
+	1    3700 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FAEC8F1
+P 1800 2350
+F 0 "D?" H 1650 2450 50  0000 C CNN
+F 1 "Blue" H 1800 2450 50  0000 C CNN
+F 2 "" H 1800 2350 50  0001 C CNN
+F 3 "~" H 1800 2350 50  0001 C CNN
+	1    1800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FAEE0DE
+P 1800 3250
+F 0 "D?" H 1650 3350 50  0000 C CNN
+F 1 "Blue" H 1800 3350 50  0000 C CNN
+F 2 "" H 1800 3250 50  0001 C CNN
+F 3 "~" H 1800 3250 50  0001 C CNN
+	1    1800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5FAEEC9D
+P 3700 3300
+F 0 "D?" H 3550 3400 50  0000 C CNN
+F 1 "Blue" H 3700 3400 50  0000 C CNN
+F 2 "" H 3700 3300 50  0001 C CNN
+F 3 "~" H 3700 3300 50  0001 C CNN
+	1    3700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5FAEFC97
+P 4100 2350
+F 0 "R?" V 4000 2350 50  0000 C CNN
+F 1 "330" V 4100 2350 50  0000 C CNN
+F 2 "" V 4030 2350 50  0001 C CNN
+F 3 "~" H 4100 2350 50  0001 C CNN
+	1    4100 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 2350 4300 2350
+Wire Wire Line
+	4300 2350 4300 2100
+Connection ~ 4300 2100
+Wire Wire Line
+	4300 2100 4200 2100
+Wire Wire Line
+	3950 2350 3850 2350
+$Comp
+L Device:R R?
+U 1 1 5FAF1AC8
+P 2200 2350
+F 0 "R?" V 2100 2350 50  0000 C CNN
+F 1 "330" V 2200 2350 50  0000 C CNN
+F 2 "" V 2130 2350 50  0001 C CNN
+F 3 "~" H 2200 2350 50  0001 C CNN
+	1    2200 2350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 2100 2400 2350
+Wire Wire Line
+	2400 2350 2350 2350
+Connection ~ 2400 2100
+Wire Wire Line
+	2400 2100 2300 2100
+Wire Wire Line
+	1950 2350 2050 2350
+$Comp
+L Device:R R?
+U 1 1 5FAF47E1
+P 4100 3300
+F 0 "R?" V 4000 3300 50  0000 C CNN
+F 1 "330" V 4100 3300 50  0000 C CNN
+F 2 "" V 4030 3300 50  0001 C CNN
+F 3 "~" H 4100 3300 50  0001 C CNN
+	1    4100 3300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3850 3300 3950 3300
+Wire Wire Line
+	4250 3300 4300 3300
+Wire Wire Line
+	4300 3300 4300 3050
+Connection ~ 4300 3050
+Wire Wire Line
+	4300 3050 4350 3050
+$Comp
+L Device:R R?
+U 1 1 5FAF884A
+P 2200 3250
+F 0 "R?" V 2100 3250 50  0000 C CNN
+F 1 "330" V 2200 3250 50  0000 C CNN
+F 2 "" V 2130 3250 50  0001 C CNN
+F 3 "~" H 2200 3250 50  0001 C CNN
+	1    2200 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1950 3250 2050 3250
+Wire Wire Line
+	2350 3250 2400 3250
+Wire Wire Line
+	2400 3250 2400 3000
+Connection ~ 2400 3000
+Wire Wire Line
+	2400 3000 2300 3000
+$Comp
+L power:GND #PWR?
+U 1 1 5FAFA721
+P 3350 2400
+F 0 "#PWR?" H 3350 2150 50  0001 C CNN
+F 1 "GND" H 3355 2227 50  0000 C CNN
+F 2 "" H 3350 2400 50  0001 C CNN
+F 3 "" H 3350 2400 50  0001 C CNN
+	1    3350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FAFC4B8
+P 1450 2400
+F 0 "#PWR?" H 1450 2150 50  0001 C CNN
+F 1 "GND" H 1455 2227 50  0000 C CNN
+F 2 "" H 1450 2400 50  0001 C CNN
+F 3 "" H 1450 2400 50  0001 C CNN
+	1    1450 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FAFD70B
+P 1450 3300
+F 0 "#PWR?" H 1450 3050 50  0001 C CNN
+F 1 "GND" H 1455 3127 50  0000 C CNN
+F 2 "" H 1450 3300 50  0001 C CNN
+F 3 "" H 1450 3300 50  0001 C CNN
+	1    1450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FAFEF1A
+P 3350 3350
+F 0 "#PWR?" H 3350 3100 50  0001 C CNN
+F 1 "GND" H 3355 3177 50  0000 C CNN
+F 2 "" H 3350 3350 50  0001 C CNN
+F 3 "" H 3350 3350 50  0001 C CNN
+	1    3350 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2350 3350 2350
+Wire Wire Line
+	3350 2350 3350 2400
+Wire Wire Line
+	3350 3350 3350 3300
+Wire Wire Line
+	3350 3300 3550 3300
+Wire Wire Line
+	1650 2350 1450 2350
+Wire Wire Line
+	1450 2350 1450 2400
+Wire Wire Line
+	1450 3300 1450 3250
+Wire Wire Line
+	1450 3250 1650 3250
 $EndSCHEMATC
