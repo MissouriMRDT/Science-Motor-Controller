@@ -505,4 +505,6 @@ Wire Wire Line
 	7600 3300 7700 3300
 Wire Wire Line
 	7600 3700 7700 3700
+Text Notes 7150 6900 0    197  ~ 0
+Sheet 03d: Motor Driver 4
 $EndSCHEMATC
