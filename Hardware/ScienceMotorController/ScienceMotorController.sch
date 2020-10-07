@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title ""
 Date ""
 Rev ""
@@ -29,7 +29,7 @@ $EndSheet
 $Sheet
 S 4650 1050 1650 1400
 U 5F7D111E
-F0 "Motors" 50
+F0 "Motor Drivers" 50
 F1 "ScienceMotorController03.sch" 50
 $EndSheet
 $Sheet

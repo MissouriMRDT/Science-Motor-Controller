@@ -505,6 +505,4 @@ Wire Wire Line
 	7750 3250 7850 3250
 Wire Wire Line
 	7750 3650 7850 3650
-Text Notes 7100 6950 0    197  ~ 0
-Sheet 03c: Motor Driver 3
 $EndSCHEMATC

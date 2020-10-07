@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 11
 Title ""
 Date ""
 Rev ""
@@ -14,15 +14,40 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MRDT_ICs:VNH5019A_E U?
-U 1 1 5F7D20D4
-P 2500 2800
-F 0 "U?" H 3100 4487 60  0000 C CNN
-F 1 "VNH5019A_E" H 3100 4381 60  0000 C CNN
-F 2 "" H 2500 4100 60  0001 C CNN
-F 3 "" H 2500 4100 60  0001 C CNN
-	1    2500 2800
-	1    0    0    -1  
-$EndComp
+$Sheet
+S 6950 1050 1450 1300
+U 5FA0F855
+F0 "Motor_Controller_1" 39
+F1 "ScienceMotorController03a.sch" 39
+$EndSheet
+$Sheet
+S 8500 1050 1400 1300
+U 5FA36344
+F0 "Motor_Controller_2" 39
+F1 "ScienceMotorController03b.sch" 39
+$EndSheet
+$Sheet
+S 6950 2550 1450 1200
+U 5FA660A7
+F0 "Motor_Controller_3" 39
+F1 "ScienceMotorController03c.sch" 39
+$EndSheet
+$Sheet
+S 8500 2550 1400 1200
+U 5FA6640B
+F0 "Motor_Controller_4" 39
+F1 "ScienceMotorController03d.sch" 39
+$EndSheet
+$Sheet
+S 6950 3900 1450 1150
+U 5FA666AF
+F0 "Motor_Controller_5" 39
+F1 "ScienceMotorController03e.sch" 39
+$EndSheet
+$Sheet
+S 8500 3900 1400 1150
+U 5FA66A7C
+F0 "Motor_Controller_6" 39
+F1 "ScienceMotorController03f.sch" 39
+$EndSheet
 $EndSCHEMATC

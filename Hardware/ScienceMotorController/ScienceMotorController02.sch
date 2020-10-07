@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 3 11
 Title ""
 Date ""
 Rev ""
@@ -104,4 +104,6 @@ F 3 "" H 6950 4700 60  0001 C CNN
 $EndComp
 Text Notes 8450 2450 0    79   ~ 0
 PWM Pins are:\nPF_1, PF_2, PF_3, PF_0\nPG_1, PK_4, PK_5
+Text Notes 7350 7000 0    315  ~ 0
+Sheet 02: Tiva
 $EndSCHEMATC
