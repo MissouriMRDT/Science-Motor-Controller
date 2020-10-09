@@ -506,5 +506,16 @@ Wire Wire Line
 Wire Wire Line
 	8100 3600 8200 3600
 Text Notes 7200 6950 0    197  ~ 0
-Sheet 03f: Motor Driver 6
+Sheet 03f: Mixer Output
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5F83E921
+P 8450 4150
+F 0 "FB?" H 8550 4196 50  0000 L CNN
+F 1 "Ferrite_Bead_Small" H 8550 4105 50  0000 L CNN
+F 2 "" V 8380 4150 50  0001 C CNN
+F 3 "~" H 8450 4150 50  0001 C CNN
+	1    8450 4150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

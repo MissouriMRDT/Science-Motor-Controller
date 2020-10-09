@@ -47,7 +47,7 @@ $EndSheet
 $Sheet
 S 3550 4650 1400 1150
 U 5FA66A7C
-F0 "MotorDriver06" 39
+F0 "MixerOutput" 39
 F1 "ScienceMotorController03f.sch" 39
 $EndSheet
 Text Notes 7200 7000 0    217  ~ 0

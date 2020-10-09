@@ -202,4 +202,52 @@ Wire Wire Line
 	5100 3150 5000 3150
 Text Notes 7350 7000 0    315  ~ 0
 Sheet 02: Tiva
+Text GLabel 3900 2650 0    50   Output ~ 0
+In_A_1
+Wire Wire Line
+	4000 2650 3900 2650
+Text GLabel 3900 2750 0    50   Output ~ 0
+In_B_1
+Wire Wire Line
+	4000 2750 3900 2750
+Text GLabel 3900 2850 0    50   Output ~ 0
+In_A_2
+Text GLabel 3900 2950 0    50   Output ~ 0
+In_B_2
+Text GLabel 3900 3050 0    50   Output ~ 0
+In_A_3
+Text GLabel 3900 4150 0    50   Output ~ 0
+In_A_4
+Text GLabel 3900 3150 0    50   Output ~ 0
+In_B_3
+Text GLabel 3900 4250 0    50   Output ~ 0
+In_B_4
+Text GLabel 3900 4350 0    50   Output ~ 0
+In_A_5
+Text GLabel 3900 4450 0    50   Output ~ 0
+In_B_5
+Text GLabel 3900 4550 0    50   Output ~ 0
+In_A_6
+Text GLabel 3900 4650 0    50   Output ~ 0
+In_B_6
+Wire Wire Line
+	4000 2850 3900 2850
+Wire Wire Line
+	3900 2950 4000 2950
+Wire Wire Line
+	4000 3050 3900 3050
+Wire Wire Line
+	4000 3150 3900 3150
+Wire Wire Line
+	3900 4150 4000 4150
+Wire Wire Line
+	4000 4250 3900 4250
+Wire Wire Line
+	3900 4350 4000 4350
+Wire Wire Line
+	4000 4450 3900 4450
+Wire Wire Line
+	3900 4550 4000 4550
+Wire Wire Line
+	4000 4650 3900 4650
 $EndSCHEMATC
