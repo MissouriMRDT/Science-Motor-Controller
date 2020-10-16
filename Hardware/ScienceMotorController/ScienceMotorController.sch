@@ -30,10 +30,11 @@ F1 "ScienceMotorController02.sch" 39
 F2 "3.3VA" I L 4350 1050 50 
 $EndSheet
 $Sheet
-S 8100 900  1500 1400
+S 4350 2500 1500 1400
 U 5F81B171
 F0 "Limit Switches" 50
 F1 "ScienceMotorController04.sch" 50
+F2 "3.3VA" I L 4350 2700 50 
 $EndSheet
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
@@ -151,41 +152,48 @@ Wire Wire Line
 Wire Wire Line
 	1150 2000 1000 2000
 Wire Wire Line
-	4100 1050 4350 1050
+	4100 1050 4200 1050
 $Sheet
-S 2500 3150 1450 1300
+S 11700 3550 1450 1300
 U 5F9082F6
 F0 "sheet5F9082EF" 39
 F1 "ScienceMotorController03a.sch" 39
 $EndSheet
 $Sheet
-S 4050 3150 1400 1300
+S 13250 3550 1400 1300
 U 5F9082F8
 F0 "sheet5F9082F0" 39
 F1 "ScienceMotorController03b.sch" 39
 $EndSheet
 $Sheet
-S 2500 4650 1450 1200
+S 11700 5050 1450 1200
 U 5F9082FA
 F0 "sheet5F9082F1" 39
 F1 "ScienceMotorController03c.sch" 39
 $EndSheet
 $Sheet
-S 4050 4650 1400 1200
+S 13250 5050 1400 1200
 U 5F9082FC
 F0 "sheet5F9082F2" 39
 F1 "ScienceMotorController03d.sch" 39
 $EndSheet
 $Sheet
-S 2500 6000 1450 1150
+S 11700 6400 1450 1150
 U 5F9082FE
 F0 "sheet5F9082F3" 39
 F1 "ScienceMotorController03e.sch" 39
 $EndSheet
 $Sheet
-S 4050 6000 1400 1150
+S 13250 6400 1400 1150
 U 5F908300
 F0 "sheet5F9082F4" 39
 F1 "ScienceMotorController03f.sch" 39
 $EndSheet
+Wire Wire Line
+	4350 2700 4200 2700
+Wire Wire Line
+	4200 2700 4200 1050
+Connection ~ 4200 1050
+Wire Wire Line
+	4200 1050 4350 1050
 $EndSCHEMATC

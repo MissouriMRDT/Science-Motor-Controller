@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 11 10
+Sheet 4 10
 Title ""
 Date ""
 Rev ""
@@ -56,50 +56,6 @@ F 1 "Molex_SL_02" H 4678 3152 60  0000 L CNN
 F 2 "" H 4550 3000 60  0001 C CNN
 F 3 "" H 4550 3000 60  0001 C CNN
 	1    4550 3100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F81D779
-P 2250 1850
-F 0 "#PWR?" H 2250 1700 50  0001 C CNN
-F 1 "+3.3V" H 2265 2023 50  0000 C CNN
-F 2 "" H 2250 1850 50  0001 C CNN
-F 3 "" H 2250 1850 50  0001 C CNN
-	1    2250 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F81DF85
-P 4150 1850
-F 0 "#PWR?" H 4150 1700 50  0001 C CNN
-F 1 "+3.3V" H 4165 2023 50  0000 C CNN
-F 2 "" H 4150 1850 50  0001 C CNN
-F 3 "" H 4150 1850 50  0001 C CNN
-	1    4150 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F81E7D7
-P 2250 2800
-F 0 "#PWR?" H 2250 2650 50  0001 C CNN
-F 1 "+3.3V" H 2265 2973 50  0000 C CNN
-F 2 "" H 2250 2800 50  0001 C CNN
-F 3 "" H 2250 2800 50  0001 C CNN
-	1    2250 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F81F2A0
-P 4150 2850
-F 0 "#PWR?" H 4150 2700 50  0001 C CNN
-F 1 "+3.3V" H 4165 3023 50  0000 C CNN
-F 2 "" H 4150 2850 50  0001 C CNN
-F 3 "" H 4150 2850 50  0001 C CNN
-	1    4150 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -318,4 +274,12 @@ Wire Wire Line
 	1450 3300 1450 3250
 Wire Wire Line
 	1450 3250 1650 3250
+Text HLabel 2250 1850 1    50   Input ~ 0
+3.3VA
+Text HLabel 4150 1850 1    50   Input ~ 0
+3.3VA
+Text HLabel 2250 2800 1    50   Input ~ 0
+3.3VA
+Text HLabel 4150 2850 1    50   Input ~ 0
+3.3VA
 $EndSCHEMATC

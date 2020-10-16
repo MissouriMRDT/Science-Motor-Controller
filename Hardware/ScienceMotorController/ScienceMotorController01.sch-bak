@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 11
+Sheet 2 10
 Title ""
 Date ""
 Rev ""
@@ -14,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 1 1 5F6E39B8
-P 750 3000
-F 0 "Conn?" H 958 3387 60  0000 C CNN
-F 1 "AndersonPP" H 958 3281 60  0000 C CNN
-F 2 "" H 600 2450 60  0001 C CNN
-F 3 "" H 600 2450 60  0001 C CNN
-	1    750  3000
-	1    0    0    -1  
-$EndComp
 Text Notes 7100 7000 0    315  ~ 0
 Sheet 01: Power
 $Comp
@@ -38,21 +27,6 @@ F 3 "https://www.mouser.com/datasheet/2/308/LM2576_D-1810688.pdf" H 3450 2400 50
 	1    3450 1950
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F6E83C1
-P 1300 3100
-F 0 "#PWR?" H 1300 2850 50  0001 C CNN
-F 1 "GND" H 1305 2927 50  0000 C CNN
-F 2 "" H 1300 3100 50  0001 C CNN
-F 3 "" H 1300 3100 50  0001 C CNN
-	1    1300 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1300 3100 1300 2900
-Wire Wire Line
-	1300 2900 1150 2900
 Wire Wire Line
 	2950 1750 2750 1750
 Wire Wire Line
@@ -219,114 +193,24 @@ Wire Wire Line
 	6350 1900 6450 1900
 Wire Wire Line
 	6450 1900 6450 2150
-Text Notes 7100 1600 0    79   ~ 0
-Reminder:\nNeed High Current 10A bus\nNeed Low Current 3A bus
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 3 1 5F759AF7
-P 700 1050
-F 0 "Conn?" H 908 1437 60  0000 C CNN
-F 1 "AndersonPP" H 908 1331 60  0000 C CNN
-F 2 "" H 550 500 60  0001 C CNN
-F 3 "" H 550 500 60  0001 C CNN
-	3    700  1050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1100 950  1250 950 
-Wire Wire Line
-	1250 950  1250 700 
-$Comp
-L power:+12VA #PWR?
-U 1 1 5F75C024
-P 1250 700
-F 0 "#PWR?" H 1250 550 50  0001 C CNN
-F 1 "+12VA" H 1265 873 50  0000 C CNN
-F 2 "" H 1250 700 50  0001 C CNN
-F 3 "" H 1250 700 50  0001 C CNN
-	1    1250 700 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5F7BA809
-P 1400 1050
-F 0 "D?" H 1400 850 50  0000 C CNN
-F 1 "LED" H 1400 950 50  0000 C CNN
-F 2 "" H 1400 1050 50  0001 C CNN
-F 3 "~" H 1400 1050 50  0001 C CNN
-	1    1400 1050
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1250 1050 1250 950 
-Connection ~ 1250 950 
-$Comp
-L Device:R_Small R?
-U 1 1 5F7BD886
-P 1800 1050
-F 0 "R?" V 1604 1050 50  0000 C CNN
-F 1 "1k" V 1695 1050 50  0000 C CNN
-F 2 "" H 1800 1050 50  0001 C CNN
-F 3 "~" H 1800 1050 50  0001 C CNN
-	1    1800 1050
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	1550 1050 1700 1050
-$Comp
-L power:GND #PWR?
-U 1 1 5F7BF549
-P 2000 1100
-F 0 "#PWR?" H 2000 850 50  0001 C CNN
-F 1 "GND" H 2005 927 50  0000 C CNN
-F 2 "" H 2000 1100 50  0001 C CNN
-F 3 "" H 2000 1100 50  0001 C CNN
-	1    2000 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1900 1050 2000 1050
-Wire Wire Line
-	2000 1050 2000 1100
-Text Notes 1300 1150 0    50   ~ 0
-Orange
-Wire Wire Line
-	3950 1900 4100 1900
 $Comp
 L Device:D_Schottky_Small D?
 U 1 1 5F80E7DD
 P 4100 2000
-F 0 "D?" V 4100 1950 50  0000 R CNN
-F 1 "D_Schottky_Small" V 4000 1950 50  0000 R CNN
+F 0 "D?" V 4200 2200 50  0000 R CNN
+F 1 "D_Schottky_Small" V 4100 2650 50  0000 R CNN
 F 2 "" V 4100 2000 50  0001 C CNN
 F 3 "~" V 4100 2000 50  0001 C CNN
 	1    4100 2000
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
+Wire Wire Line
+	3950 1900 4100 1900
 Connection ~ 4100 1900
 Wire Wire Line
 	4100 1900 4150 1900
-$Comp
-L power:+12VA #PWR?
-U 1 1 5F80FF5E
-P 4050 1450
-F 0 "#PWR?" H 4050 1300 50  0001 C CNN
-F 1 "+12VA" H 4065 1623 50  0000 C CNN
-F 2 "" H 4050 1450 50  0001 C CNN
-F 3 "" H 4050 1450 50  0001 C CNN
-	1    4050 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3VA #PWR?
-U 1 1 5F81167B
-P 5400 1800
-F 0 "#PWR?" H 5400 1650 50  0001 C CNN
-F 1 "+3.3VA" H 5415 1973 50  0000 C CNN
-F 2 "" H 5400 1800 50  0001 C CNN
-F 3 "" H 5400 1800 50  0001 C CNN
-	1    5400 1800
-	1    0    0    -1  
-$EndComp
+Text HLabel 4050 1450 1    50   Input ~ 0
+12VA
+Text HLabel 5400 1800 1    50   Output ~ 0
+3.3VA
 $EndSCHEMATC

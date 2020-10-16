@@ -116,10 +116,6 @@ Text GLabel 6000 2450 0    39   Output ~ 0
 PWM_3
 Wire Wire Line
 	6000 2450 6150 2450
-Wire Wire Line
-	4000 2250 3850 2250
-Wire Wire Line
-	3850 2250 3850 2200
 Text GLabel 6000 3750 0    39   Output ~ 0
 PWM_4
 Text GLabel 6000 3850 0    39   Output ~ 0
@@ -410,10 +406,12 @@ F 3 "" H 5250 2400 50  0001 C CNN
 $EndComp
 NoConn ~ 5000 2250
 NoConn ~ 5000 3750
-Text HLabel 3850 2200 1    50   Input ~ 0
+Text HLabel 3750 2250 0    50   Input ~ 0
 3.3VA
 Text HLabel 3750 3750 0    50   Input ~ 0
 3.3VA
 Wire Wire Line
 	3750 3750 4000 3750
+Wire Wire Line
+	3750 2250 4000 2250
 $EndSCHEMATC
