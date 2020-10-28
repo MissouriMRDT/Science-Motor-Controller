@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 11
+Sheet 3 10
 Title ""
 Date ""
 Rev ""
@@ -50,12 +50,12 @@ $EndComp
 $Comp
 L MRDT_Shields:TM4C129E_Launchpad U1
 U 4 1 5F72B226
-P 8350 3100
-F 0 "U1" H 8500 4500 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 8100 4400 60  0000 C CNN
-F 2 "" H 8350 3100 60  0001 C CNN
-F 3 "" H 8350 3100 60  0001 C CNN
-	4    8350 3100
+P 8300 3050
+F 0 "U1" H 8450 4450 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 8050 4350 60  0000 C CNN
+F 2 "" H 8300 3050 60  0001 C CNN
+F 3 "" H 8300 3050 60  0001 C CNN
+	4    8300 3050
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -244,28 +244,28 @@ NoConn ~ 7500 2750
 NoConn ~ 7500 2850
 NoConn ~ 7500 2950
 NoConn ~ 7500 3050
-NoConn ~ 8550 3050
-NoConn ~ 8550 2950
-NoConn ~ 8550 2850
-NoConn ~ 8550 2750
-NoConn ~ 8550 2650
-NoConn ~ 8550 2550
-NoConn ~ 8550 2450
-NoConn ~ 8550 2350
-NoConn ~ 8550 2250
+NoConn ~ 8500 3000
+NoConn ~ 8500 2900
+NoConn ~ 8500 2800
+NoConn ~ 8500 2700
+NoConn ~ 8500 2600
+NoConn ~ 8500 2500
+NoConn ~ 8500 2400
+NoConn ~ 8500 2300
+NoConn ~ 8500 2200
 Wire Wire Line
-	8550 2150 8800 2150
+	8500 2100 8750 2100
 Wire Wire Line
-	8800 2150 8800 2200
+	8750 2100 8750 2150
 $Comp
 L power:GND #PWR?
 U 1 1 5F8D9D39
-P 8800 2200
-F 0 "#PWR?" H 8800 1950 50  0001 C CNN
-F 1 "GND" H 8900 2050 50  0000 R CNN
-F 2 "" H 8800 2200 50  0001 C CNN
-F 3 "" H 8800 2200 50  0001 C CNN
-	1    8800 2200
+P 8750 2150
+F 0 "#PWR?" H 8750 1900 50  0001 C CNN
+F 1 "GND" H 8850 2000 50  0000 R CNN
+F 2 "" H 8750 2150 50  0001 C CNN
+F 3 "" H 8750 2150 50  0001 C CNN
+	1    8750 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -296,7 +296,7 @@ Wire Wire Line
 $Sheet
 S 2800 2400 1350 650 
 U 5FA34AD5
-F0 "sheet5FA34ACD" 39
+F0 "Motor Driver 2" 39
 F1 "ScienceMotorController03b.sch" 39
 F2 "In_A_2" I L 2800 2600 50 
 F3 "In_B_2" I L 2800 2750 50 
@@ -306,7 +306,7 @@ $EndSheet
 $Sheet
 S 4550 2400 1450 650 
 U 5FA34AD7
-F0 "sheet5FA34ACE" 39
+F0 "Motor Driver 3" 39
 F1 "ScienceMotorController03c.sch" 39
 F2 "In_A_3" I L 4550 2600 50 
 F3 "In_B_3" I L 4550 2750 50 
@@ -316,7 +316,7 @@ $EndSheet
 $Sheet
 S 1100 4900 1400 450 
 U 5FA34AD9
-F0 "sheet5FA34ACF" 39
+F0 "Motor Driver 4" 39
 F1 "ScienceMotorController03d.sch" 39
 F2 "In_A_4" I L 1100 5100 50 
 F3 "In_B_4" I L 1100 5250 50 
@@ -326,7 +326,7 @@ $EndSheet
 $Sheet
 S 2800 4950 1450 400 
 U 5FA34ADB
-F0 "sheet5FA34AD0" 39
+F0 "Motor Driver 5" 39
 F1 "ScienceMotorController03e.sch" 39
 F2 "In_B_5" I L 2800 5250 50 
 F3 "In_A_5" I L 2800 5100 50 
@@ -336,7 +336,7 @@ $EndSheet
 $Sheet
 S 4900 4950 1400 400 
 U 5FA34ADD
-F0 "sheet5FA34AD1" 39
+F0 "Motor Driver 6" 39
 F1 "ScienceMotorController03f.sch" 39
 F2 "In_B_6" I L 4900 5250 50 
 F3 "In_A_6" I L 4900 5100 50 
@@ -503,7 +503,7 @@ Wire Wire Line
 $Sheet
 S 4700 850  800  900 
 U 5FC42AEE
-F0 "sheet5FC42AEB" 50
+F0 "Limit Switches" 50
 F1 "ScienceMotorController04.sch" 50
 F2 "3.3VA" I L 4700 1050 50 
 F3 "Limit_Switch_1" O L 4700 1250 50 
@@ -518,7 +518,7 @@ Wire Wire Line
 $Sheet
 S 1000 2400 1450 650 
 U 5FA34AD3
-F0 "sheet5FA34ACC" 39
+F0 "Motor Driver 1" 39
 F1 "ScienceMotorController03a.sch" 39
 F2 "In_A_1" I L 1000 2600 50 
 F3 "In_B_1" I L 1000 2750 50 
