@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 9 11
 Title ""
 Date ""
 Rev ""
@@ -18,6 +18,8 @@ $Comp
 L MRDT_Connectors:Molex_SL_02 Conn?
 U 1 1 5F81B312
 P 2650 2150
+AR Path="/5F81B171/5F81B312" Ref="Conn?"  Part="1" 
+AR Path="/5F7148FA/5FC42AEE/5F81B312" Ref="Conn?"  Part="1" 
 F 0 "Conn?" H 2778 2308 60  0000 L CNN
 F 1 "Molex_SL_02" H 2778 2202 60  0000 L CNN
 F 2 "" H 2650 2050 60  0001 C CNN
@@ -29,6 +31,8 @@ $Comp
 L MRDT_Connectors:Molex_SL_02 Conn?
 U 1 1 5F81C1D4
 P 4550 2150
+AR Path="/5F81B171/5F81C1D4" Ref="Conn?"  Part="1" 
+AR Path="/5F7148FA/5FC42AEE/5F81C1D4" Ref="Conn?"  Part="1" 
 F 0 "Conn?" H 4678 2308 60  0000 L CNN
 F 1 "Molex_SL_02" H 4678 2202 60  0000 L CNN
 F 2 "" H 4550 2050 60  0001 C CNN
@@ -40,6 +44,8 @@ $Comp
 L MRDT_Connectors:Molex_SL_02 Conn?
 U 1 1 5F81C7E8
 P 2650 3050
+AR Path="/5F81B171/5F81C7E8" Ref="Conn?"  Part="1" 
+AR Path="/5F7148FA/5FC42AEE/5F81C7E8" Ref="Conn?"  Part="1" 
 F 0 "Conn?" H 2778 3208 60  0000 L CNN
 F 1 "Molex_SL_02" H 2778 3102 60  0000 L CNN
 F 2 "" H 2650 2950 60  0001 C CNN
@@ -51,6 +57,8 @@ $Comp
 L MRDT_Connectors:Molex_SL_02 Conn?
 U 1 1 5F81D13D
 P 4550 3100
+AR Path="/5F81B171/5F81D13D" Ref="Conn?"  Part="1" 
+AR Path="/5F7148FA/5FC42AEE/5F81D13D" Ref="Conn?"  Part="1" 
 F 0 "Conn?" H 4678 3258 60  0000 L CNN
 F 1 "Molex_SL_02" H 4678 3152 60  0000 L CNN
 F 2 "" H 4550 3000 60  0001 C CNN
@@ -74,14 +82,6 @@ Wire Wire Line
 	4150 2850 4150 2950
 Wire Wire Line
 	4150 2950 4350 2950
-Text GLabel 2300 2100 0    50   Output ~ 0
-Limit_Switch_1
-Text GLabel 2300 3000 0    50   Output ~ 0
-Limit_Switch_2
-Text GLabel 4200 2100 0    50   Output ~ 0
-Limit_Switch_3
-Text GLabel 4200 3050 0    50   Output ~ 0
-Limit_Switch_4
 Wire Wire Line
 	4350 2100 4300 2100
 Wire Wire Line
@@ -94,6 +94,8 @@ $Comp
 L Device:LED D?
 U 1 1 5FAEAF9B
 P 3700 2350
+AR Path="/5F81B171/5FAEAF9B" Ref="D?"  Part="1" 
+AR Path="/5F7148FA/5FC42AEE/5FAEAF9B" Ref="D?"  Part="1" 
 F 0 "D?" H 3550 2450 50  0000 C CNN
 F 1 "Blue" H 3700 2450 50  0000 C CNN
 F 2 "" H 3700 2350 50  0001 C CNN
@@ -105,6 +107,8 @@ $Comp
 L Device:LED D?
 U 1 1 5FAEC8F1
 P 1800 2350
+AR Path="/5F81B171/5FAEC8F1" Ref="D?"  Part="1" 
+AR Path="/5F7148FA/5FC42AEE/5FAEC8F1" Ref="D?"  Part="1" 
 F 0 "D?" H 1650 2450 50  0000 C CNN
 F 1 "Blue" H 1800 2450 50  0000 C CNN
 F 2 "" H 1800 2350 50  0001 C CNN
@@ -116,6 +120,8 @@ $Comp
 L Device:LED D?
 U 1 1 5FAEE0DE
 P 1800 3250
+AR Path="/5F81B171/5FAEE0DE" Ref="D?"  Part="1" 
+AR Path="/5F7148FA/5FC42AEE/5FAEE0DE" Ref="D?"  Part="1" 
 F 0 "D?" H 1650 3350 50  0000 C CNN
 F 1 "Blue" H 1800 3350 50  0000 C CNN
 F 2 "" H 1800 3250 50  0001 C CNN
@@ -127,6 +133,8 @@ $Comp
 L Device:LED D?
 U 1 1 5FAEEC9D
 P 3700 3300
+AR Path="/5F81B171/5FAEEC9D" Ref="D?"  Part="1" 
+AR Path="/5F7148FA/5FC42AEE/5FAEEC9D" Ref="D?"  Part="1" 
 F 0 "D?" H 3550 3400 50  0000 C CNN
 F 1 "Blue" H 3700 3400 50  0000 C CNN
 F 2 "" H 3700 3300 50  0001 C CNN
@@ -138,6 +146,8 @@ $Comp
 L Device:R R?
 U 1 1 5FAEFC97
 P 4100 2350
+AR Path="/5F81B171/5FAEFC97" Ref="R?"  Part="1" 
+AR Path="/5F7148FA/5FC42AEE/5FAEFC97" Ref="R?"  Part="1" 
 F 0 "R?" V 4000 2350 50  0000 C CNN
 F 1 "330" V 4100 2350 50  0000 C CNN
 F 2 "" V 4030 2350 50  0001 C CNN
@@ -158,6 +168,8 @@ $Comp
 L Device:R R?
 U 1 1 5FAF1AC8
 P 2200 2350
+AR Path="/5F81B171/5FAF1AC8" Ref="R?"  Part="1" 
+AR Path="/5F7148FA/5FC42AEE/5FAF1AC8" Ref="R?"  Part="1" 
 F 0 "R?" V 2100 2350 50  0000 C CNN
 F 1 "330" V 2200 2350 50  0000 C CNN
 F 2 "" V 2130 2350 50  0001 C CNN
@@ -178,6 +190,8 @@ $Comp
 L Device:R R?
 U 1 1 5FAF47E1
 P 4100 3300
+AR Path="/5F81B171/5FAF47E1" Ref="R?"  Part="1" 
+AR Path="/5F7148FA/5FC42AEE/5FAF47E1" Ref="R?"  Part="1" 
 F 0 "R?" V 4000 3300 50  0000 C CNN
 F 1 "330" V 4100 3300 50  0000 C CNN
 F 2 "" V 4030 3300 50  0001 C CNN
@@ -198,6 +212,8 @@ $Comp
 L Device:R R?
 U 1 1 5FAF884A
 P 2200 3250
+AR Path="/5F81B171/5FAF884A" Ref="R?"  Part="1" 
+AR Path="/5F7148FA/5FC42AEE/5FAF884A" Ref="R?"  Part="1" 
 F 0 "R?" V 2100 3250 50  0000 C CNN
 F 1 "330" V 2200 3250 50  0000 C CNN
 F 2 "" V 2130 3250 50  0001 C CNN
@@ -218,6 +234,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 5FAFA721
 P 3350 2400
+AR Path="/5F81B171/5FAFA721" Ref="#PWR?"  Part="1" 
+AR Path="/5F7148FA/5FC42AEE/5FAFA721" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3350 2150 50  0001 C CNN
 F 1 "GND" H 3355 2227 50  0000 C CNN
 F 2 "" H 3350 2400 50  0001 C CNN
@@ -229,6 +247,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 5FAFC4B8
 P 1450 2400
+AR Path="/5F81B171/5FAFC4B8" Ref="#PWR?"  Part="1" 
+AR Path="/5F7148FA/5FC42AEE/5FAFC4B8" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 1450 2150 50  0001 C CNN
 F 1 "GND" H 1455 2227 50  0000 C CNN
 F 2 "" H 1450 2400 50  0001 C CNN
@@ -240,6 +260,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 5FAFD70B
 P 1450 3300
+AR Path="/5F81B171/5FAFD70B" Ref="#PWR?"  Part="1" 
+AR Path="/5F7148FA/5FC42AEE/5FAFD70B" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 1450 3050 50  0001 C CNN
 F 1 "GND" H 1455 3127 50  0000 C CNN
 F 2 "" H 1450 3300 50  0001 C CNN
@@ -251,6 +273,8 @@ $Comp
 L power:GND #PWR?
 U 1 1 5FAFEF1A
 P 3350 3350
+AR Path="/5F81B171/5FAFEF1A" Ref="#PWR?"  Part="1" 
+AR Path="/5F7148FA/5FC42AEE/5FAFEF1A" Ref="#PWR?"  Part="1" 
 F 0 "#PWR?" H 3350 3100 50  0001 C CNN
 F 1 "GND" H 3355 3177 50  0000 C CNN
 F 2 "" H 3350 3350 50  0001 C CNN
@@ -282,4 +306,12 @@ Text HLabel 2250 2800 1    50   Input ~ 0
 3.3VA
 Text HLabel 4150 2850 1    50   Input ~ 0
 3.3VA
+Text HLabel 2300 2100 0    50   Output ~ 0
+Limit_Switch_1
+Text HLabel 2300 3000 0    50   Output ~ 0
+Limit_Switch_2
+Text HLabel 4200 2100 0    50   Output ~ 0
+Limit_Switch_3
+Text HLabel 4200 3050 0    50   Output ~ 0
+Limit_Switch_4
 $EndSCHEMATC
