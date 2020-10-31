@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 10
+Sheet 6 11
 Title ""
 Date ""
 Rev ""
@@ -501,20 +501,6 @@ F 3 "" H 7000 4050 50  0001 C CNN
 $EndComp
 $Comp
 L power:+3.3VA #PWR?
-U 1 1 5F83A598
-P 4650 3950
-AR Path="/5F7D111E/5FA6640B/5F83A598" Ref="#PWR?"  Part="1" 
-AR Path="/5F9082FC/5F83A598" Ref="#PWR?"  Part="1" 
-AR Path="/5F7148FA/5FA34AD9/5F83A598" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4650 3800 50  0001 C CNN
-F 1 "+3.3VA" V 4665 4077 50  0000 L CNN
-F 2 "" H 4650 3950 50  0001 C CNN
-F 3 "" H 4650 3950 50  0001 C CNN
-	1    4650 3950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3VA #PWR?
 U 1 1 5F83A969
 P 4650 4250
 AR Path="/5F7D111E/5FA6640B/5F83A969" Ref="#PWR?"  Part="1" 
@@ -561,24 +547,14 @@ Wire Wire Line
 Connection ~ 6800 3500
 Text HLabel 4700 3750 0    50   Input ~ 0
 In_A_4
-$Comp
-L power:+3.3VA #PWR?
-U 1 1 5F838A13
-P 4650 3850
-AR Path="/5F7D111E/5FA6640B/5F838A13" Ref="#PWR?"  Part="1" 
-AR Path="/5F9082FC/5F838A13" Ref="#PWR?"  Part="1" 
-AR Path="/5F7148FA/5FA34AD9/5F838A13" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4650 3700 50  0001 C CNN
-F 1 "+3.3VA" V 4665 3977 50  0000 L CNN
-F 2 "" H 4650 3850 50  0001 C CNN
-F 3 "" H 4650 3850 50  0001 C CNN
-	1    4650 3850
-	0    -1   -1   0   
-$EndComp
 Text HLabel 4700 4350 0    50   Input ~ 0
 In_B_4
 Text HLabel 4700 4050 0    50   Input ~ 0
 PWM_4
 Text HLabel 3150 4150 0    50   Output ~ 0
 Current_Sense_4
+Text HLabel 4650 3850 0    50   Output ~ 0
+3.3VA
+Text HLabel 4650 3950 0    50   Output ~ 0
+3.3VA
 $EndSCHEMATC

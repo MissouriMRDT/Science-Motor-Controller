@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 3 11
 Title ""
 Date ""
 Rev ""
@@ -207,8 +207,6 @@ NoConn ~ 7600 5500
 NoConn ~ 7600 5400
 NoConn ~ 7600 5300
 NoConn ~ 7600 5200
-NoConn ~ 7600 5100
-NoConn ~ 7600 5000
 NoConn ~ 7600 4900
 Wire Wire Line
 	8600 4600 8800 4600
@@ -302,6 +300,7 @@ F2 "In_A_2" I L 2800 2600 50
 F3 "In_B_2" I L 2800 2750 50 
 F4 "PWM_2" I L 2800 2500 50 
 F5 "Current_Sense_2" O R 4150 2950 50 
+F6 "3.3VA" I L 2800 2900 50 
 $EndSheet
 $Sheet
 S 4550 2400 1450 650 
@@ -312,6 +311,7 @@ F2 "In_A_3" I L 4550 2600 50
 F3 "In_B_3" I L 4550 2750 50 
 F4 "PWM_3" I L 4550 2500 50 
 F5 "Current_Sense_3" O R 6000 2950 50 
+F6 "3.3VA" I L 4550 2900 50 
 $EndSheet
 $Sheet
 S 1100 4900 1400 450 
@@ -319,29 +319,32 @@ U 5FA34AD9
 F0 "Motor Driver 4" 39
 F1 "ScienceMotorController03d.sch" 39
 F2 "In_A_4" I L 1100 5100 50 
-F3 "In_B_4" I L 1100 5250 50 
+F3 "In_B_4" I L 1100 5200 50 
 F4 "PWM_4" I L 1100 5000 50 
 F5 "Current_Sense_4" O R 2500 4950 50 
+F6 "3.3VA" I L 1100 5300 50 
 $EndSheet
 $Sheet
 S 2800 4950 1450 400 
 U 5FA34ADB
 F0 "Motor Driver 5" 39
 F1 "ScienceMotorController03e.sch" 39
-F2 "In_B_5" I L 2800 5250 50 
+F2 "In_B_5" I L 2800 5200 50 
 F3 "In_A_5" I L 2800 5100 50 
 F4 "PWM_5" I L 2800 5000 50 
 F5 "Current_Sense_5" O R 4250 5000 50 
+F6 "3.3VA" I L 2800 5300 50 
 $EndSheet
 $Sheet
 S 4900 4950 1400 400 
 U 5FA34ADD
 F0 "Motor Driver 6" 39
 F1 "ScienceMotorController03f.sch" 39
-F2 "In_B_6" I L 4900 5250 50 
+F2 "In_B_6" I L 4900 5200 50 
 F3 "In_A_6" I L 4900 5100 50 
 F4 "PWM_6" I L 4900 5000 50 
 F5 "Current_Sense_6" O R 6300 5000 50 
+F6 "3.3VA" I L 4900 5300 50 
 $EndSheet
 Wire Wire Line
 	2850 1550 2850 1750
@@ -356,15 +359,11 @@ Wire Wire Line
 Wire Wire Line
 	1000 3900 3000 3900
 Wire Wire Line
-	900  4000 900  5250
-Wire Wire Line
-	900  5250 1100 5250
+	900  4000 900  5200
 Wire Wire Line
 	900  4000 3000 4000
 Wire Wire Line
 	4800 5100 4900 5100
-Wire Wire Line
-	4700 5250 4900 5250
 Wire Wire Line
 	900  2600 1000 2600
 Wire Wire Line
@@ -426,10 +425,6 @@ Wire Wire Line
 Wire Wire Line
 	1050 5000 1050 4600
 Wire Wire Line
-	2650 5250 2650 4200
-Wire Wire Line
-	2650 5250 2800 5250
-Wire Wire Line
 	2650 4200 3000 4200
 Wire Wire Line
 	2700 5100 2700 4100
@@ -456,7 +451,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 4500 4700 4500
 Wire Wire Line
-	4700 4500 4700 5250
+	4700 4500 4700 5200
 Wire Wire Line
 	2900 4300 2900 4550
 Wire Wire Line
@@ -524,6 +519,7 @@ F2 "In_A_1" I L 1000 2600 50
 F3 "In_B_1" I L 1000 2750 50 
 F4 "PWM_1" I L 1000 2500 50 
 F5 "Current_Sense_1" O R 2450 2950 50 
+F6 "3.3VA" I L 1000 2900 50 
 $EndSheet
 Wire Wire Line
 	2550 2950 2450 2950
@@ -553,4 +549,53 @@ Wire Wire Line
 	3950 1450 4700 1450
 Wire Wire Line
 	3950 1550 4700 1550
+Text HLabel 900  2900 0    50   Input ~ 0
+3.3VA
+Wire Wire Line
+	900  2900 1000 2900
+Wire Wire Line
+	4900 5200 4700 5200
+Wire Wire Line
+	2800 5200 2650 5200
+Wire Wire Line
+	2650 5200 2650 4200
+Wire Wire Line
+	1100 5200 900  5200
+Text HLabel 2750 2900 0    50   Input ~ 0
+3.3VA
+Wire Wire Line
+	2750 2900 2800 2900
+Text HLabel 4500 2900 0    50   Input ~ 0
+3.3VA
+Wire Wire Line
+	4500 2900 4550 2900
+Text HLabel 950  5300 0    50   Input ~ 0
+3.3VA
+Wire Wire Line
+	950  5300 1100 5300
+Text HLabel 2750 5300 0    50   Input ~ 0
+3.3VA
+Wire Wire Line
+	2750 5300 2800 5300
+Text HLabel 4750 5300 0    50   Input ~ 0
+3.3VA
+Wire Wire Line
+	4750 5300 4900 5300
+$Sheet
+S 6600 4900 750  750 
+U 5FA24F1F
+F0 "Absolute Encoders" 50
+F1 "ScienceMotorController05.sch" 50
+F2 "3.3VA" I L 6600 5550 50 
+F3 "Encoder_PWM_1" O R 7350 5000 50 
+F4 "Encoder_PWM_2" O R 7350 5100 50 
+$EndSheet
+Text HLabel 6500 5550 0    50   Input ~ 0
+3.3VA
+Wire Wire Line
+	6600 5550 6500 5550
+Wire Wire Line
+	7350 5000 7600 5000
+Wire Wire Line
+	7350 5100 7600 5100
 $EndSCHEMATC

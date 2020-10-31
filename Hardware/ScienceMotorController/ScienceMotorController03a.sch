@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 10
+Sheet 10 11
 Title ""
 Date ""
 Rev ""
@@ -487,34 +487,6 @@ Text Notes 7150 6950 0    197  ~ 0
 Sheet 03a: Motor Driver 1
 $Comp
 L power:+3.3VA #PWR?
-U 1 1 5F82A3C3
-P 4550 3500
-AR Path="/5F7D111E/5FA0F855/5F82A3C3" Ref="#PWR?"  Part="1" 
-AR Path="/5F9082F6/5F82A3C3" Ref="#PWR?"  Part="1" 
-AR Path="/5F7148FA/5FA34AD3/5F82A3C3" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4550 3350 50  0001 C CNN
-F 1 "+3.3VA" V 4565 3627 50  0000 L CNN
-F 2 "" H 4550 3500 50  0001 C CNN
-F 3 "" H 4550 3500 50  0001 C CNN
-	1    4550 3500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3VA #PWR?
-U 1 1 5F82BB9F
-P 4550 3600
-AR Path="/5F7D111E/5FA0F855/5F82BB9F" Ref="#PWR?"  Part="1" 
-AR Path="/5F9082F6/5F82BB9F" Ref="#PWR?"  Part="1" 
-AR Path="/5F7148FA/5FA34AD3/5F82BB9F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4550 3450 50  0001 C CNN
-F 1 "+3.3VA" V 4565 3727 50  0000 L CNN
-F 2 "" H 4550 3600 50  0001 C CNN
-F 3 "" H 4550 3600 50  0001 C CNN
-	1    4550 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3VA #PWR?
 U 1 1 5F82BED6
 P 4550 3900
 AR Path="/5F7D111E/5FA0F855/5F82BED6" Ref="#PWR?"  Part="1" 
@@ -581,4 +553,8 @@ Text HLabel 4600 3700 0    50   Input ~ 0
 PWM_1
 Text HLabel 3050 3800 0    50   Output ~ 0
 Current_Sense_1
+Text HLabel 4550 3500 0    50   Output ~ 0
+3.3VA
+Text HLabel 4550 3600 0    50   Output ~ 0
+3.3VA
 $EndSCHEMATC
