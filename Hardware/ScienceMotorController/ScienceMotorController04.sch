@@ -299,13 +299,13 @@ Wire Wire Line
 Wire Wire Line
 	6850 5600 7050 5600
 Text HLabel 7650 4200 1    50   Input ~ 0
-3.3VA
+3.3V
 Text HLabel 9550 4200 1    50   Input ~ 0
-3.3VA
+3.3V
 Text HLabel 7650 5150 1    50   Input ~ 0
-3.3VA
+3.3V
 Text HLabel 9550 5200 1    50   Input ~ 0
-3.3VA
+3.3V
 Text HLabel 7700 4450 0    50   Output ~ 0
 Limit_Switch_1
 Text HLabel 7700 5350 0    50   Output ~ 0

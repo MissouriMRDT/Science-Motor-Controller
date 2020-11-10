@@ -284,9 +284,9 @@ $EndComp
 NoConn ~ 3950 650 
 NoConn ~ 4000 3500
 Text HLabel 2700 650  0    50   Input ~ 0
-3.3VA
+3.3V
 Text HLabel 2750 3500 0    50   Input ~ 0
-3.3VA
+3.3V
 Wire Wire Line
 	2750 3500 3000 3500
 Wire Wire Line
@@ -300,7 +300,7 @@ F2 "In_A_2" I L 2800 2600 50
 F3 "In_B_2" I L 2800 2750 50 
 F4 "PWM_2" I L 2800 2500 50 
 F5 "Current_Sense_2" O R 4150 2950 50 
-F6 "3.3VA" I L 2800 2900 50 
+F6 "3.3V" I L 2800 2900 50 
 $EndSheet
 $Sheet
 S 4550 2400 1450 650 
@@ -311,7 +311,7 @@ F2 "In_A_3" I L 4550 2600 50
 F3 "In_B_3" I L 4550 2750 50 
 F4 "PWM_3" I L 4550 2500 50 
 F5 "Current_Sense_3" O R 6000 2950 50 
-F6 "3.3VA" I L 4550 2900 50 
+F6 "3.3V" I L 4550 2900 50 
 $EndSheet
 $Sheet
 S 1100 4900 1400 450 
@@ -322,7 +322,7 @@ F2 "In_A_4" I L 1100 5100 50
 F3 "In_B_4" I L 1100 5200 50 
 F4 "PWM_4" I L 1100 5000 50 
 F5 "Current_Sense_4" O R 2500 4950 50 
-F6 "3.3VA" I L 1100 5300 50 
+F6 "3.3V" I L 1100 5300 50 
 $EndSheet
 $Sheet
 S 2800 4950 1450 400 
@@ -333,7 +333,7 @@ F2 "In_B_5" I L 2800 5200 50
 F3 "In_A_5" I L 2800 5100 50 
 F4 "PWM_5" I L 2800 5000 50 
 F5 "Current_Sense_5" O R 4250 5000 50 
-F6 "3.3VA" I L 2800 5300 50 
+F6 "3.3V" I L 2800 5300 50 
 $EndSheet
 $Sheet
 S 4900 4950 1400 400 
@@ -344,7 +344,7 @@ F2 "In_B_6" I L 4900 5200 50
 F3 "In_A_6" I L 4900 5100 50 
 F4 "PWM_6" I L 4900 5000 50 
 F5 "Current_Sense_6" O R 6300 5000 50 
-F6 "3.3VA" I L 4900 5300 50 
+F6 "3.3V" I L 4900 5300 50 
 $EndSheet
 Wire Wire Line
 	2850 1550 2850 1750
@@ -500,7 +500,7 @@ S 4700 850  800  900
 U 5FC42AEE
 F0 "Limit Switches" 50
 F1 "ScienceMotorController04.sch" 50
-F2 "3.3VA" I L 4700 1050 50 
+F2 "3.3V" I L 4700 1050 50 
 F3 "Limit_Switch_1" O L 4700 1250 50 
 F4 "Limit_Switch_2" O L 4700 1350 50 
 F5 "Limit_Switch_3" O L 4700 1450 50 
@@ -519,7 +519,7 @@ F2 "In_A_1" I L 1000 2600 50
 F3 "In_B_1" I L 1000 2750 50 
 F4 "PWM_1" I L 1000 2500 50 
 F5 "Current_Sense_1" O R 2450 2950 50 
-F6 "3.3VA" I L 1000 2900 50 
+F6 "3.3V" I L 1000 2900 50 
 $EndSheet
 Wire Wire Line
 	2550 2950 2450 2950
@@ -538,7 +538,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 2950 6050 3900
 Text HLabel 4550 1050 0    50   Input ~ 0
-3.3VA
+3.3V
 Wire Wire Line
 	4550 1050 4700 1050
 Wire Wire Line
@@ -550,7 +550,7 @@ Wire Wire Line
 Wire Wire Line
 	3950 1550 4700 1550
 Text HLabel 900  2900 0    50   Input ~ 0
-3.3VA
+3.3V
 Wire Wire Line
 	900  2900 1000 2900
 Wire Wire Line
@@ -562,23 +562,23 @@ Wire Wire Line
 Wire Wire Line
 	1100 5200 900  5200
 Text HLabel 2750 2900 0    50   Input ~ 0
-3.3VA
+3.3V
 Wire Wire Line
 	2750 2900 2800 2900
 Text HLabel 4500 2900 0    50   Input ~ 0
-3.3VA
+3.3V
 Wire Wire Line
 	4500 2900 4550 2900
 Text HLabel 950  5300 0    50   Input ~ 0
-3.3VA
+3.3V
 Wire Wire Line
 	950  5300 1100 5300
 Text HLabel 2750 5300 0    50   Input ~ 0
-3.3VA
+3.3V
 Wire Wire Line
 	2750 5300 2800 5300
 Text HLabel 4750 5300 0    50   Input ~ 0
-3.3VA
+3.3V
 Wire Wire Line
 	4750 5300 4900 5300
 $Sheet
@@ -586,12 +586,12 @@ S 6600 4900 750  750
 U 5FA24F1F
 F0 "Absolute Encoders" 50
 F1 "ScienceMotorController05.sch" 50
-F2 "3.3VA" I L 6600 5550 50 
+F2 "3.3V" I L 6600 5550 50 
 F3 "Encoder_PWM_1" O R 7350 5000 50 
 F4 "Encoder_PWM_2" O R 7350 5100 50 
 $EndSheet
 Text HLabel 6500 5550 0    50   Input ~ 0
-3.3VA
+3.3V
 Wire Wire Line
 	6600 5550 6500 5550
 Wire Wire Line

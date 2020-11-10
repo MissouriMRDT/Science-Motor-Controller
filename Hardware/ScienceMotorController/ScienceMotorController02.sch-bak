@@ -4,7 +4,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 10
+Sheet 3 11
 Title ""
 Date ""
 Rev ""
@@ -207,8 +207,6 @@ NoConn ~ 7600 5500
 NoConn ~ 7600 5400
 NoConn ~ 7600 5300
 NoConn ~ 7600 5200
-NoConn ~ 7600 5100
-NoConn ~ 7600 5000
 NoConn ~ 7600 4900
 Wire Wire Line
 	8600 4600 8800 4600
@@ -583,4 +581,21 @@ Text HLabel 4750 5300 0    50   Input ~ 0
 3.3VA
 Wire Wire Line
 	4750 5300 4900 5300
+$Sheet
+S 6600 4900 750  750 
+U 5FA24F1F
+F0 "Absolute Encoders" 50
+F1 "ScienceMotorController05.sch" 50
+F2 "3.3VA" I L 6600 5550 50 
+F3 "Encoder_PWM_1" O R 7350 5000 50 
+F4 "Encoder_PWM_2" O R 7350 5100 50 
+$EndSheet
+Text HLabel 6500 5550 0    50   Input ~ 0
+3.3VA
+Wire Wire Line
+	6600 5550 6500 5550
+Wire Wire Line
+	7350 5000 7600 5000
+Wire Wire Line
+	7350 5100 7600 5100
 $EndSCHEMATC

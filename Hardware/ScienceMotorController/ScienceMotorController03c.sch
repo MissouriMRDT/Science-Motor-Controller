@@ -486,20 +486,6 @@ Wire Wire Line
 Text Notes 7100 6950 0    197  ~ 0
 Sheet 03c: Motor Driver 3
 $Comp
-L power:+3.3VA #PWR?
-U 1 1 5F83493F
-P 4800 4200
-AR Path="/5F7D111E/5FA660A7/5F83493F" Ref="#PWR?"  Part="1" 
-AR Path="/5F9082FA/5F83493F" Ref="#PWR?"  Part="1" 
-AR Path="/5F7148FA/5FA34AD7/5F83493F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4800 4050 50  0001 C CNN
-F 1 "+3.3VA" V 4815 4327 50  0000 L CNN
-F 2 "" H 4800 4200 50  0001 C CNN
-F 3 "" H 4800 4200 50  0001 C CNN
-	1    4800 4200
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+12VA #PWR?
 U 1 1 5F835353
 P 7150 4000
@@ -553,8 +539,10 @@ Text HLabel 4850 4000 0    50   Input ~ 0
 PWM_3
 Text HLabel 3300 4100 0    50   Output ~ 0
 Current_Sense_3
-Text HLabel 4800 3800 0    50   Output ~ 0
-3.3VA
 Text HLabel 4800 3900 0    50   Output ~ 0
-3.3VA
+3.3V
+Text HLabel 4800 3800 0    50   Output ~ 0
+3.3V
+Text HLabel 4800 4200 0    50   Output ~ 0
+3.3V
 $EndSCHEMATC

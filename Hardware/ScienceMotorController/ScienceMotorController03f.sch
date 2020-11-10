@@ -500,20 +500,6 @@ F 3 "~" H 7750 3400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+3.3VA #PWR?
-U 1 1 5F840B1F
-P 5150 4150
-AR Path="/5F7D111E/5FA66A7C/5F840B1F" Ref="#PWR?"  Part="1" 
-AR Path="/5F908300/5F840B1F" Ref="#PWR?"  Part="1" 
-AR Path="/5F7148FA/5FA34ADD/5F840B1F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5150 4000 50  0001 C CNN
-F 1 "+3.3VA" V 5165 4277 50  0000 L CNN
-F 2 "" H 5150 4150 50  0001 C CNN
-F 3 "" H 5150 4150 50  0001 C CNN
-	1    5150 4150
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+12VA #PWR?
 U 1 1 5F8410BA
 P 7500 3950
@@ -556,7 +542,9 @@ PWM_6
 Text HLabel 3650 4050 0    50   Output ~ 0
 Current_Sense_6
 Text HLabel 5150 3750 0    50   Output ~ 0
-3.3VA
+3.3V
 Text HLabel 5150 3850 0    50   Output ~ 0
-3.3VA
+3.3V
+Text HLabel 5150 4150 0    50   Output ~ 0
+3.3V
 $EndSCHEMATC

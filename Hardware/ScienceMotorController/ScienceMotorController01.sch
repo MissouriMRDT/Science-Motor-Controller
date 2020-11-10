@@ -210,7 +210,7 @@ Connection ~ 4100 1900
 Wire Wire Line
 	4100 1900 4150 1900
 Text HLabel 4050 1450 1    50   Input ~ 0
-12VA
+12V
 Text HLabel 5400 1800 1    50   Output ~ 0
-3.3VA
+3.3V
 $EndSCHEMATC
