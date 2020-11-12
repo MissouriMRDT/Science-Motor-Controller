@@ -37,7 +37,7 @@ AR Path="/5F6E1E86/5F8E3C0A" Ref="Conn?"  Part="3"
 AR Path="/5F8E3C0A" Ref="Conn1"  Part="3" 
 F 0 "Conn1" H 2708 4187 60  0000 C CNN
 F 1 "AndersonPP" H 2708 4081 60  0000 C CNN
-F 2 "" H 2350 3250 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 2350 3250 60  0001 C CNN
 F 3 "" H 2350 3250 60  0001 C CNN
 	3    2500 3800
 	1    0    0    -1  
@@ -65,7 +65,7 @@ AR Path="/5F6E1E86/5F8E3C18" Ref="D?"  Part="1"
 AR Path="/5F8E3C18" Ref="D1"  Part="1" 
 F 0 "D1" H 3550 3600 50  0000 C CNN
 F 1 "LED" H 3550 3700 50  0000 C CNN
-F 2 "" H 3550 3800 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3550 3800 50  0001 C CNN
 F 3 "~" H 3550 3800 50  0001 C CNN
 	1    3550 3800
 	-1   0    0    1   
@@ -81,7 +81,7 @@ AR Path="/5F6E1E86/5F8E3C20" Ref="R?"  Part="1"
 AR Path="/5F8E3C20" Ref="R1"  Part="1" 
 F 0 "R1" V 2954 3800 50  0000 C CNN
 F 1 "1.2k" V 3150 3800 39  0000 C CNN
-F 2 "" H 3150 3800 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3150 3800 50  0001 C CNN
 F 3 "~" H 3150 3800 50  0001 C CNN
 	1    3150 3800
 	0    1    1    0   
@@ -115,7 +115,7 @@ AR Path="/5F6E1E86/5F8FDE30" Ref="Conn?"  Part="1"
 AR Path="/5F8FDE30" Ref="Conn1"  Part="1" 
 F 0 "Conn1" H 2708 5337 60  0000 C CNN
 F 1 "AndersonPP" H 2708 5231 60  0000 C CNN
-F 2 "" H 2350 4400 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 2350 4400 60  0001 C CNN
 F 3 "" H 2350 4400 60  0001 C CNN
 	1    2500 4950
 	1    0    0    -1  
@@ -145,7 +145,7 @@ U 2 1 5FA9F774
 P 2500 4350
 F 0 "Conn1" H 2708 4737 60  0000 C CNN
 F 1 "AndersonPP" H 2708 4631 60  0000 C CNN
-F 2 "" H 2350 3800 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 2350 3800 60  0001 C CNN
 F 3 "" H 2350 3800 60  0001 C CNN
 	2    2500 4350
 	1    0    0    -1  
@@ -167,7 +167,7 @@ AR Path="/5F6E1E86/5FAA2CAF" Ref="R?"  Part="1"
 AR Path="/5FAA2CAF" Ref="R2"  Part="1" 
 F 0 "R2" V 3200 4450 50  0000 C CNN
 F 1 "1.2k" V 3300 4450 39  0000 C CNN
-F 2 "" H 3300 4450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3300 4450 50  0001 C CNN
 F 3 "~" H 3300 4450 50  0001 C CNN
 	1    3300 4450
 	0    1    1    0   
@@ -180,7 +180,7 @@ AR Path="/5F6E1E86/5FAA3A99" Ref="D?"  Part="1"
 AR Path="/5FAA3A99" Ref="D2"  Part="1" 
 F 0 "D2" H 3700 4400 50  0000 C CNN
 F 1 "LED" H 3600 4350 50  0000 C CNN
-F 2 "" H 3600 4450 50  0001 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3600 4450 50  0001 C CNN
 F 3 "~" H 3600 4450 50  0001 C CNN
 	1    3600 4450
 	-1   0    0    1   
