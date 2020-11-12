@@ -24,7 +24,7 @@ AR Path="/5F9082F6/5FA34863" Ref="U?"  Part="1"
 AR Path="/5F7148FA/5FA34AD3/5FA34863" Ref="U8"  Part="1" 
 F 0 "U8" H 5850 5837 60  0000 C CNN
 F 1 "VNH5019A_E" H 5850 5731 60  0000 C CNN
-F 2 "" H 5250 5450 60  0001 C CNN
+F 2 "MRDT_ICs:MultiPowerSO_30" H 5250 5450 60  0001 C CNN
 F 3 "" H 5250 5450 60  0001 C CNN
 	1    5250 4150
 	1    0    0    -1  
@@ -368,10 +368,6 @@ Wire Wire Line
 	5050 3800 4100 3800
 Connection ~ 4100 3800
 Wire Wire Line
-	7100 2750 7350 2750
-Wire Wire Line
-	7100 3150 7350 3150
-Wire Wire Line
 	7350 2950 7350 2750
 Connection ~ 7350 2750
 Wire Wire Line
@@ -499,37 +495,7 @@ F 3 "" H 6900 3700 50  0001 C CNN
 	1    6900 3700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 5F9C1894
-P 7000 2750
-AR Path="/5F9082F6/5F9C1894" Ref="FB?"  Part="1" 
-AR Path="/5F7148FA/5FA34AD3/5F9C1894" Ref="FB11"  Part="1" 
-F 0 "FB11" V 6763 2750 50  0000 C CNN
-F 1 "Ferrite_Bead" V 6854 2750 50  0000 C CNN
-F 2 "" V 6930 2750 50  0001 C CNN
-F 3 "~" H 7000 2750 50  0001 C CNN
-	1    7000 2750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 5F9C2846
-P 7000 3150
-AR Path="/5F9082F6/5F9C2846" Ref="FB?"  Part="1" 
-AR Path="/5F7148FA/5FA34AD3/5F9C2846" Ref="FB12"  Part="1" 
-F 0 "FB12" V 6850 3150 50  0000 C CNN
-F 1 "Ferrite_Bead" V 6900 3150 50  0000 C CNN
-F 2 "" V 6930 3150 50  0001 C CNN
-F 3 "~" H 7000 3150 50  0001 C CNN
-	1    7000 3150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6900 2750 6700 2750
 Connection ~ 6700 2750
-Wire Wire Line
-	6900 3150 6700 3150
 Connection ~ 6700 3150
 Text HLabel 4600 3400 0    50   Input ~ 0
 In_A_1
@@ -549,4 +515,8 @@ Text Notes 7350 3050 0    20   ~ 0
 Blue
 Text Notes 7350 3450 0    20   ~ 0
 Blue
+Wire Wire Line
+	6700 2750 7350 2750
+Wire Wire Line
+	6700 3150 7350 3150
 $EndSCHEMATC

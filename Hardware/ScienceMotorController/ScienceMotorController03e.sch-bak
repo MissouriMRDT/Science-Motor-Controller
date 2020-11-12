@@ -24,7 +24,7 @@ AR Path="/5F9082FE/5FAB35CE" Ref="U?"  Part="1"
 AR Path="/5F7148FA/5FA34ADB/5FAB35CE" Ref="U6"  Part="1" 
 F 0 "U6" H 5500 6037 60  0000 C CNN
 F 1 "VNH5019A_E" H 5500 5931 60  0000 C CNN
-F 2 "" H 4900 5650 60  0001 C CNN
+F 2 "MRDT_ICs:MultiPowerSO_30" H 4900 5650 60  0001 C CNN
 F 3 "" H 4900 5650 60  0001 C CNN
 	1    4900 4350
 	1    0    0    -1  
@@ -113,7 +113,7 @@ AR Path="/5F9082FE/5FAB35FD" Ref="D?"  Part="1"
 AR Path="/5F7148FA/5FA34ADB/5FAB35FD" Ref="D16"  Part="1" 
 F 0 "D16" V 2950 4000 50  0000 R CNN
 F 1 "D_Zener_Small" V 2850 4050 50  0000 R CNN
-F 2 "" V 2900 4150 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2900 4150 50  0001 C CNN
 F 3 "~" V 2900 4150 50  0001 C CNN
 	1    2900 4150
 	0    1    1    0   
@@ -368,10 +368,6 @@ Wire Wire Line
 	4700 4000 3750 4000
 Connection ~ 3750 4000
 Wire Wire Line
-	6800 2950 7050 2950
-Wire Wire Line
-	6800 3350 7050 3350
-Wire Wire Line
 	7050 3150 7050 2950
 Connection ~ 7050 2950
 Wire Wire Line
@@ -499,37 +495,7 @@ F 3 "" H 6550 3900 50  0001 C CNN
 	1    6550 3900
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 5F9F76C5
-P 6700 2950
-AR Path="/5F9082FE/5F9F76C5" Ref="FB?"  Part="1" 
-AR Path="/5F7148FA/5FA34ADB/5F9F76C5" Ref="FB7"  Part="1" 
-F 0 "FB7" V 6463 2950 50  0000 C CNN
-F 1 "Ferrite_Bead" V 6554 2950 50  0000 C CNN
-F 2 "" V 6630 2950 50  0001 C CNN
-F 3 "~" H 6700 2950 50  0001 C CNN
-	1    6700 2950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 5F9F8032
-P 6700 3350
-AR Path="/5F9082FE/5F9F8032" Ref="FB?"  Part="1" 
-AR Path="/5F7148FA/5FA34ADB/5F9F8032" Ref="FB8"  Part="1" 
-F 0 "FB8" V 6500 3350 50  0000 C CNN
-F 1 "Ferrite_Bead" V 6600 3450 50  0000 C CNN
-F 2 "" V 6630 3350 50  0001 C CNN
-F 3 "~" H 6700 3350 50  0001 C CNN
-	1    6700 3350
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6600 2950 6350 2950
 Connection ~ 6350 2950
-Wire Wire Line
-	6600 3350 6350 3350
 Connection ~ 6350 3350
 Text HLabel 4250 3600 0    50   Input ~ 0
 In_A_5
@@ -549,4 +515,8 @@ Text Notes 7050 3650 0    20   ~ 0
 Blue
 Text Notes 7050 3250 0    20   ~ 0
 Blue
+Wire Wire Line
+	6350 3350 7050 3350
+Wire Wire Line
+	6350 2950 7050 2950
 $EndSCHEMATC

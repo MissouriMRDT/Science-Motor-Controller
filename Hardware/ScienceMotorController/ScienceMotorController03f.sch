@@ -24,7 +24,7 @@ AR Path="/5F908300/5FACB523" Ref="U?"  Part="1"
 AR Path="/5F7148FA/5FA34ADD/5FACB523" Ref="U7"  Part="1" 
 F 0 "U7" H 6450 6087 60  0000 C CNN
 F 1 "VNH5019A_E" H 6450 5981 60  0000 C CNN
-F 2 "" H 5850 5700 60  0001 C CNN
+F 2 "MRDT_ICs:MultiPowerSO_30" H 5850 5700 60  0001 C CNN
 F 3 "" H 5850 5700 60  0001 C CNN
 	1    5850 4400
 	1    0    0    -1  
@@ -344,7 +344,7 @@ AR Path="/5F908300/5FACB5D5" Ref="Conn?"  Part="1"
 AR Path="/5F7148FA/5FA34ADD/5FACB5D5" Ref="Conn6"  Part="1" 
 F 0 "Conn6" H 8522 3347 60  0000 R CNN
 F 1 "AndersonPP" H 8522 3453 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 8400 2750 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 8400 2750 60  0001 C CNN
 F 3 "" H 8400 2750 60  0001 C CNN
 	1    8550 3300
 	-1   0    0    1   
@@ -359,7 +359,7 @@ AR Path="/5F908300/5FACB5DB" Ref="Conn?"  Part="2"
 AR Path="/5F7148FA/5FA34ADD/5FACB5DB" Ref="Conn6"  Part="2" 
 F 0 "Conn6" H 8522 2947 60  0000 R CNN
 F 1 "AndersonPP" H 8522 3053 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 8400 2350 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 8400 2350 60  0001 C CNN
 F 3 "" H 8400 2350 60  0001 C CNN
 	2    8550 2900
 	-1   0    0    1   
@@ -367,10 +367,6 @@ $EndComp
 Wire Wire Line
 	5650 4050 4700 4050
 Connection ~ 4700 4050
-Wire Wire Line
-	7850 3000 8100 3000
-Wire Wire Line
-	7850 3400 8100 3400
 Wire Wire Line
 	8100 3200 8100 3000
 Connection ~ 8100 3000
@@ -486,20 +482,6 @@ Wire Wire Line
 Text Notes 7200 6950 0    197  ~ 0
 Sheet 03f: Mixer Output
 $Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 5F83E921
-P 7750 3400
-AR Path="/5F7D111E/5FA66A7C/5F83E921" Ref="FB?"  Part="1" 
-AR Path="/5F908300/5F83E921" Ref="FB?"  Part="1" 
-AR Path="/5F7148FA/5FA34ADD/5F83E921" Ref="FB10"  Part="1" 
-F 0 "FB10" V 7850 3400 50  0000 L CNN
-F 1 "Ferrite_Bead" V 7650 3250 50  0000 L CNN
-F 2 "" V 7680 3400 50  0001 C CNN
-F 3 "~" H 7750 3400 50  0001 C CNN
-	1    7750 3400
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+12VA #PWR?
 U 1 1 5F8410BA
 P 7500 3950
@@ -513,26 +495,8 @@ F 3 "" H 7500 3950 50  0001 C CNN
 	1    7500 3950
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 5F82955C
-P 7750 3000
-AR Path="/5F7D111E/5FA66A7C/5F82955C" Ref="FB?"  Part="1" 
-AR Path="/5F908300/5F82955C" Ref="FB?"  Part="1" 
-AR Path="/5F7148FA/5FA34ADD/5F82955C" Ref="FB9"  Part="1" 
-F 0 "FB9" V 7950 3050 50  0000 L CNN
-F 1 "Ferrite_Bead" V 7850 2900 50  0000 L CNN
-F 2 "" V 7680 3000 50  0001 C CNN
-F 3 "~" H 7750 3000 50  0001 C CNN
-	1    7750 3000
-	0    -1   -1   0   
-$EndComp
 Connection ~ 7300 3000
 Connection ~ 7300 3400
-Wire Wire Line
-	7300 3000 7650 3000
-Wire Wire Line
-	7300 3400 7650 3400
 Text HLabel 5200 3650 0    50   Input ~ 0
 In_A_6
 Text HLabel 5200 4250 0    50   Input ~ 0
@@ -551,4 +515,8 @@ Text Notes 8100 3300 0    20   ~ 0
 Blue
 Text Notes 8100 3700 0    20   ~ 0
 Blue
+Wire Wire Line
+	7300 3400 8100 3400
+Wire Wire Line
+	7300 3000 8100 3000
 $EndSCHEMATC

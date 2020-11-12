@@ -24,7 +24,7 @@ AR Path="/5F9082F8/5FA5B74A" Ref="U?"  Part="1"
 AR Path="/5F7148FA/5FA34AD5/5FA5B74A" Ref="U3"  Part="1" 
 F 0 "U3" H 5700 5937 60  0000 C CNN
 F 1 "VNH5019A_E" H 5700 5831 60  0000 C CNN
-F 2 "" H 5100 5550 60  0001 C CNN
+F 2 "MRDT_ICs:MultiPowerSO_30" H 5100 5550 60  0001 C CNN
 F 3 "" H 5100 5550 60  0001 C CNN
 	1    5100 4250
 	1    0    0    -1  
@@ -344,7 +344,7 @@ AR Path="/5F9082F8/5FA5B7FC" Ref="Conn?"  Part="1"
 AR Path="/5F7148FA/5FA34AD5/5FA5B7FC" Ref="Conn2"  Part="1" 
 F 0 "Conn2" H 7672 3197 60  0000 R CNN
 F 1 "AndersonPP" H 7672 3303 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 7550 2600 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7550 2600 60  0001 C CNN
 F 3 "" H 7550 2600 60  0001 C CNN
 	1    7700 3150
 	-1   0    0    1   
@@ -359,7 +359,7 @@ AR Path="/5F9082F8/5FA5B802" Ref="Conn?"  Part="2"
 AR Path="/5F7148FA/5FA34AD5/5FA5B802" Ref="Conn2"  Part="2" 
 F 0 "Conn2" H 7672 2797 60  0000 R CNN
 F 1 "AndersonPP" H 7672 2903 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Vertical_Sidy_by_Side" H 7550 2200 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7550 2200 60  0001 C CNN
 F 3 "" H 7550 2200 60  0001 C CNN
 	2    7700 2750
 	-1   0    0    1   
@@ -367,10 +367,6 @@ $EndComp
 Wire Wire Line
 	4900 3900 3950 3900
 Connection ~ 3950 3900
-Wire Wire Line
-	7000 2850 7250 2850
-Wire Wire Line
-	7000 3250 7250 3250
 Wire Wire Line
 	7250 3050 7250 2850
 Connection ~ 7250 2850
@@ -499,37 +495,7 @@ F 3 "" H 6750 3800 50  0001 C CNN
 	1    6750 3800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 5F9D0A4B
-P 6900 2850
-AR Path="/5F9082F8/5F9D0A4B" Ref="FB?"  Part="1" 
-AR Path="/5F7148FA/5FA34AD5/5F9D0A4B" Ref="FB1"  Part="1" 
-F 0 "FB1" V 6663 2850 50  0000 C CNN
-F 1 "Ferrite_Bead" V 6754 2850 50  0000 C CNN
-F 2 "" V 6830 2850 50  0001 C CNN
-F 3 "~" H 6900 2850 50  0001 C CNN
-	1    6900 2850
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 5F9D10E3
-P 6900 3250
-AR Path="/5F9082F8/5F9D10E3" Ref="FB?"  Part="1" 
-AR Path="/5F7148FA/5FA34AD5/5F9D10E3" Ref="FB2"  Part="1" 
-F 0 "FB2" V 6663 3250 50  0000 C CNN
-F 1 "Ferrite_Bead" V 6754 3250 50  0000 C CNN
-F 2 "" V 6830 3250 50  0001 C CNN
-F 3 "~" H 6900 3250 50  0001 C CNN
-	1    6900 3250
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6800 2850 6550 2850
 Connection ~ 6550 2850
-Wire Wire Line
-	6800 3250 6550 3250
 Connection ~ 6550 3250
 Text HLabel 4450 3500 0    50   Input ~ 0
 In_A_2
@@ -549,4 +515,8 @@ Text Notes 7250 3150 0    20   ~ 0
 Blue
 Text Notes 7250 3550 0    20   ~ 0
 Blue
+Wire Wire Line
+	6550 3250 7250 3250
+Wire Wire Line
+	6550 2850 7250 2850
 $EndSCHEMATC
