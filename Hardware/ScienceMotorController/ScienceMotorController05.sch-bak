@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn?
+L MRDT_Connectors:Molex_SL_03 Conn12
 U 1 1 5FA2AB8E
 P 6050 2850
-F 0 "Conn?" H 6178 3058 60  0000 L CNN
+F 0 "Conn12" H 6178 3058 60  0000 L CNN
 F 1 "Molex_SL_03" H 6178 2952 60  0000 L CNN
 F 2 "" H 6050 2850 60  0001 C CNN
 F 3 "" H 6050 2850 60  0001 C CNN
@@ -26,10 +26,10 @@ F 3 "" H 6050 2850 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn?
+L MRDT_Connectors:Molex_SL_03 Conn13
 U 1 1 5FA2C457
 P 6050 3350
-F 0 "Conn?" H 6178 3558 60  0000 L CNN
+F 0 "Conn13" H 6178 3558 60  0000 L CNN
 F 1 "Molex_SL_03" H 6178 3452 60  0000 L CNN
 F 2 "" H 6050 3350 60  0001 C CNN
 F 3 "" H 6050 3350 60  0001 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 6050 3350 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 5700 2450 1    50   Input ~ 0
-3.3VA
+3.3V
 Wire Wire Line
 	5700 2450 5700 2600
 Wire Wire Line
@@ -48,10 +48,10 @@ Wire Wire Line
 	5700 3100 5850 3100
 Connection ~ 5700 2600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0150
 U 1 1 5FA2F0EE
 P 5650 3450
-F 0 "#PWR?" H 5650 3200 50  0001 C CNN
+F 0 "#PWR0150" H 5650 3200 50  0001 C CNN
 F 1 "GND" H 5655 3277 50  0000 C CNN
 F 2 "" H 5650 3450 50  0001 C CNN
 F 3 "" H 5650 3450 50  0001 C CNN
