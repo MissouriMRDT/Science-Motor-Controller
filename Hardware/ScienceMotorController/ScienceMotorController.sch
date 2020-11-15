@@ -154,7 +154,7 @@ Wire Wire Line
 	2900 4250 3150 4250
 Connection ~ 3150 4250
 Wire Wire Line
-	3150 4250 4350 4250
+	3150 4250 3900 4250
 Wire Wire Line
 	3150 4450 3200 4450
 Wire Wire Line
@@ -203,5 +203,55 @@ $EndComp
 Wire Wire Line
 	3750 4450 3850 4450
 Wire Wire Line
-	3050 3400 3050 3700
+	3050 3400 3050 3450
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 3 1 5FBCB410
+P 3950 3350
+AR Path="/5F6E1E86/5FBCB410" Ref="Conn?"  Part="3" 
+AR Path="/5FBCB410" Ref="Conn2"  Part="3" 
+F 0 "Conn2" H 4050 3250 60  0000 C CNN
+F 1 "AndersonPP" H 4150 3150 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3800 2800 60  0001 C CNN
+F 3 "" H 3800 2800 60  0001 C CNN
+	3    3950 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn2
+U 2 1 5FBCBD41
+P 4300 4000
+F 0 "Conn2" H 4400 3950 60  0000 C CNN
+F 1 "AndersonPP" H 4500 3750 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 4150 3450 60  0001 C CNN
+F 3 "" H 4150 3450 60  0001 C CNN
+	2    4300 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 1 1 5FBCC943
+P 3700 4750
+AR Path="/5F6E1E86/5FBCC943" Ref="Conn?"  Part="1" 
+AR Path="/5FBCC943" Ref="Conn2"  Part="1" 
+F 0 "Conn2" H 3908 5137 60  0000 C CNN
+F 1 "AndersonPP" H 3908 5031 60  0000 C CNN
+F 2 "MRDT_Connectors:Anderson_3_Vertical_Side_by_Side" H 3550 4200 60  0001 C CNN
+F 3 "" H 3550 4200 60  0001 C CNN
+	1    3700 4750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3550 3450 3050 3450
+Connection ~ 3050 3450
+Wire Wire Line
+	3050 3450 3050 3700
+Wire Wire Line
+	3900 4100 3900 4250
+Connection ~ 3900 4250
+Wire Wire Line
+	3900 4250 4350 4250
+Wire Wire Line
+	3300 4850 3050 4850
+Connection ~ 3050 4850
 $EndSCHEMATC
