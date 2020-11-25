@@ -341,8 +341,8 @@ P 7500 3250
 AR Path="/5F7D111E/5FAB3680" Ref="Conn?"  Part="1" 
 AR Path="/5F7D111E/5FA666AF/5FAB3680" Ref="Conn?"  Part="1" 
 AR Path="/5F9082FE/5FAB3680" Ref="Conn?"  Part="1" 
-AR Path="/5F7148FA/5FA34ADB/5FAB3680" Ref="Conn5"  Part="1" 
-F 0 "Conn5" H 7472 3297 60  0000 R CNN
+AR Path="/5F7148FA/5FA34ADB/5FAB3680" Ref="Conn6"  Part="1" 
+F 0 "Conn6" H 7472 3297 60  0000 R CNN
 F 1 "AndersonPP" H 7472 3403 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7350 2700 60  0001 C CNN
 F 3 "" H 7350 2700 60  0001 C CNN
@@ -356,8 +356,8 @@ P 7500 2850
 AR Path="/5F7D111E/5FAB3686" Ref="Conn?"  Part="2" 
 AR Path="/5F7D111E/5FA666AF/5FAB3686" Ref="Conn?"  Part="2" 
 AR Path="/5F9082FE/5FAB3686" Ref="Conn?"  Part="2" 
-AR Path="/5F7148FA/5FA34ADB/5FAB3686" Ref="Conn5"  Part="2" 
-F 0 "Conn5" H 7472 2897 60  0000 R CNN
+AR Path="/5F7148FA/5FA34ADB/5FAB3686" Ref="Conn6"  Part="2" 
+F 0 "Conn6" H 7472 2897 60  0000 R CNN
 F 1 "AndersonPP" H 7472 3003 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 7350 2300 60  0001 C CNN
 F 3 "" H 7350 2300 60  0001 C CNN

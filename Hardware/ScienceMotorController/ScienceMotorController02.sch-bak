@@ -197,11 +197,7 @@ Wire Wire Line
 Wire Wire Line
 	9400 5500 9750 5500
 NoConn ~ 8600 4700
-NoConn ~ 8600 4800
-NoConn ~ 8600 4900
 NoConn ~ 8600 5000
-NoConn ~ 8600 5100
-NoConn ~ 8600 5200
 NoConn ~ 8600 5400
 NoConn ~ 7600 5500
 NoConn ~ 7600 5400
@@ -496,15 +492,15 @@ Wire Wire Line
 Wire Wire Line
 	2550 4950 2500 4950
 $Sheet
-S 4700 850  800  900 
+S 9550 4400 800  900 
 U 5FC42AEE
 F0 "Limit Switches" 50
 F1 "ScienceMotorController04.sch" 50
-F2 "3.3V" I L 4700 1050 50 
-F3 "Limit_Switch_1" O L 4700 1250 50 
-F4 "Limit_Switch_2" O L 4700 1350 50 
-F5 "Limit_Switch_3" O L 4700 1450 50 
-F6 "Limit_Switch_4" O L 4700 1550 50 
+F2 "3.3V" I L 9550 4600 50 
+F3 "Limit_Switch_1" O L 9550 4800 50 
+F4 "Limit_Switch_2" O L 9550 4900 50 
+F5 "Limit_Switch_3" O L 9550 5000 50 
+F6 "Limit_Switch_4" O L 9550 5100 50 
 $EndSheet
 Wire Wire Line
 	4250 2950 4150 2950
@@ -537,18 +533,12 @@ Wire Wire Line
 	4000 3900 6050 3900
 Wire Wire Line
 	6050 2950 6050 3900
-Text HLabel 4550 1050 0    50   Input ~ 0
+Text HLabel 9400 4600 0    50   Input ~ 0
 3.3V
 Wire Wire Line
-	4550 1050 4700 1050
+	9400 4600 9550 4600
 Wire Wire Line
-	3950 1250 4700 1250
-Wire Wire Line
-	3950 1350 4700 1350
-Wire Wire Line
-	3950 1450 4700 1450
-Wire Wire Line
-	3950 1550 4700 1550
+	8800 5100 9550 5100
 Text HLabel 900  2900 0    50   Input ~ 0
 3.3V
 Wire Wire Line
@@ -598,4 +588,22 @@ Wire Wire Line
 	7350 5000 7600 5000
 Wire Wire Line
 	7350 5100 7600 5100
+Wire Wire Line
+	8600 4800 9550 4800
+Wire Wire Line
+	8600 4900 9550 4900
+Wire Wire Line
+	8800 5100 8800 5200
+Wire Wire Line
+	8800 5200 8600 5200
+Wire Wire Line
+	8700 5000 8700 5100
+Wire Wire Line
+	8700 5100 8600 5100
+Wire Wire Line
+	8700 5000 9550 5000
+NoConn ~ 3950 1250
+NoConn ~ 3950 1350
+NoConn ~ 3950 1450
+NoConn ~ 3950 1550
 $EndSCHEMATC
