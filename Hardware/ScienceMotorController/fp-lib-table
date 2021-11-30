@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name ScienceMocoLibrary)(type KiCad)(uri //minerfiles.mst.edu/dfs/users/jmg9wr/Documents/GitHub/ScienceMotorController_Hardware/Documentation/Libraries)(options "")(descr ""))
+  (lib (name Mosfet)(type KiCad)(uri ${KIPRJMOD}/Mosfet.pretty)(options "")(descr ""))
+)
