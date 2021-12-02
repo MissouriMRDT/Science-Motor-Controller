@@ -1316,7 +1316,7 @@ L MRDT_Connectors:AndersonPP Conn1
 U 1 1 6375D33F
 P 6800 4600
 F 0 "Conn1" H 6772 4753 60  0000 R CNN
-F 1 "Motor_5" H 6772 4647 60  0000 R CNN
+F 1 "Motor_X" H 6772 4647 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 6650 4050 60  0001 C CNN
 F 3 "" H 6650 4050 60  0001 C CNN
 	1    6800 4600
@@ -1410,7 +1410,7 @@ L MRDT_Connectors:AndersonPP Conn1
 U 2 1 6375D375
 P 3100 4400
 F 0 "Conn1" H 3072 4447 60  0000 R CNN
-F 1 "Motor_5" H 3072 4553 60  0000 R CNN
+F 1 "Motor_X" H 3072 4553 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2950 3850 60  0001 C CNN
 F 3 "" H 2950 3850 60  0001 C CNN
 	2    3100 4400
@@ -1700,7 +1700,7 @@ L MRDT_Connectors:AndersonPP Conn4
 U 1 1 637F4CB2
 P 6800 7950
 F 0 "Conn4" H 6772 8103 60  0000 R CNN
-F 1 "Motor_5" H 6772 7997 60  0000 R CNN
+F 1 "Motor_1" H 6772 7997 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 6650 7400 60  0001 C CNN
 F 3 "" H 6650 7400 60  0001 C CNN
 	1    6800 7950
@@ -1794,7 +1794,7 @@ L MRDT_Connectors:AndersonPP Conn4
 U 2 1 637F4CE8
 P 3100 7750
 F 0 "Conn4" H 3072 7797 60  0000 R CNN
-F 1 "Motor_5" H 3072 7903 60  0000 R CNN
+F 1 "Motor_1" H 3072 7903 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2950 7200 60  0001 C CNN
 F 3 "" H 2950 7200 60  0001 C CNN
 	2    3100 7750
@@ -2084,7 +2084,7 @@ L MRDT_Connectors:AndersonPP Conn2
 U 1 1 6395B150
 P 12700 4600
 F 0 "Conn2" H 12672 4753 60  0000 R CNN
-F 1 "Motor_5" H 12672 4647 60  0000 R CNN
+F 1 "Motor_Y" H 12672 4647 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 12550 4050 60  0001 C CNN
 F 3 "" H 12550 4050 60  0001 C CNN
 	1    12700 4600
@@ -2178,7 +2178,7 @@ L MRDT_Connectors:AndersonPP Conn2
 U 2 1 6395B186
 P 9000 4400
 F 0 "Conn2" H 8972 4447 60  0000 R CNN
-F 1 "Motor_5" H 8972 4553 60  0000 R CNN
+F 1 "Motor_Y" H 8972 4553 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 8850 3850 60  0001 C CNN
 F 3 "" H 8850 3850 60  0001 C CNN
 	2    9000 4400
@@ -2468,7 +2468,7 @@ L MRDT_Connectors:AndersonPP Conn5
 U 1 1 6395B231
 P 12700 7950
 F 0 "Conn5" H 12672 8103 60  0000 R CNN
-F 1 "Motor_5" H 12672 7997 60  0000 R CNN
+F 1 "Motor_2" H 12672 7997 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 12550 7400 60  0001 C CNN
 F 3 "" H 12550 7400 60  0001 C CNN
 	1    12700 7950
@@ -2562,7 +2562,7 @@ L MRDT_Connectors:AndersonPP Conn5
 U 2 1 6395B267
 P 9000 7750
 F 0 "Conn5" H 8972 7797 60  0000 R CNN
-F 1 "Motor_5" H 8972 7903 60  0000 R CNN
+F 1 "Motor_2" H 8972 7903 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 8850 7200 60  0001 C CNN
 F 3 "" H 8850 7200 60  0001 C CNN
 	2    9000 7750
@@ -2852,7 +2852,7 @@ L MRDT_Connectors:AndersonPP Conn3
 U 1 1 639AA288
 P 18650 4600
 F 0 "Conn3" H 18622 4753 60  0000 R CNN
-F 1 "Motor_5" H 18622 4647 60  0000 R CNN
+F 1 "Motor_D" H 18622 4647 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 18500 4050 60  0001 C CNN
 F 3 "" H 18500 4050 60  0001 C CNN
 	1    18650 4600
@@ -2946,7 +2946,7 @@ L MRDT_Connectors:AndersonPP Conn3
 U 2 1 639AA2BE
 P 14950 4400
 F 0 "Conn3" H 14922 4447 60  0000 R CNN
-F 1 "Motor_5" H 14922 4553 60  0000 R CNN
+F 1 "Motor_D" H 14922 4553 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 14800 3850 60  0001 C CNN
 F 3 "" H 14800 3850 60  0001 C CNN
 	2    14950 4400
@@ -3236,7 +3236,7 @@ L MRDT_Connectors:AndersonPP Conn6
 U 1 1 639AA369
 P 18650 8100
 F 0 "Conn6" H 18622 8253 60  0000 R CNN
-F 1 "Motor_5" H 18622 8147 60  0000 R CNN
+F 1 "Motor_S" H 18622 8147 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 18500 7550 60  0001 C CNN
 F 3 "" H 18500 7550 60  0001 C CNN
 	1    18650 8100
@@ -3330,7 +3330,7 @@ L MRDT_Connectors:AndersonPP Conn6
 U 2 1 639AA39F
 P 14950 7900
 F 0 "Conn6" H 14922 7947 60  0000 R CNN
-F 1 "Motor_5" H 14922 8053 60  0000 R CNN
+F 1 "Motor_S" H 14922 8053 60  0000 R CNN
 F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 14800 7350 60  0001 C CNN
 F 3 "" H 14800 7350 60  0001 C CNN
 	2    14950 7900
