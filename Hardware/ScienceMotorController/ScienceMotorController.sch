@@ -1021,9 +1021,7 @@ F 3 "" H 13600 12800 50  0001 C CNN
 	1    13600 12800
 	0    -1   -1   0   
 $EndComp
-Wire Notes Line width 20 style solid
-	2200 13250 14900 13250
-Text Notes 15000 12800 0    276  ~ 0
+Text Notes 14350 12650 0    197  ~ 0
 Servos
 Wire Notes Line width 20 style solid
 	12700 11750 20000 11750
@@ -1129,8 +1127,6 @@ Wire Wire Line
 	18300 10100 18450 10100
 Wire Wire Line
 	18350 10750 18500 10750
-Wire Notes Line width 20 style solid
-	15450 11750 15450 9550
 $Comp
 L MRDT_ICs:TB67H400AFNG,EL U3
 U 1 1 6375D2D7
@@ -1311,8 +1307,6 @@ Wire Wire Line
 Wire Wire Line
 	4150 4900 4150 4850
 Connection ~ 4150 4850
-Text Notes 3450 2650 0    50   ~ 0
-Leave for later\n
 Wire Wire Line
 	5800 2800 6100 2800
 Wire Wire Line
@@ -1697,8 +1691,6 @@ Wire Wire Line
 Wire Wire Line
 	4150 8250 4150 8200
 Connection ~ 4150 8200
-Text Notes 3450 6000 0    50   ~ 0
-Leave for later\n
 Wire Wire Line
 	5800 6150 6100 6150
 Wire Wire Line
@@ -2083,8 +2075,6 @@ Wire Wire Line
 Wire Wire Line
 	10050 4900 10050 4850
 Connection ~ 10050 4850
-Text Notes 9350 2650 0    50   ~ 0
-Leave for later\n
 Wire Wire Line
 	11700 2800 12000 2800
 Wire Wire Line
@@ -2469,8 +2459,6 @@ Wire Wire Line
 Wire Wire Line
 	10050 8250 10050 8200
 Connection ~ 10050 8200
-Text Notes 9350 6000 0    50   ~ 0
-Leave for later\n
 Wire Wire Line
 	11700 6150 12000 6150
 Wire Wire Line
@@ -2855,8 +2843,6 @@ Wire Wire Line
 Wire Wire Line
 	16000 4900 16000 4850
 Connection ~ 16000 4850
-Text Notes 15300 2650 0    50   ~ 0
-Leave for later\n
 Wire Wire Line
 	17650 2800 17950 2800
 Wire Wire Line
@@ -3241,8 +3227,6 @@ Wire Wire Line
 Wire Wire Line
 	16000 8400 16000 8350
 Connection ~ 16000 8350
-Text Notes 15300 6150 0    50   ~ 0
-Leave for later\n
 Wire Wire Line
 	17650 6300 17950 6300
 Wire Wire Line
@@ -3594,8 +3578,6 @@ F 3 "" H 5750 14200 60  0001 C CNN
 	1    5750 14300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5400 14150 5450 14150
 $Comp
 L Device:R R6
 U 1 1 69094A0D
@@ -3626,37 +3608,6 @@ Text GLabel 2900 14000 0    35   Input ~ 0
 Solenoid_Valve_1
 Text Notes 4850 14650 0    28   ~ 0
 Blue\n
-Wire Wire Line
-	5400 14000 5450 14000
-Wire Wire Line
-	5450 14000 5450 13850
-Wire Wire Line
-	5450 13850 5400 13850
-Wire Wire Line
-	4850 14000 4800 14000
-Wire Wire Line
-	4800 14000 4800 13850
-Wire Wire Line
-	4800 13850 4850 13850
-Wire Wire Line
-	5450 13850 5450 13700
-Wire Wire Line
-	5450 13700 4800 13700
-Wire Wire Line
-	4800 13700 4800 13850
-Connection ~ 5450 13850
-Connection ~ 4800 13850
-$Comp
-L ScienceMotorController-rescue:PMN280ENEAX-Mosfet U2
-U 1 1 69094A31
-P 4950 13750
-F 0 "U2" V 4719 13925 79  0000 C CNN
-F 1 "PMN280ENEAX" V 4854 13925 79  0000 C CNN
-F 2 "Mosfet:PMN280ENEAX" H 5100 14300 197 0001 C CNN
-F 3 "" H 5100 14300 197 0001 C CNN
-	1    4950 13750
-	0    1    1    0   
-$EndComp
 $Comp
 L MRDT_ICs:LT1910 U1
 U 1 1 69094A3F
@@ -3811,8 +3762,6 @@ Wire Wire Line
 Connection ~ 4300 14550
 Text Notes 4700 14450 0    28   ~ 0
 Green\n
-Wire Wire Line
-	4300 13850 4800 13850
 $Comp
 L power:GND #PWR0105
 U 1 1 694ABE98
@@ -3839,8 +3788,6 @@ F 3 "" H 9900 14150 60  0001 C CNN
 	1    9900 14250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9550 14100 9600 14100
 $Comp
 L Device:R R9
 U 1 1 6975F8AD
@@ -3871,37 +3818,6 @@ Text GLabel 7050 13950 0    35   Input ~ 0
 Solenoid_Valve_2
 Text Notes 9000 14600 0    28   ~ 0
 Blue\n
-Wire Wire Line
-	9550 13950 9600 13950
-Wire Wire Line
-	9600 13950 9600 13800
-Wire Wire Line
-	9600 13800 9550 13800
-Wire Wire Line
-	9000 13950 8950 13950
-Wire Wire Line
-	8950 13950 8950 13800
-Wire Wire Line
-	8950 13800 9000 13800
-Wire Wire Line
-	9600 13800 9600 13650
-Wire Wire Line
-	9600 13650 8950 13650
-Wire Wire Line
-	8950 13650 8950 13800
-Connection ~ 9600 13800
-Connection ~ 8950 13800
-$Comp
-L ScienceMotorController-rescue:PMN280ENEAX-Mosfet U8
-U 1 1 6975F8CA
-P 9100 13700
-F 0 "U8" V 8869 13875 79  0000 C CNN
-F 1 "PMN280ENEAX" V 9004 13875 79  0000 C CNN
-F 2 "Mosfet:PMN280ENEAX" H 9250 14250 197 0001 C CNN
-F 3 "" H 9250 14250 197 0001 C CNN
-	1    9100 13700
-	0    1    1    0   
-$EndComp
 $Comp
 L MRDT_ICs:LT1910 U7
 U 1 1 6975F8D1
@@ -4056,8 +3972,6 @@ Wire Wire Line
 Connection ~ 8450 14500
 Text Notes 8850 14400 0    28   ~ 0
 Green\n
-Wire Wire Line
-	8450 13800 8950 13800
 $Comp
 L power:GND #PWR0109
 U 1 1 6975F92C
@@ -4084,8 +3998,6 @@ F 3 "" H 14000 14100 60  0001 C CNN
 	1    14000 14200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	13650 14050 13700 14050
 $Comp
 L Device:R R12
 U 1 1 697E6C2F
@@ -4116,37 +4028,6 @@ Text GLabel 11150 13900 0    35   Input ~ 0
 Solenoid_Valve_3
 Text Notes 13100 14550 0    28   ~ 0
 Blue\n
-Wire Wire Line
-	13650 13900 13700 13900
-Wire Wire Line
-	13700 13900 13700 13750
-Wire Wire Line
-	13700 13750 13650 13750
-Wire Wire Line
-	13100 13900 13050 13900
-Wire Wire Line
-	13050 13900 13050 13750
-Wire Wire Line
-	13050 13750 13100 13750
-Wire Wire Line
-	13700 13750 13700 13600
-Wire Wire Line
-	13700 13600 13050 13600
-Wire Wire Line
-	13050 13600 13050 13750
-Connection ~ 13700 13750
-Connection ~ 13050 13750
-$Comp
-L ScienceMotorController-rescue:PMN280ENEAX-Mosfet U15
-U 1 1 697E6C4C
-P 13200 13650
-F 0 "U15" V 12969 13825 79  0000 C CNN
-F 1 "PMN280ENEAX" V 13104 13825 79  0000 C CNN
-F 2 "Mosfet:PMN280ENEAX" H 13350 14200 197 0001 C CNN
-F 3 "" H 13350 14200 197 0001 C CNN
-	1    13200 13650
-	0    1    1    0   
-$EndComp
 $Comp
 L MRDT_ICs:LT1910 U14
 U 1 1 697E6C53
@@ -4301,8 +4182,6 @@ Wire Wire Line
 Connection ~ 12550 14450
 Text Notes 12950 14350 0    28   ~ 0
 Green\n
-Wire Wire Line
-	12550 13750 13050 13750
 $Comp
 L power:GND #PWR0113
 U 1 1 697E6CAE
@@ -4320,10 +4199,6 @@ Wire Wire Line
 	12850 14650 12850 14700
 Wire Notes Line width 20 style solid
 	2200 1850 2200 15050
-Wire Notes Line width 20 style solid
-	14900 11750 14900 15050
-Wire Notes Line width 20 style solid
-	14900 15050 2200 15050
 Text Notes 6350 15800 0    394  ~ 0
 Solenoid Valves
 Text GLabel 7250 12000 0    35   Input ~ 0
@@ -4686,4 +4561,232 @@ F 3 "" H 3600 10450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3600 10450 3600 10550
+$Comp
+L SciMoCoLib:PMN280ENEAX U?
+U 1 1 64F13429
+P 5100 14050
+F 0 "U?" H 5100 14359 50  0000 C CNN
+F 1 "PMN280ENEAX" H 5100 14276 39  0000 C CNN
+F 2 "" H 5100 14000 50  0001 C CNN
+F 3 "" H 5100 14000 50  0001 C CNN
+	1    5100 14050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 14050 4800 14050
+Wire Wire Line
+	4800 14050 4800 13950
+Wire Wire Line
+	4800 13950 4850 13950
+Wire Wire Line
+	5350 14050 5400 14050
+Wire Wire Line
+	5400 14050 5400 13950
+Wire Wire Line
+	5400 13950 5350 13950
+Wire Wire Line
+	5400 13950 5400 13850
+Wire Wire Line
+	5400 13850 4800 13850
+Wire Wire Line
+	4800 13850 4800 13950
+Connection ~ 5400 13950
+Connection ~ 4800 13950
+Wire Wire Line
+	4300 13850 4800 13850
+Connection ~ 4800 13850
+Wire Wire Line
+	5350 14150 5450 14150
+$Comp
+L SciMoCoLib:PMN280ENEAX U?
+U 1 1 65651C73
+P 9250 14000
+F 0 "U?" H 9250 14309 50  0000 C CNN
+F 1 "PMN280ENEAX" H 9250 14226 39  0000 C CNN
+F 2 "" H 9250 13950 50  0001 C CNN
+F 3 "" H 9250 13950 50  0001 C CNN
+	1    9250 14000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 14000 8950 14000
+Wire Wire Line
+	8950 14000 8950 13900
+Wire Wire Line
+	8950 13900 9000 13900
+Wire Wire Line
+	9500 14000 9550 14000
+Wire Wire Line
+	9550 14000 9550 13900
+Wire Wire Line
+	9550 13900 9500 13900
+Wire Wire Line
+	9550 13900 9550 13800
+Wire Wire Line
+	9550 13800 8950 13800
+Wire Wire Line
+	8950 13800 8950 13900
+Connection ~ 9550 13900
+Connection ~ 8950 13900
+Wire Wire Line
+	8450 13800 8950 13800
+Connection ~ 8950 13800
+$Comp
+L SciMoCoLib:PMN280ENEAX U?
+U 1 1 656CCAC6
+P 13350 13950
+F 0 "U?" H 13350 14259 50  0000 C CNN
+F 1 "PMN280ENEAX" H 13350 14176 39  0000 C CNN
+F 2 "" H 13350 13900 50  0001 C CNN
+F 3 "" H 13350 13900 50  0001 C CNN
+	1    13350 13950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13100 13950 13050 13950
+Wire Wire Line
+	13050 13950 13050 13850
+Wire Wire Line
+	13050 13850 13100 13850
+Wire Wire Line
+	13600 13950 13650 13950
+Wire Wire Line
+	13650 13950 13650 13850
+Wire Wire Line
+	13650 13850 13600 13850
+Wire Wire Line
+	13650 13850 13650 13750
+Wire Wire Line
+	13650 13750 13050 13750
+Wire Wire Line
+	13050 13750 13050 13850
+Connection ~ 13650 13850
+Connection ~ 13050 13850
+Wire Wire Line
+	12550 13750 13050 13750
+Connection ~ 13050 13750
+Wire Wire Line
+	13600 14050 13700 14050
+Wire Wire Line
+	9500 14100 9600 14100
+$Comp
+L power:+5V #PWR?
+U 1 1 6584F06E
+P 16000 12150
+F 0 "#PWR?" H 16000 12000 50  0001 C CNN
+F 1 "+5V" H 16000 12300 50  0000 C CNN
+F 2 "" H 16000 12150 50  0001 C CNN
+F 3 "" H 16000 12150 50  0001 C CNN
+	1    16000 12150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 658CD13F
+P 15850 12650
+F 0 "#PWR?" H 15850 12400 50  0001 C CNN
+F 1 "GND" H 15850 12500 39  0000 C CNN
+F 2 "" H 15850 12650 50  0001 C CNN
+F 3 "" H 15850 12650 50  0001 C CNN
+	1    15850 12650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6594B194
+P 16200 12700
+F 0 "R?" V 16300 12700 50  0000 C CNN
+F 1 "20k" V 16200 12700 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 16130 12700 50  0001 C CNN
+F 3 "~" H 16200 12700 50  0001 C CNN
+	1    16200 12700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 659C9323
+P 15850 12400
+F 0 "C?" H 15650 12450 50  0000 L CNN
+F 1 "10uF" H 15550 12350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 15888 12250 50  0001 C CNN
+F 3 "~" H 15850 12400 50  0001 C CNN
+	1    15850 12400
+	1    0    0    -1  
+$EndComp
+$Comp
+L SciMoCoLib:LTC6900 U?
+U 1 1 65A4B48D
+P 16800 12650
+F 0 "U?" H 16800 13025 50  0000 C CNN
+F 1 "LTC6900" H 16800 12934 50  0000 C CNN
+F 2 "" H 16800 12500 50  0001 C CNN
+F 3 "" H 16800 12500 50  0001 C CNN
+	1    16800 12650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16350 12700 16450 12700
+Wire Wire Line
+	15850 12600 15850 12550
+Wire Wire Line
+	15850 12650 15850 12600
+Connection ~ 15850 12600
+Wire Wire Line
+	15850 12600 16450 12600
+Wire Wire Line
+	16050 12700 16000 12700
+Wire Wire Line
+	16000 12700 16000 12200
+Wire Wire Line
+	16450 12500 16400 12500
+Wire Wire Line
+	16400 12500 16400 12200
+Wire Wire Line
+	16400 12200 16000 12200
+Connection ~ 16000 12200
+Wire Wire Line
+	16000 12200 15850 12200
+Wire Wire Line
+	15850 12200 15850 12250
+Wire Wire Line
+	16000 12150 16000 12200
+NoConn ~ 16450 12800
+Text GLabel 17250 12600 2    50   Input ~ 0
+Oscillator
+Wire Wire Line
+	17150 12600 17250 12600
+Text GLabel 3900 2700 0    50   Input ~ 0
+Oscillator
+Wire Wire Line
+	3900 2700 4200 2700
+Text GLabel 9800 2700 0    50   Input ~ 0
+Oscillator
+Wire Wire Line
+	9800 2700 10100 2700
+Text GLabel 15750 2700 0    50   Input ~ 0
+Oscillator
+Wire Wire Line
+	15750 2700 16050 2700
+Text GLabel 3900 6050 0    50   Input ~ 0
+Oscillator
+Wire Wire Line
+	3900 6050 4200 6050
+Text GLabel 9800 6050 0    50   Input ~ 0
+Oscillator
+Wire Wire Line
+	9800 6050 10100 6050
+Text GLabel 15750 6200 0    50   Input ~ 0
+Oscillator
+Wire Wire Line
+	15750 6200 16050 6200
+Wire Notes Line width 20 style solid
+	15450 9550 15450 15050
+Wire Notes Line width 20 style solid
+	2200 15050 15450 15050
+Wire Notes Line width 20 style solid
+	17950 13250 17950 11750
+Text Notes 16000 13500 0    157  ~ 0
+Clock Circuit
+Wire Notes Line width 20 style solid
+	2200 13250 17950 13250
 $EndSCHEMATC

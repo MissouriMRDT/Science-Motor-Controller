@@ -2,4 +2,5 @@
   (lib (name ScienceMocoLibrary)(type Legacy)(uri //minerfiles.mst.edu/dfs/users/jmg9wr/Documents/GitHub/ScienceMotorController_Hardware/Documentation/Libraries)(options "")(descr ""))
   (lib (name Mosfet)(type Legacy)(uri S:/ScienceMotorController_Hardware/Hardware/ScienceMotorController/Mosfet.lib)(options "")(descr ""))
   (lib (name ScienceMotorController-rescue)(type Legacy)(uri ${KIPRJMOD}/ScienceMotorController-rescue.lib)(options "")(descr ""))
+  (lib (name SciMoCoLib)(type Legacy)(uri ${SCIENCEMOTERCONTROLLERHARDWARE}/Documentation/SciMoCoLib.lib)(options "")(descr ""))
 )
