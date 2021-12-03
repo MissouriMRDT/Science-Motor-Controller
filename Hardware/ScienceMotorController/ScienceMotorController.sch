@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:ScienceMotorController-cache
+EELAYER 26 0
 EELAYER END
 $Descr C 22000 17000
 encoding utf-8
@@ -4551,7 +4552,7 @@ $EndComp
 Wire Wire Line
 	3600 10450 3600 10550
 $Comp
-L SciMoCoLib:PMN280ENEAX U8
+L ScienceMotorController-rescue:PMN280ENEAX-SciMoCoLib U8
 U 1 1 64F13429
 P 5100 14050
 F 0 "U8" H 5100 14359 50  0000 C CNN
@@ -4587,7 +4588,7 @@ Connection ~ 4800 13850
 Wire Wire Line
 	5350 14150 5450 14150
 $Comp
-L SciMoCoLib:PMN280ENEAX U15
+L ScienceMotorController-rescue:PMN280ENEAX-SciMoCoLib U15
 U 1 1 65651C73
 P 9250 14000
 F 0 "U15" H 9250 14309 50  0000 C CNN
@@ -4621,7 +4622,7 @@ Wire Wire Line
 	8450 13800 8950 13800
 Connection ~ 8950 13800
 $Comp
-L SciMoCoLib:PMN280ENEAX U16
+L ScienceMotorController-rescue:PMN280ENEAX-SciMoCoLib U16
 U 1 1 656CCAC6
 P 13350 13950
 F 0 "U16" H 13350 14259 50  0000 C CNN
@@ -4703,7 +4704,7 @@ F 3 "~" H 15850 12400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SciMoCoLib:LTC6900 U17
+L ScienceMotorController-rescue:LTC6900-SciMoCoLib U17
 U 1 1 65A4B48D
 P 16800 12650
 F 0 "U17" H 16800 13025 50  0000 C CNN
