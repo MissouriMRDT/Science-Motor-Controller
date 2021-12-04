@@ -223,7 +223,7 @@ F 3 "" H 5650 11400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8600 10700 8450 10700
+	9950 12400 10100 12400
 Wire Wire Line
 	10950 10500 10800 10500
 Wire Wire Line
@@ -246,17 +246,17 @@ F 3 "" H 7650 11050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8600 10500 8450 10500
+	9950 11900 10100 11900
 Wire Wire Line
-	8600 10600 8450 10600
-Wire Wire Line
-	10800 10100 10950 10100
+	9950 12000 10100 12000
 Wire Wire Line
 	10800 10200 10950 10200
 Wire Wire Line
-	9950 12500 10100 12500
+	10800 10100 10950 10100
 Wire Wire Line
 	9950 12600 10100 12600
+Wire Wire Line
+	9950 12500 10100 12500
 Wire Wire Line
 	9950 12700 10100 12700
 Wire Wire Line
@@ -361,12 +361,6 @@ Wire Notes Line width 20 style solid
 	6600 9550 6600 13250
 Text Notes 9200 10650 0    276  ~ 0
 TIVA
-Wire Wire Line
-	9950 12100 10100 12100
-Wire Wire Line
-	9950 12000 10100 12000
-Wire Wire Line
-	9950 11900 10100 11900
 $Comp
 L MRDT_Connectors:Molex_SL_03 AbsEncode2
 U 1 1 655831B5
@@ -3479,15 +3473,15 @@ Wire Notes Line width 8 style solid
 	17450 9400 17450 9050
 Wire Notes Line width 8 style solid
 	16200 9050 16200 9400
-Text GLabel 8600 10500 2    37   Input ~ 0
+Text GLabel 9950 11900 0    37   Input ~ 0
 InA1_1
-Text GLabel 8600 10600 2    37   Input ~ 0
+Text GLabel 9950 12000 0    37   Input ~ 0
 InA2_1
-Text GLabel 8600 10700 2    35   Input ~ 0
+Text GLabel 9950 12400 0    35   Input ~ 0
 PWMA_1
-Text GLabel 10800 10100 0    37   Input ~ 0
-InA1_2
 Text GLabel 10800 10200 0    37   Input ~ 0
+InA1_2
+Text GLabel 10800 10100 0    37   Input ~ 0
 InA2_2
 Text GLabel 10800 10500 0    35   Input ~ 0
 PWMA_2
@@ -4131,15 +4125,15 @@ Wire Notes Line width 20 style solid
 	2200 1850 2200 15050
 Text Notes 6350 15800 0    394  ~ 0
 Solenoid Valves
-Text GLabel 8650 12700 2    35   Input ~ 0
+Text GLabel 7250 12300 0    35   Input ~ 0
 Encoder_PWM_4
-Text GLabel 8650 12800 2    35   Input ~ 0
+Text GLabel 7250 12000 0    35   Input ~ 0
 Encoder_PWM_5
 Wire Wire Line
 	7450 12000 7250 12000
 Wire Wire Line
 	7450 12300 7250 12300
-NoConn ~ 10100 12400
+NoConn ~ 8450 10700
 NoConn ~ 7450 12500
 Text GLabel 7300 12600 0    35   Input ~ 0
 Solenoid_Valve_1
@@ -4743,24 +4737,24 @@ $EndComp
 NoConn ~ 8450 10300
 NoConn ~ 8450 10400
 Wire Wire Line
-	10800 10800 10950 10800
-Wire Wire Line
 	10800 10700 10950 10700
 Wire Wire Line
-	10800 10400 10950 10400
+	10800 10800 10950 10800
 Wire Wire Line
 	10800 10300 10950 10300
-Text GLabel 10800 10800 0    37   Input ~ 0
-InA2_4
+Wire Wire Line
+	10800 10400 10950 10400
 Text GLabel 10800 10700 0    37   Input ~ 0
+InA2_4
+Text GLabel 10800 10800 0    37   Input ~ 0
 InA1_4
-Text GLabel 10800 10400 0    37   Input ~ 0
-InA2_3
 Text GLabel 10800 10300 0    37   Input ~ 0
+InA2_3
+Text GLabel 10800 10400 0    37   Input ~ 0
 InA1_3
-Text GLabel 9950 12500 0    37   Input ~ 0
-InA1_5
 Text GLabel 9950 12600 0    37   Input ~ 0
+InA1_5
+Text GLabel 9950 12500 0    37   Input ~ 0
 InA2_5
 Text GLabel 9950 12700 0    37   Input ~ 0
 InA1_6
@@ -5088,9 +5082,9 @@ Wire Wire Line
 	7450 10800 7300 10800
 Text GLabel 7250 12400 0    35   Input ~ 0
 Encoder_PWM_3
-Text GLabel 7250 12300 0    35   Input ~ 0
+Text GLabel 8650 12700 2    35   Input ~ 0
 Encoder_PWM_2
-Text GLabel 7250 12000 0    35   Input ~ 0
+Text GLabel 8650 12800 2    35   Input ~ 0
 Encoder_PWM_1
 Wire Wire Line
 	8650 12800 8450 12800
@@ -5099,7 +5093,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 12700 8450 12700
 NoConn ~ 7450 12100
-NoConn ~ 9950 11900
-NoConn ~ 9950 12000
-NoConn ~ 9950 12100
+NoConn ~ 8450 10500
+NoConn ~ 8450 10600
+NoConn ~ 10100 12100
 $EndSCHEMATC
