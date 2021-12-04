@@ -371,10 +371,10 @@ Wire Wire Line
 Wire Wire Line
 	11100 11900 11550 11900
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn14
+L MRDT_Connectors:Molex_SL_03 AbsEncode1
 U 1 1 64D7FBFC
 P 16900 10150
-F 0 "Conn14" H 17027 10358 60  0000 L CNN
+F 0 "AbsEncode1" H 17027 10358 60  0000 L CNN
 F 1 "Molex_SL_03" H 17027 10252 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 16900 10150 60  0001 C CNN
 F 3 "" H 16900 10150 60  0001 C CNN
@@ -402,10 +402,10 @@ Wire Wire Line
 Wire Wire Line
 	9950 11900 10100 11900
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn15
+L MRDT_Connectors:Molex_SL_03 AbsEncode2
 U 1 1 655831B5
 P 16900 10800
-F 0 "Conn15" H 17027 11008 60  0000 L CNN
+F 0 "AbsEncode2" H 17027 11008 60  0000 L CNN
 F 1 "Molex_SL_03" H 17027 10902 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 16900 10800 60  0001 C CNN
 F 3 "" H 16900 10800 60  0001 C CNN
@@ -413,10 +413,10 @@ F 3 "" H 16900 10800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn16
+L MRDT_Connectors:Molex_SL_03 AbsEncode3
 U 1 1 655EA6BC
 P 16900 11450
-F 0 "Conn16" H 17027 11658 60  0000 L CNN
+F 0 "AbsEncode3" H 17027 11658 60  0000 L CNN
 F 1 "Molex_SL_03" H 17027 11552 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 16900 11450 60  0001 C CNN
 F 3 "" H 16900 11450 60  0001 C CNN
@@ -600,10 +600,10 @@ $EndComp
 Wire Wire Line
 	11100 12400 11300 12400
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn19
+L MRDT_Connectors:Molex_SL_02 LimSwitch1
 U 1 1 66E6B4BD
 P 14350 10000
-F 0 "Conn19" H 14477 10158 60  0000 L CNN
+F 0 "LimSwitch1" H 14477 10158 60  0000 L CNN
 F 1 "Molex_SL_02" H 14477 10052 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 14350 9900 60  0001 C CNN
 F 3 "" H 14350 9900 60  0001 C CNN
@@ -672,10 +672,10 @@ Wire Wire Line
 	13950 9950 14100 9950
 Connection ~ 14100 9950
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn20
+L MRDT_Connectors:Molex_SL_02 LimSwitch2
 U 1 1 6717C8FC
 P 14350 10850
-F 0 "Conn20" H 14477 11008 60  0000 L CNN
+F 0 "LimSwitch2" H 14477 11008 60  0000 L CNN
 F 1 "Molex_SL_02" H 14477 10902 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 14350 10750 60  0001 C CNN
 F 3 "" H 14350 10750 60  0001 C CNN
@@ -928,10 +928,10 @@ F 3 "~" H 3800 12700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn9
+L MRDT_Connectors:Molex_SL_03 Servo1
 U 1 1 63690AD9
 P 13950 12400
-F 0 "Conn9" H 14077 12608 60  0000 L CNN
+F 0 "Servo1" H 14077 12608 60  0000 L CNN
 F 1 "Molex_SL_03" H 14077 12502 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 13950 12400 60  0001 C CNN
 F 3 "" H 13950 12400 60  0001 C CNN
@@ -939,10 +939,10 @@ F 3 "" H 13950 12400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn10
+L MRDT_Connectors:Molex_SL_03 Servo2
 U 1 1 63690AE0
 P 13950 13050
-F 0 "Conn10" H 14077 13258 60  0000 L CNN
+F 0 "Servo2" H 14077 13258 60  0000 L CNN
 F 1 "Molex_SL_03" H 14077 13152 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 13950 13050 60  0001 C CNN
 F 3 "" H 13950 13050 60  0001 C CNN
@@ -1042,10 +1042,10 @@ Blue\n
 Text Notes 11950 12450 0    28   ~ 0
 Blue\n
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn17
+L MRDT_Connectors:Molex_SL_03 AbsEncode4
 U 1 1 61DF14A8
 P 18650 10150
-F 0 "Conn17" H 18777 10358 60  0000 L CNN
+F 0 "AbsEncode4" H 18777 10358 60  0000 L CNN
 F 1 "Molex_SL_03" H 18777 10252 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 18650 10150 60  0001 C CNN
 F 3 "" H 18650 10150 60  0001 C CNN
@@ -1053,10 +1053,10 @@ F 3 "" H 18650 10150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn18
+L MRDT_Connectors:Molex_SL_03 AbsEncode5
 U 1 1 61DF14AF
 P 18700 10800
-F 0 "Conn18" H 18827 11008 60  0000 L CNN
+F 0 "AbsEncode5" H 18827 11008 60  0000 L CNN
 F 1 "Molex_SL_03" H 18827 10902 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 18700 10800 60  0001 C CNN
 F 3 "" H 18700 10800 60  0001 C CNN
@@ -1317,7 +1317,7 @@ U 1 1 6375D33F
 P 6800 4600
 F 0 "Conn1" H 6772 4753 60  0000 R CNN
 F 1 "Motor_5" H 6772 4647 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 6650 4050 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 6650 4050 60  0001 C CNN
 F 3 "" H 6650 4050 60  0001 C CNN
 	1    6800 4600
 	-1   0    0    -1  
@@ -1411,7 +1411,7 @@ U 2 1 6375D375
 P 3100 4400
 F 0 "Conn1" H 3072 4447 60  0000 R CNN
 F 1 "Motor_5" H 3072 4553 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 2950 3850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2950 3850 60  0001 C CNN
 F 3 "" H 2950 3850 60  0001 C CNN
 	2    3100 4400
 	1    0    0    1   
@@ -1701,7 +1701,7 @@ U 1 1 637F4CB2
 P 6800 7950
 F 0 "Conn4" H 6772 8103 60  0000 R CNN
 F 1 "Motor_5" H 6772 7997 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 6650 7400 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 6650 7400 60  0001 C CNN
 F 3 "" H 6650 7400 60  0001 C CNN
 	1    6800 7950
 	-1   0    0    -1  
@@ -1795,7 +1795,7 @@ U 2 1 637F4CE8
 P 3100 7750
 F 0 "Conn4" H 3072 7797 60  0000 R CNN
 F 1 "Motor_5" H 3072 7903 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 2950 7200 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2950 7200 60  0001 C CNN
 F 3 "" H 2950 7200 60  0001 C CNN
 	2    3100 7750
 	1    0    0    1   
@@ -2085,7 +2085,7 @@ U 1 1 6395B150
 P 12700 4600
 F 0 "Conn2" H 12672 4753 60  0000 R CNN
 F 1 "Motor_5" H 12672 4647 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 12550 4050 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 12550 4050 60  0001 C CNN
 F 3 "" H 12550 4050 60  0001 C CNN
 	1    12700 4600
 	-1   0    0    -1  
@@ -2179,7 +2179,7 @@ U 2 1 6395B186
 P 9000 4400
 F 0 "Conn2" H 8972 4447 60  0000 R CNN
 F 1 "Motor_5" H 8972 4553 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 8850 3850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 8850 3850 60  0001 C CNN
 F 3 "" H 8850 3850 60  0001 C CNN
 	2    9000 4400
 	1    0    0    1   
@@ -2469,7 +2469,7 @@ U 1 1 6395B231
 P 12700 7950
 F 0 "Conn5" H 12672 8103 60  0000 R CNN
 F 1 "Motor_5" H 12672 7997 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 12550 7400 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 12550 7400 60  0001 C CNN
 F 3 "" H 12550 7400 60  0001 C CNN
 	1    12700 7950
 	-1   0    0    -1  
@@ -2563,7 +2563,7 @@ U 2 1 6395B267
 P 9000 7750
 F 0 "Conn5" H 8972 7797 60  0000 R CNN
 F 1 "Motor_5" H 8972 7903 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 8850 7200 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 8850 7200 60  0001 C CNN
 F 3 "" H 8850 7200 60  0001 C CNN
 	2    9000 7750
 	1    0    0    1   
@@ -2853,7 +2853,7 @@ U 1 1 639AA288
 P 18650 4600
 F 0 "Conn3" H 18622 4753 60  0000 R CNN
 F 1 "Motor_5" H 18622 4647 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 18500 4050 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 18500 4050 60  0001 C CNN
 F 3 "" H 18500 4050 60  0001 C CNN
 	1    18650 4600
 	-1   0    0    -1  
@@ -2947,7 +2947,7 @@ U 2 1 639AA2BE
 P 14950 4400
 F 0 "Conn3" H 14922 4447 60  0000 R CNN
 F 1 "Motor_5" H 14922 4553 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 14800 3850 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 14800 3850 60  0001 C CNN
 F 3 "" H 14800 3850 60  0001 C CNN
 	2    14950 4400
 	1    0    0    1   
@@ -3237,7 +3237,7 @@ U 1 1 639AA369
 P 18650 8100
 F 0 "Conn6" H 18622 8253 60  0000 R CNN
 F 1 "Motor_5" H 18622 8147 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 18500 7550 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 18500 7550 60  0001 C CNN
 F 3 "" H 18500 7550 60  0001 C CNN
 	1    18650 8100
 	-1   0    0    -1  
@@ -3331,7 +3331,7 @@ U 2 1 639AA39F
 P 14950 7900
 F 0 "Conn6" H 14922 7947 60  0000 R CNN
 F 1 "Motor_5" H 14922 8053 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Stacked" H 14800 7350 60  0001 C CNN
+F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 14800 7350 60  0001 C CNN
 F 3 "" H 14800 7350 60  0001 C CNN
 	2    14950 7900
 	1    0    0    1   
@@ -3568,10 +3568,10 @@ PWMA_6
 Text Notes 13900 16750 0    39   ~ 0
 Does this need analogWrite() or can\nit just be connected to a "green" pin?
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn11
+L MRDT_Connectors:Molex_SL_02 SolValve1
 U 1 1 69094A05
 P 5750 14300
-F 0 "Conn11" H 5877 14458 60  0000 L CNN
+F 0 "SolValve1" H 5877 14458 60  0000 L CNN
 F 1 "Molex_SL_02" H 5877 14352 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 5750 14200 60  0001 C CNN
 F 3 "" H 5750 14200 60  0001 C CNN
@@ -3778,10 +3778,10 @@ Wire Wire Line
 Wire Wire Line
 	4600 14750 4600 14800
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn12
+L MRDT_Connectors:Molex_SL_02 SolValve2
 U 1 1 6975F8A5
 P 9900 14250
-F 0 "Conn12" H 10027 14408 60  0000 L CNN
+F 0 "SolValve2" H 10027 14408 60  0000 L CNN
 F 1 "Molex_SL_02" H 10027 14302 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 9900 14150 60  0001 C CNN
 F 3 "" H 9900 14150 60  0001 C CNN
@@ -3988,10 +3988,10 @@ Wire Wire Line
 Wire Wire Line
 	8750 14700 8750 14750
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn13
+L MRDT_Connectors:Molex_SL_02 SolValve3
 U 1 1 697E6C27
 P 14000 14200
-F 0 "Conn13" H 14127 14358 60  0000 L CNN
+F 0 "SolValve3" H 14127 14358 60  0000 L CNN
 F 1 "Molex_SL_02" H 14127 14252 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 14000 14100 60  0001 C CNN
 F 3 "" H 14000 14100 60  0001 C CNN
@@ -4551,7 +4551,7 @@ $EndComp
 Wire Wire Line
 	3600 10450 3600 10550
 $Comp
-L SciMoCoLib:PMN280ENEAX U8
+L ScienceMotorController-rescue:PMN280ENEAX-SciMoCoLib U8
 U 1 1 64F13429
 P 5100 14050
 F 0 "U8" H 5100 14359 50  0000 C CNN
@@ -4587,7 +4587,7 @@ Connection ~ 4800 13850
 Wire Wire Line
 	5350 14150 5450 14150
 $Comp
-L SciMoCoLib:PMN280ENEAX U15
+L ScienceMotorController-rescue:PMN280ENEAX-SciMoCoLib U15
 U 1 1 65651C73
 P 9250 14000
 F 0 "U15" H 9250 14309 50  0000 C CNN
@@ -4621,7 +4621,7 @@ Wire Wire Line
 	8450 13800 8950 13800
 Connection ~ 8950 13800
 $Comp
-L SciMoCoLib:PMN280ENEAX U16
+L ScienceMotorController-rescue:PMN280ENEAX-SciMoCoLib U16
 U 1 1 656CCAC6
 P 13350 13950
 F 0 "U16" H 13350 14259 50  0000 C CNN
@@ -4703,7 +4703,7 @@ F 3 "~" H 15850 12400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SciMoCoLib:LTC6900 U17
+L ScienceMotorController-rescue:LTC6900-SciMoCoLib U17
 U 1 1 65A4B48D
 P 16800 12650
 F 0 "U17" H 16800 13025 50  0000 C CNN

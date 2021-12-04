@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:ScienceMotorController-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr C 22000 17000
 encoding utf-8
@@ -372,10 +371,10 @@ Wire Wire Line
 Wire Wire Line
 	11100 11900 11550 11900
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn14
+L MRDT_Connectors:Molex_SL_03 AbsEncode1
 U 1 1 64D7FBFC
 P 16900 10150
-F 0 "Conn14" H 17027 10358 60  0000 L CNN
+F 0 "AbsEncode1" H 17027 10358 60  0000 L CNN
 F 1 "Molex_SL_03" H 17027 10252 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 16900 10150 60  0001 C CNN
 F 3 "" H 16900 10150 60  0001 C CNN
@@ -403,10 +402,10 @@ Wire Wire Line
 Wire Wire Line
 	9950 11900 10100 11900
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn15
+L MRDT_Connectors:Molex_SL_03 AbsEncode2
 U 1 1 655831B5
 P 16900 10800
-F 0 "Conn15" H 17027 11008 60  0000 L CNN
+F 0 "AbsEncode2" H 17027 11008 60  0000 L CNN
 F 1 "Molex_SL_03" H 17027 10902 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 16900 10800 60  0001 C CNN
 F 3 "" H 16900 10800 60  0001 C CNN
@@ -414,10 +413,10 @@ F 3 "" H 16900 10800 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn16
+L MRDT_Connectors:Molex_SL_03 AbsEncode3
 U 1 1 655EA6BC
 P 16900 11450
-F 0 "Conn16" H 17027 11658 60  0000 L CNN
+F 0 "AbsEncode3" H 17027 11658 60  0000 L CNN
 F 1 "Molex_SL_03" H 17027 11552 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 16900 11450 60  0001 C CNN
 F 3 "" H 16900 11450 60  0001 C CNN
@@ -601,10 +600,10 @@ $EndComp
 Wire Wire Line
 	11100 12400 11300 12400
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn19
+L MRDT_Connectors:Molex_SL_02 LimSwitch1
 U 1 1 66E6B4BD
 P 14350 10000
-F 0 "Conn19" H 14477 10158 60  0000 L CNN
+F 0 "LimSwitch1" H 14477 10158 60  0000 L CNN
 F 1 "Molex_SL_02" H 14477 10052 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 14350 9900 60  0001 C CNN
 F 3 "" H 14350 9900 60  0001 C CNN
@@ -673,10 +672,10 @@ Wire Wire Line
 	13950 9950 14100 9950
 Connection ~ 14100 9950
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn20
+L MRDT_Connectors:Molex_SL_02 LimSwitch2
 U 1 1 6717C8FC
 P 14350 10850
-F 0 "Conn20" H 14477 11008 60  0000 L CNN
+F 0 "LimSwitch2" H 14477 11008 60  0000 L CNN
 F 1 "Molex_SL_02" H 14477 10902 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 14350 10750 60  0001 C CNN
 F 3 "" H 14350 10750 60  0001 C CNN
@@ -929,10 +928,10 @@ F 3 "~" H 3800 12700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn9
+L MRDT_Connectors:Molex_SL_03 Servo1
 U 1 1 63690AD9
 P 13950 12400
-F 0 "Conn9" H 14077 12608 60  0000 L CNN
+F 0 "Servo1" H 14077 12608 60  0000 L CNN
 F 1 "Molex_SL_03" H 14077 12502 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 13950 12400 60  0001 C CNN
 F 3 "" H 13950 12400 60  0001 C CNN
@@ -940,10 +939,10 @@ F 3 "" H 13950 12400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn10
+L MRDT_Connectors:Molex_SL_03 Servo2
 U 1 1 63690AE0
 P 13950 13050
-F 0 "Conn10" H 14077 13258 60  0000 L CNN
+F 0 "Servo2" H 14077 13258 60  0000 L CNN
 F 1 "Molex_SL_03" H 14077 13152 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 13950 13050 60  0001 C CNN
 F 3 "" H 13950 13050 60  0001 C CNN
@@ -1043,10 +1042,10 @@ Blue\n
 Text Notes 11950 12450 0    28   ~ 0
 Blue\n
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn17
+L MRDT_Connectors:Molex_SL_03 AbsEncode4
 U 1 1 61DF14A8
 P 18650 10150
-F 0 "Conn17" H 18777 10358 60  0000 L CNN
+F 0 "AbsEncode4" H 18777 10358 60  0000 L CNN
 F 1 "Molex_SL_03" H 18777 10252 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 18650 10150 60  0001 C CNN
 F 3 "" H 18650 10150 60  0001 C CNN
@@ -1054,10 +1053,10 @@ F 3 "" H 18650 10150 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn18
+L MRDT_Connectors:Molex_SL_03 AbsEncode5
 U 1 1 61DF14AF
 P 18700 10800
-F 0 "Conn18" H 18827 11008 60  0000 L CNN
+F 0 "AbsEncode5" H 18827 11008 60  0000 L CNN
 F 1 "Molex_SL_03" H 18827 10902 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_03_Vertical" H 18700 10800 60  0001 C CNN
 F 3 "" H 18700 10800 60  0001 C CNN
@@ -3490,12 +3489,12 @@ Wire Notes Line width 8 style solid
 	11500 2000 10300 2000
 Wire Notes Line width 8 style solid
 	10300 2000 10300 2350
-Text Notes 16500 2300 0    197  ~ 0
-Drill\n
+Text Notes 16450 2300 0    197  ~ 0
+Z-AXIS
 Wire Notes Line width 8 style solid
 	16450 2350 17200 2350
 Wire Notes Line width 8 style solid
-	17200 2350 17200 2000
+	17600 2350 17600 2000
 Wire Notes Line width 8 style solid
 	17200 2000 16450 2000
 Wire Notes Line width 8 style solid
@@ -3520,14 +3519,10 @@ Wire Notes Line width 8 style solid
 	11500 9050 10250 9050
 Wire Notes Line width 8 style solid
 	10250 9050 10250 9400
-Text Notes 16500 9450 0    157  ~ 0
-Spare
+Text Notes 16450 9450 0    197  ~ 0
+Pump 3
 Wire Notes Line width 8 style solid
-	16450 9500 17200 9500
-Wire Notes Line width 8 style solid
-	17200 9500 17200 9200
-Wire Notes Line width 8 style solid
-	17200 9200 16450 9200
+	17700 9500 17700 9200
 Wire Notes Line width 8 style solid
 	16450 9200 16450 9500
 Text GLabel 7300 10300 0    37   Input ~ 0
@@ -3569,10 +3564,10 @@ PWMA_6
 Text Notes 13900 16750 0    39   ~ 0
 Does this need analogWrite() or can\nit just be connected to a "green" pin?
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn11
+L MRDT_Connectors:Molex_SL_02 SolValve1
 U 1 1 69094A05
 P 5750 14300
-F 0 "Conn11" H 5877 14458 60  0000 L CNN
+F 0 "SolValve1" H 5877 14458 60  0000 L CNN
 F 1 "Molex_SL_02" H 5877 14352 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 5750 14200 60  0001 C CNN
 F 3 "" H 5750 14200 60  0001 C CNN
@@ -3779,10 +3774,10 @@ Wire Wire Line
 Wire Wire Line
 	4600 14750 4600 14800
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn12
+L MRDT_Connectors:Molex_SL_02 SolValve2
 U 1 1 6975F8A5
 P 9900 14250
-F 0 "Conn12" H 10027 14408 60  0000 L CNN
+F 0 "SolValve2" H 10027 14408 60  0000 L CNN
 F 1 "Molex_SL_02" H 10027 14302 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 9900 14150 60  0001 C CNN
 F 3 "" H 9900 14150 60  0001 C CNN
@@ -3989,10 +3984,10 @@ Wire Wire Line
 Wire Wire Line
 	8750 14700 8750 14750
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn13
+L MRDT_Connectors:Molex_SL_02 SolValve3
 U 1 1 697E6C27
 P 14000 14200
-F 0 "Conn13" H 14127 14358 60  0000 L CNN
+F 0 "SolValve3" H 14127 14358 60  0000 L CNN
 F 1 "Molex_SL_02" H 14127 14252 60  0000 L CNN
 F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 14000 14100 60  0001 C CNN
 F 3 "" H 14000 14100 60  0001 C CNN
@@ -4790,4 +4785,14 @@ F 3 "" H 2550 11250 60  0001 C CNN
 	3    2700 11800
 	1    0    0    -1  
 $EndComp
+Text Notes 20050 10650 0    157  ~ 0
+2 are spares
+Wire Notes Line width 8 style solid
+	16450 9500 17700 9500
+Wire Notes Line width 8 style solid
+	16450 9200 17700 9200
+Wire Notes Line width 8 style solid
+	17200 2000 17600 2000
+Wire Notes Line width 8 style solid
+	17600 2350 17200 2350
 $EndSCHEMATC
