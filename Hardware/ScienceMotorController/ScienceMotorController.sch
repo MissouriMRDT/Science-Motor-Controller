@@ -90,29 +90,21 @@ F 3 "" H 10900 12850 60  0001 C CNN
 	8    10900 12850
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 10950 10500
-NoConn ~ 10950 10600
+NoConn ~ 8450 11000
+NoConn ~ 8450 10900
 NoConn ~ 11950 10200
 NoConn ~ 11950 10300
 NoConn ~ 11950 10400
 NoConn ~ 11950 10500
-NoConn ~ 11950 10600
+NoConn ~ 8450 10800
 NoConn ~ 11950 10700
 NoConn ~ 11950 10800
 Wire Wire Line
 	11950 10100 12200 10100
 Wire Wire Line
 	12200 10100 12200 10150
-NoConn ~ 8450 10300
-NoConn ~ 8450 10400
-NoConn ~ 8450 10500
-NoConn ~ 8450 10600
 Wire Notes Line width 20 style solid
 	20000 1850 2200 1850
-Wire Wire Line
-	8450 10200 8700 10200
-Wire Wire Line
-	8700 10200 8700 10250
 NoConn ~ 8450 10100
 NoConn ~ 7450 12200
 NoConn ~ 8450 11900
@@ -234,11 +226,11 @@ $EndComp
 Wire Wire Line
 	8600 10700 8450 10700
 Wire Wire Line
-	8450 10800 8600 10800
+	10950 10500 10800 10500
 Wire Wire Line
-	8450 10900 8600 10900
+	10950 10600 10800 10600
 Wire Wire Line
-	8450 11000 8600 11000
+	11950 10600 12100 10600
 Wire Wire Line
 	9950 12200 10100 12200
 Wire Wire Line
@@ -255,40 +247,21 @@ F 3 "" H 7650 11050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7300 10300 7450 10300
+	8600 10500 8450 10500
 Wire Wire Line
-	7300 10400 7450 10400
-Wire Wire Line
-	7300 10500 7450 10500
-Wire Wire Line
-	7300 10600 7450 10600
+	8600 10600 8450 10600
 Wire Wire Line
 	10800 10100 10950 10100
 Wire Wire Line
 	10800 10200 10950 10200
 Wire Wire Line
-	10800 10300 10950 10300
+	9950 12500 10100 12500
 Wire Wire Line
-	10800 10400 10950 10400
+	9950 12600 10100 12600
 Wire Wire Line
-	7300 12500 7450 12500
+	9950 12700 10100 12700
 Wire Wire Line
-	7300 12600 7450 12600
-Wire Wire Line
-	7300 12700 7450 12700
-Wire Wire Line
-	7300 12800 7450 12800
-$Comp
-L power:GND #PWR0166
-U 1 1 640E2EC7
-P 8700 10250
-F 0 "#PWR0166" H 8700 10000 50  0001 C CNN
-F 1 "GND" H 8700 10100 39  0000 C CNN
-F 2 "" H 8700 10250 50  0001 C CNN
-F 3 "" H 8700 10250 50  0001 C CNN
-	1    8700 10250
-	1    0    0    -1  
-$EndComp
+	9950 12800 10100 12800
 $Comp
 L power:GND #PWR0167
 U 1 1 64149BEB
@@ -745,19 +718,17 @@ Wire Wire Line
 Connection ~ 14100 10800
 Text Notes 13000 11650 0    197  ~ 0
 Limit Switches
-Text GLabel 10800 10700 0    35   Input ~ 0
+Text GLabel 7300 10200 0    35   Input ~ 0
 Limit_Switch_1
 Wire Wire Line
-	10800 10700 10950 10700
-Text GLabel 10800 10800 0    35   Input ~ 0
+	7300 10200 7450 10200
+Text GLabel 7300 10300 0    35   Input ~ 0
 Limit_Switch_2
 Wire Wire Line
-	10800 10800 10950 10800
+	7300 10300 7450 10300
 Wire Notes Line width 20 style solid
 	20000 1850 20000 11750
-NoConn ~ 7450 10200
 NoConn ~ 7450 10700
-NoConn ~ 7450 10800
 Wire Wire Line
 	7300 10100 7450 10100
 $Comp
@@ -3492,11 +3463,7 @@ Wire Notes Line width 8 style solid
 Text Notes 16450 2300 0    197  ~ 0
 Z-AXIS
 Wire Notes Line width 8 style solid
-	16450 2350 17200 2350
-Wire Notes Line width 8 style solid
 	17600 2350 17600 2000
-Wire Notes Line width 8 style solid
-	17200 2000 16450 2000
 Wire Notes Line width 8 style solid
 	16450 2000 16450 2350
 Text Notes 4450 9350 0    197  ~ 0
@@ -3525,42 +3492,22 @@ Wire Notes Line width 8 style solid
 	17700 9500 17700 9200
 Wire Notes Line width 8 style solid
 	16450 9200 16450 9500
-Text GLabel 7300 10300 0    37   Input ~ 0
+Text GLabel 8600 10500 2    37   Input ~ 0
 InA1_1
-Text GLabel 7300 10400 0    37   Input ~ 0
+Text GLabel 8600 10600 2    37   Input ~ 0
 InA2_1
 Text GLabel 8600 10700 2    35   Input ~ 0
 PWMA_1
-Text GLabel 7300 10500 0    37   Input ~ 0
-InA1_2
-Text GLabel 7300 10600 0    37   Input ~ 0
-InA2_2
-Text GLabel 8600 10800 2    35   Input ~ 0
-PWMA_2
 Text GLabel 10800 10100 0    37   Input ~ 0
-InA1_3
+InA1_2
 Text GLabel 10800 10200 0    37   Input ~ 0
-InA2_3
-Text GLabel 8600 10900 2    35   Input ~ 0
+InA2_2
+Text GLabel 10800 10500 0    35   Input ~ 0
+PWMA_2
+Text GLabel 10800 10600 0    35   Input ~ 0
 PWMA_3
-Text GLabel 10800 10300 0    37   Input ~ 0
-InA1_4
-Text GLabel 10800 10400 0    37   Input ~ 0
-InA2_4
-Text GLabel 8600 11000 2    35   Input ~ 0
+Text GLabel 12100 10600 2    35   Input ~ 0
 PWMA_4
-Text GLabel 7300 12500 0    37   Input ~ 0
-InA1_5
-Text GLabel 7300 12600 0    37   Input ~ 0
-InA2_5
-Text GLabel 9950 12200 0    35   Input ~ 0
-PWMA_5
-Text GLabel 7300 12700 0    37   Input ~ 0
-InA1_6
-Text GLabel 7300 12800 0    37   Input ~ 0
-InA2_6
-Text GLabel 9950 12300 0    35   Input ~ 0
-PWMA_6
 Text Notes 13900 16750 0    39   ~ 0
 Does this need analogWrite() or can\nit just be connected to a "green" pin?
 $Comp
@@ -4206,19 +4153,19 @@ Wire Wire Line
 Wire Wire Line
 	7450 12100 7250 12100
 NoConn ~ 10100 12400
-NoConn ~ 10100 12500
-Text GLabel 9950 12600 0    35   Input ~ 0
+NoConn ~ 7450 12500
+Text GLabel 7300 12600 0    35   Input ~ 0
 Solenoid_Valve_1
-Text GLabel 9950 12700 0    35   Input ~ 0
+Text GLabel 7300 12700 0    35   Input ~ 0
 Solenoid_Valve_2
-Text GLabel 9950 12800 0    35   Input ~ 0
+Text GLabel 7300 12800 0    35   Input ~ 0
 Solenoid_Valve_3
 Wire Wire Line
-	9950 12600 10100 12600
+	7300 12600 7450 12600
 Wire Wire Line
-	9950 12700 10100 12700
+	7300 12700 7450 12700
 Wire Wire Line
-	10100 12800 9950 12800
+	7450 12800 7300 12800
 NoConn ~ 11100 12800
 NoConn ~ 10950 11000
 NoConn ~ 10950 10900
@@ -4791,8 +4738,365 @@ Wire Notes Line width 8 style solid
 	16450 9500 17700 9500
 Wire Notes Line width 8 style solid
 	16450 9200 17700 9200
+Wire Wire Line
+	8450 10200 8700 10200
+Wire Wire Line
+	8700 10200 8700 10250
+$Comp
+L power:GND #PWR0166
+U 1 1 640E2EC7
+P 8700 10250
+F 0 "#PWR0166" H 8700 10000 50  0001 C CNN
+F 1 "GND" H 8700 10100 39  0000 C CNN
+F 2 "" H 8700 10250 50  0001 C CNN
+F 3 "" H 8700 10250 50  0001 C CNN
+	1    8700 10250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8450 10300
+NoConn ~ 8450 10400
+Wire Wire Line
+	10800 10800 10950 10800
+Wire Wire Line
+	10800 10700 10950 10700
+Wire Wire Line
+	10800 10400 10950 10400
+Wire Wire Line
+	10800 10300 10950 10300
+Text GLabel 10800 10800 0    37   Input ~ 0
+InA2_4
+Text GLabel 10800 10700 0    37   Input ~ 0
+InA1_4
+Text GLabel 10800 10400 0    37   Input ~ 0
+InA2_3
+Text GLabel 10800 10300 0    37   Input ~ 0
+InA1_3
+Text GLabel 9950 12500 0    37   Input ~ 0
+InA1_5
+Text GLabel 9950 12600 0    37   Input ~ 0
+InA2_5
+Text GLabel 9950 12700 0    37   Input ~ 0
+InA1_6
+Text GLabel 9950 12800 0    37   Input ~ 0
+InA2_6
 Wire Notes Line width 8 style solid
-	17200 2000 17600 2000
+	16450 2350 17600 2350
 Wire Notes Line width 8 style solid
-	17600 2350 17200 2350
+	16450 2000 17600 2000
+Text GLabel 9950 12300 0    35   Input ~ 0
+PWMA_6
+Text GLabel 9950 12200 0    35   Input ~ 0
+PWMA_5
+$Comp
+L MRDT_Connectors:Molex_SL_02 LimSwitch3
+U 1 1 632C14B7
+P 19950 12500
+F 0 "LimSwitch3" H 20077 12658 60  0000 L CNN
+F 1 "Molex_SL_02" H 20077 12552 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 19950 12400 60  0001 C CNN
+F 3 "" H 19950 12400 60  0001 C CNN
+	1    19950 12500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 632C14BD
+P 19600 12350
+F 0 "#PWR?" H 19600 12200 50  0001 C CNN
+F 1 "+3.3V" V 19600 12450 35  0000 L CNN
+F 2 "" H 19600 12350 50  0001 C CNN
+F 3 "" H 19600 12350 50  0001 C CNN
+	1    19600 12350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19600 12350 19750 12350
+$Comp
+L Device:R R?
+U 1 1 632C14C4
+P 19350 12750
+F 0 "R?" V 19250 12750 50  0000 C CNN
+F 1 "43" V 19350 12750 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 19280 12750 50  0001 C CNN
+F 3 "~" H 19350 12750 50  0001 C CNN
+	1    19350 12750
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 632C14CA
+P 18900 12750
+F 0 "D?" H 18800 12700 39  0000 C CNN
+F 1 "LED" H 19000 12700 35  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18900 12750 50  0001 C CNN
+F 3 "~" V 18900 12750 50  0001 C CNN
+	1    18900 12750
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	18800 12750 18550 12750
+Wire Wire Line
+	19000 12750 19200 12750
+$Comp
+L power:GND #PWR?
+U 1 1 632C14D2
+P 18550 12750
+F 0 "#PWR?" H 18550 12500 50  0001 C CNN
+F 1 "GND" H 18550 12600 39  0000 C CNN
+F 2 "" H 18550 12750 50  0001 C CNN
+F 3 "" H 18550 12750 50  0001 C CNN
+	1    18550 12750
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	19700 12750 19500 12750
+Wire Wire Line
+	19750 12450 19700 12450
+Wire Wire Line
+	19700 12450 19700 12750
+Text GLabel 19550 12450 0    35   Input ~ 0
+Limit_Switch_3
+Wire Wire Line
+	19550 12450 19700 12450
+Connection ~ 19700 12450
+Text Notes 18950 12650 0    28   ~ 0
+Blue\n
+$Comp
+L MRDT_Connectors:Molex_SL_02 LimSwitch4
+U 1 1 6334ADA8
+P 19950 13200
+F 0 "LimSwitch4" H 20077 13358 60  0000 L CNN
+F 1 "Molex_SL_02" H 20077 13252 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 19950 13100 60  0001 C CNN
+F 3 "" H 19950 13100 60  0001 C CNN
+	1    19950 13200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6334ADAE
+P 19600 13050
+F 0 "#PWR?" H 19600 12900 50  0001 C CNN
+F 1 "+3.3V" V 19600 13150 35  0000 L CNN
+F 2 "" H 19600 13050 50  0001 C CNN
+F 3 "" H 19600 13050 50  0001 C CNN
+	1    19600 13050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19600 13050 19750 13050
+$Comp
+L Device:R R?
+U 1 1 6334ADB5
+P 19350 13450
+F 0 "R?" V 19250 13450 50  0000 C CNN
+F 1 "43" V 19350 13450 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 19280 13450 50  0001 C CNN
+F 3 "~" H 19350 13450 50  0001 C CNN
+	1    19350 13450
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 6334ADBB
+P 18900 13450
+F 0 "D?" H 18800 13400 39  0000 C CNN
+F 1 "LED" H 19000 13400 35  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18900 13450 50  0001 C CNN
+F 3 "~" V 18900 13450 50  0001 C CNN
+	1    18900 13450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	18800 13450 18550 13450
+Wire Wire Line
+	19000 13450 19200 13450
+$Comp
+L power:GND #PWR?
+U 1 1 6334ADC3
+P 18550 13450
+F 0 "#PWR?" H 18550 13200 50  0001 C CNN
+F 1 "GND" H 18550 13300 39  0000 C CNN
+F 2 "" H 18550 13450 50  0001 C CNN
+F 3 "" H 18550 13450 50  0001 C CNN
+	1    18550 13450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	19700 13450 19500 13450
+Wire Wire Line
+	19750 13150 19700 13150
+Wire Wire Line
+	19700 13150 19700 13450
+Text GLabel 19550 13150 0    35   Input ~ 0
+Limit_Switch_4
+Wire Wire Line
+	19550 13150 19700 13150
+Connection ~ 19700 13150
+Text Notes 18950 13350 0    28   ~ 0
+Blue\n
+$Comp
+L MRDT_Connectors:Molex_SL_02 LimSwitch5
+U 1 1 633D7CD0
+P 20000 13850
+F 0 "LimSwitch5" H 20127 14008 60  0000 L CNN
+F 1 "Molex_SL_02" H 20127 13902 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 20000 13750 60  0001 C CNN
+F 3 "" H 20000 13750 60  0001 C CNN
+	1    20000 13850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 633D7CD6
+P 19650 13700
+F 0 "#PWR?" H 19650 13550 50  0001 C CNN
+F 1 "+3.3V" V 19650 13800 35  0000 L CNN
+F 2 "" H 19650 13700 50  0001 C CNN
+F 3 "" H 19650 13700 50  0001 C CNN
+	1    19650 13700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19650 13700 19800 13700
+$Comp
+L Device:R R?
+U 1 1 633D7CDD
+P 19400 14100
+F 0 "R?" V 19300 14100 50  0000 C CNN
+F 1 "43" V 19400 14100 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 19330 14100 50  0001 C CNN
+F 3 "~" H 19400 14100 50  0001 C CNN
+	1    19400 14100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 633D7CE3
+P 18950 14100
+F 0 "D?" H 18850 14050 39  0000 C CNN
+F 1 "LED" H 19050 14050 35  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18950 14100 50  0001 C CNN
+F 3 "~" V 18950 14100 50  0001 C CNN
+	1    18950 14100
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	18850 14100 18600 14100
+Wire Wire Line
+	19050 14100 19250 14100
+$Comp
+L power:GND #PWR?
+U 1 1 633D7CEB
+P 18600 14100
+F 0 "#PWR?" H 18600 13850 50  0001 C CNN
+F 1 "GND" H 18600 13950 39  0000 C CNN
+F 2 "" H 18600 14100 50  0001 C CNN
+F 3 "" H 18600 14100 50  0001 C CNN
+	1    18600 14100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	19750 14100 19550 14100
+Wire Wire Line
+	19800 13800 19750 13800
+Wire Wire Line
+	19750 13800 19750 14100
+Text GLabel 19600 13800 0    35   Input ~ 0
+Limit_Switch_5
+Wire Wire Line
+	19600 13800 19750 13800
+Connection ~ 19750 13800
+Text Notes 19000 14000 0    28   ~ 0
+Blue\n
+$Comp
+L MRDT_Connectors:Molex_SL_02 LimSwitch6
+U 1 1 633D7CF8
+P 20000 14550
+F 0 "LimSwitch6" H 20127 14708 60  0000 L CNN
+F 1 "Molex_SL_02" H 20127 14602 60  0000 L CNN
+F 2 "MRDT_Connectors:MOLEX_SL_02_Vertical" H 20000 14450 60  0001 C CNN
+F 3 "" H 20000 14450 60  0001 C CNN
+	1    20000 14550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 633D7CFE
+P 19650 14400
+F 0 "#PWR?" H 19650 14250 50  0001 C CNN
+F 1 "+3.3V" V 19650 14500 35  0000 L CNN
+F 2 "" H 19650 14400 50  0001 C CNN
+F 3 "" H 19650 14400 50  0001 C CNN
+	1    19650 14400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	19650 14400 19800 14400
+$Comp
+L Device:R R?
+U 1 1 633D7D05
+P 19400 14800
+F 0 "R?" V 19300 14800 50  0000 C CNN
+F 1 "43" V 19400 14800 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 19330 14800 50  0001 C CNN
+F 3 "~" H 19400 14800 50  0001 C CNN
+	1    19400 14800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 633D7D0B
+P 18950 14800
+F 0 "D?" H 18850 14750 39  0000 C CNN
+F 1 "LED" H 19050 14750 35  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 18950 14800 50  0001 C CNN
+F 3 "~" V 18950 14800 50  0001 C CNN
+	1    18950 14800
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	18850 14800 18600 14800
+Wire Wire Line
+	19050 14800 19250 14800
+$Comp
+L power:GND #PWR?
+U 1 1 633D7D13
+P 18600 14800
+F 0 "#PWR?" H 18600 14550 50  0001 C CNN
+F 1 "GND" H 18600 14650 39  0000 C CNN
+F 2 "" H 18600 14800 50  0001 C CNN
+F 3 "" H 18600 14800 50  0001 C CNN
+	1    18600 14800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	19750 14800 19550 14800
+Wire Wire Line
+	19800 14500 19750 14500
+Wire Wire Line
+	19750 14500 19750 14800
+Text GLabel 19600 14500 0    35   Input ~ 0
+Limit_Switch_6
+Wire Wire Line
+	19600 14500 19750 14500
+Connection ~ 19750 14500
+Text Notes 19000 14700 0    28   ~ 0
+Blue\n
+Text GLabel 7300 10400 0    35   Input ~ 0
+Limit_Switch_3
+Text GLabel 7300 10500 0    35   Input ~ 0
+Limit_Switch_4
+Text GLabel 7300 10600 0    35   Input ~ 0
+Limit_Switch_5
+Text GLabel 7300 10800 0    35   Input ~ 0
+Limit_Switch_6
+Wire Wire Line
+	7300 10400 7450 10400
+Wire Wire Line
+	7450 10500 7300 10500
+Wire Wire Line
+	7300 10600 7450 10600
+Wire Wire Line
+	7450 10800 7300 10800
 $EndSCHEMATC

@@ -90,29 +90,21 @@ F 3 "" H 10900 12850 60  0001 C CNN
 	8    10900 12850
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 10950 10500
-NoConn ~ 10950 10600
+NoConn ~ 8450 11000
+NoConn ~ 8450 10900
 NoConn ~ 11950 10200
 NoConn ~ 11950 10300
 NoConn ~ 11950 10400
 NoConn ~ 11950 10500
-NoConn ~ 11950 10600
+NoConn ~ 8450 10800
 NoConn ~ 11950 10700
 NoConn ~ 11950 10800
 Wire Wire Line
 	11950 10100 12200 10100
 Wire Wire Line
 	12200 10100 12200 10150
-NoConn ~ 8450 10300
-NoConn ~ 8450 10400
-NoConn ~ 8450 10500
-NoConn ~ 8450 10600
 Wire Notes Line width 20 style solid
 	20000 1850 2200 1850
-Wire Wire Line
-	8450 10200 8700 10200
-Wire Wire Line
-	8700 10200 8700 10250
 NoConn ~ 8450 10100
 NoConn ~ 7450 12200
 NoConn ~ 8450 11900
@@ -234,11 +226,11 @@ $EndComp
 Wire Wire Line
 	8600 10700 8450 10700
 Wire Wire Line
-	8450 10800 8600 10800
+	10950 10500 10800 10500
 Wire Wire Line
-	8450 10900 8600 10900
+	10950 10600 10800 10600
 Wire Wire Line
-	8450 11000 8600 11000
+	11950 10600 12100 10600
 Wire Wire Line
 	9950 12200 10100 12200
 Wire Wire Line
@@ -259,36 +251,17 @@ Wire Wire Line
 Wire Wire Line
 	7300 10400 7450 10400
 Wire Wire Line
-	7300 10500 7450 10500
-Wire Wire Line
-	7300 10600 7450 10600
-Wire Wire Line
 	10800 10100 10950 10100
 Wire Wire Line
 	10800 10200 10950 10200
 Wire Wire Line
-	10800 10300 10950 10300
+	9950 12500 10100 12500
 Wire Wire Line
-	10800 10400 10950 10400
+	9950 12600 10100 12600
 Wire Wire Line
-	7300 12500 7450 12500
+	9950 12700 10100 12700
 Wire Wire Line
-	7300 12600 7450 12600
-Wire Wire Line
-	7300 12700 7450 12700
-Wire Wire Line
-	7300 12800 7450 12800
-$Comp
-L power:GND #PWR0166
-U 1 1 640E2EC7
-P 8700 10250
-F 0 "#PWR0166" H 8700 10000 50  0001 C CNN
-F 1 "GND" H 8700 10100 39  0000 C CNN
-F 2 "" H 8700 10250 50  0001 C CNN
-F 3 "" H 8700 10250 50  0001 C CNN
-	1    8700 10250
-	1    0    0    -1  
-$EndComp
+	9950 12800 10100 12800
 $Comp
 L power:GND #PWR0167
 U 1 1 64149BEB
@@ -745,14 +718,14 @@ Wire Wire Line
 Connection ~ 14100 10800
 Text Notes 13000 11650 0    197  ~ 0
 Limit Switches
-Text GLabel 10800 10700 0    35   Input ~ 0
+Text GLabel 7300 10500 0    35   Input ~ 0
 Limit_Switch_1
 Wire Wire Line
-	10800 10700 10950 10700
-Text GLabel 10800 10800 0    35   Input ~ 0
+	7300 10500 7450 10500
+Text GLabel 7300 10600 0    35   Input ~ 0
 Limit_Switch_2
 Wire Wire Line
-	10800 10800 10950 10800
+	7300 10600 7450 10600
 Wire Notes Line width 20 style solid
 	20000 1850 20000 11750
 NoConn ~ 7450 10200
@@ -3489,14 +3462,10 @@ Wire Notes Line width 8 style solid
 	11500 2000 10300 2000
 Wire Notes Line width 8 style solid
 	10300 2000 10300 2350
-Text Notes 16500 2300 0    197  ~ 0
-Drill\n
+Text Notes 16450 2300 0    197  ~ 0
+Z-AXIS
 Wire Notes Line width 8 style solid
-	16450 2350 17200 2350
-Wire Notes Line width 8 style solid
-	17200 2350 17200 2000
-Wire Notes Line width 8 style solid
-	17200 2000 16450 2000
+	17600 2350 17600 2000
 Wire Notes Line width 8 style solid
 	16450 2000 16450 2350
 Text Notes 4450 9350 0    197  ~ 0
@@ -3519,14 +3488,10 @@ Wire Notes Line width 8 style solid
 	11500 9050 10250 9050
 Wire Notes Line width 8 style solid
 	10250 9050 10250 9400
-Text Notes 16500 9450 0    157  ~ 0
-Spare
+Text Notes 16450 9450 0    197  ~ 0
+Pump 3
 Wire Notes Line width 8 style solid
-	16450 9500 17200 9500
-Wire Notes Line width 8 style solid
-	17200 9500 17200 9200
-Wire Notes Line width 8 style solid
-	17200 9200 16450 9200
+	17700 9500 17700 9200
 Wire Notes Line width 8 style solid
 	16450 9200 16450 9500
 Text GLabel 7300 10300 0    37   Input ~ 0
@@ -3535,36 +3500,16 @@ Text GLabel 7300 10400 0    37   Input ~ 0
 InA2_1
 Text GLabel 8600 10700 2    35   Input ~ 0
 PWMA_1
-Text GLabel 7300 10500 0    37   Input ~ 0
-InA1_2
-Text GLabel 7300 10600 0    37   Input ~ 0
-InA2_2
-Text GLabel 8600 10800 2    35   Input ~ 0
-PWMA_2
 Text GLabel 10800 10100 0    37   Input ~ 0
-InA1_3
+InA1_2
 Text GLabel 10800 10200 0    37   Input ~ 0
-InA2_3
-Text GLabel 8600 10900 2    35   Input ~ 0
+InA2_2
+Text GLabel 10800 10500 0    35   Input ~ 0
+PWMA_2
+Text GLabel 10800 10600 0    35   Input ~ 0
 PWMA_3
-Text GLabel 10800 10300 0    37   Input ~ 0
-InA1_4
-Text GLabel 10800 10400 0    37   Input ~ 0
-InA2_4
-Text GLabel 8600 11000 2    35   Input ~ 0
+Text GLabel 12100 10600 2    35   Input ~ 0
 PWMA_4
-Text GLabel 7300 12500 0    37   Input ~ 0
-InA1_5
-Text GLabel 7300 12600 0    37   Input ~ 0
-InA2_5
-Text GLabel 9950 12200 0    35   Input ~ 0
-PWMA_5
-Text GLabel 7300 12700 0    37   Input ~ 0
-InA1_6
-Text GLabel 7300 12800 0    37   Input ~ 0
-InA2_6
-Text GLabel 9950 12300 0    35   Input ~ 0
-PWMA_6
 Text Notes 13900 16750 0    39   ~ 0
 Does this need analogWrite() or can\nit just be connected to a "green" pin?
 $Comp
@@ -4210,19 +4155,19 @@ Wire Wire Line
 Wire Wire Line
 	7450 12100 7250 12100
 NoConn ~ 10100 12400
-NoConn ~ 10100 12500
-Text GLabel 9950 12600 0    35   Input ~ 0
+NoConn ~ 7450 12500
+Text GLabel 7300 12600 0    35   Input ~ 0
 Solenoid_Valve_1
-Text GLabel 9950 12700 0    35   Input ~ 0
+Text GLabel 7300 12700 0    35   Input ~ 0
 Solenoid_Valve_2
-Text GLabel 9950 12800 0    35   Input ~ 0
+Text GLabel 7300 12800 0    35   Input ~ 0
 Solenoid_Valve_3
 Wire Wire Line
-	9950 12600 10100 12600
+	7300 12600 7450 12600
 Wire Wire Line
-	9950 12700 10100 12700
+	7300 12700 7450 12700
 Wire Wire Line
-	10100 12800 9950 12800
+	7450 12800 7300 12800
 NoConn ~ 11100 12800
 NoConn ~ 10950 11000
 NoConn ~ 10950 10900
@@ -4789,4 +4734,61 @@ F 3 "" H 2550 11250 60  0001 C CNN
 	3    2700 11800
 	1    0    0    -1  
 $EndComp
+Text Notes 20050 10650 0    157  ~ 0
+2 are spares
+Wire Notes Line width 8 style solid
+	16450 9500 17700 9500
+Wire Notes Line width 8 style solid
+	16450 9200 17700 9200
+Wire Wire Line
+	8450 10200 8700 10200
+Wire Wire Line
+	8700 10200 8700 10250
+$Comp
+L power:GND #PWR0166
+U 1 1 640E2EC7
+P 8700 10250
+F 0 "#PWR0166" H 8700 10000 50  0001 C CNN
+F 1 "GND" H 8700 10100 39  0000 C CNN
+F 2 "" H 8700 10250 50  0001 C CNN
+F 3 "" H 8700 10250 50  0001 C CNN
+	1    8700 10250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8450 10300
+NoConn ~ 8450 10400
+NoConn ~ 8450 10500
+NoConn ~ 8450 10600
+Wire Wire Line
+	10800 10800 10950 10800
+Wire Wire Line
+	10800 10700 10950 10700
+Wire Wire Line
+	10800 10400 10950 10400
+Wire Wire Line
+	10800 10300 10950 10300
+Text GLabel 10800 10800 0    37   Input ~ 0
+InA2_4
+Text GLabel 10800 10700 0    37   Input ~ 0
+InA1_4
+Text GLabel 10800 10400 0    37   Input ~ 0
+InA2_3
+Text GLabel 10800 10300 0    37   Input ~ 0
+InA1_3
+Text GLabel 9950 12500 0    37   Input ~ 0
+InA1_5
+Text GLabel 9950 12600 0    37   Input ~ 0
+InA2_5
+Text GLabel 9950 12700 0    37   Input ~ 0
+InA1_6
+Text GLabel 9950 12800 0    37   Input ~ 0
+InA2_6
+Wire Notes Line width 8 style solid
+	16450 2350 17600 2350
+Wire Notes Line width 8 style solid
+	16450 2000 17600 2000
+Text GLabel 9950 12300 0    35   Input ~ 0
+PWMA_6
+Text GLabel 9950 12200 0    35   Input ~ 0
+PWMA_5
 $EndSCHEMATC
