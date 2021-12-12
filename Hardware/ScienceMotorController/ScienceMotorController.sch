@@ -1262,21 +1262,6 @@ Wire Wire Line
 Wire Wire Line
 	4150 4900 4150 4850
 Connection ~ 4150 4850
-Wire Wire Line
-	5800 2800 6100 2800
-Wire Wire Line
-	6100 2800 6100 2750
-$Comp
-L power:+3.3V #PWR032
-U 1 1 6375D361
-P 6100 2750
-F 0 "#PWR032" H 6100 2600 50  0001 C CNN
-F 1 "+3.3V" H 6100 2900 35  0000 C CNN
-F 2 "" H 6100 2750 50  0001 C CNN
-F 3 "" H 6100 2750 50  0001 C CNN
-	1    6100 2750
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR027
 U 1 1 6375D367
@@ -1577,21 +1562,6 @@ Wire Wire Line
 Wire Wire Line
 	4150 8250 4150 8200
 Connection ~ 4150 8200
-Wire Wire Line
-	5800 6150 6100 6150
-Wire Wire Line
-	6100 6150 6100 6100
-$Comp
-L power:+3.3V #PWR033
-U 1 1 637F4CD4
-P 6100 6100
-F 0 "#PWR033" H 6100 5950 50  0001 C CNN
-F 1 "+3.3V" H 6100 6250 35  0000 C CNN
-F 2 "" H 6100 6100 50  0001 C CNN
-F 3 "" H 6100 6100 50  0001 C CNN
-	1    6100 6100
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR029
 U 1 1 637F4CDA
@@ -1892,21 +1862,6 @@ Wire Wire Line
 Wire Wire Line
 	10050 4900 10050 4850
 Connection ~ 10050 4850
-Wire Wire Line
-	11700 2800 12000 2800
-Wire Wire Line
-	12000 2800 12000 2750
-$Comp
-L power:+3.3V #PWR068
-U 1 1 6395B172
-P 12000 2750
-F 0 "#PWR068" H 12000 2600 50  0001 C CNN
-F 1 "+3.3V" H 12000 2900 35  0000 C CNN
-F 2 "" H 12000 2750 50  0001 C CNN
-F 3 "" H 12000 2750 50  0001 C CNN
-	1    12000 2750
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR062
 U 1 1 6395B178
@@ -2207,21 +2162,6 @@ Wire Wire Line
 Wire Wire Line
 	10050 8250 10050 8200
 Connection ~ 10050 8200
-Wire Wire Line
-	11700 6150 12000 6150
-Wire Wire Line
-	12000 6150 12000 6100
-$Comp
-L power:+3.3V #PWR069
-U 1 1 6395B253
-P 12000 6100
-F 0 "#PWR069" H 12000 5950 50  0001 C CNN
-F 1 "+3.3V" H 12000 6250 35  0000 C CNN
-F 2 "" H 12000 6100 50  0001 C CNN
-F 3 "" H 12000 6100 50  0001 C CNN
-	1    12000 6100
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR064
 U 1 1 6395B259
@@ -2520,21 +2460,6 @@ Wire Wire Line
 Wire Wire Line
 	16000 4900 16000 4850
 Connection ~ 16000 4850
-Wire Wire Line
-	17650 2800 17950 2800
-Wire Wire Line
-	17950 2800 17950 2750
-$Comp
-L power:+3.3V #PWR0113
-U 1 1 639AA2AA
-P 17950 2750
-F 0 "#PWR0113" H 17950 2600 50  0001 C CNN
-F 1 "+3.3V" H 17950 2900 35  0000 C CNN
-F 2 "" H 17950 2750 50  0001 C CNN
-F 3 "" H 17950 2750 50  0001 C CNN
-	1    17950 2750
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR0108
 U 1 1 639AA2B0
@@ -2835,21 +2760,6 @@ Wire Wire Line
 Wire Wire Line
 	16000 8250 16000 8200
 Connection ~ 16000 8200
-Wire Wire Line
-	17650 6150 17950 6150
-Wire Wire Line
-	17950 6150 17950 6100
-$Comp
-L power:+3.3V #PWR0114
-U 1 1 639AA38B
-P 17950 6100
-F 0 "#PWR0114" H 17950 5950 50  0001 C CNN
-F 1 "+3.3V" H 17950 6250 35  0000 C CNN
-F 2 "" H 17950 6100 50  0001 C CNN
-F 3 "" H 17950 6100 50  0001 C CNN
-	1    17950 6100
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR0110
 U 1 1 639AA391
@@ -3024,8 +2934,6 @@ Wire Notes Line width 8 style solid
 	11500 2000 10300 2000
 Wire Notes Line width 8 style solid
 	10300 2000 10300 2350
-Text Notes 16450 2300 0    197  ~ 0
-Z-AXIS
 Wire Notes Line width 8 style solid
 	17600 2350 17600 2000
 Wire Notes Line width 8 style solid
@@ -4863,4 +4771,36 @@ F 3 "" H 12550 7200 60  0001 C CNN
 	1    12700 7750
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	5800 2800 6200 2800
+Wire Wire Line
+	6200 2800 6200 2900
+Connection ~ 6200 2900
+Wire Wire Line
+	11700 2800 12100 2800
+Wire Wire Line
+	12100 2800 12100 2900
+Connection ~ 12100 2900
+Text Notes 16450 2300 0    197  ~ 0
+Z-AXIS
+Wire Wire Line
+	5800 6150 6200 6150
+Wire Wire Line
+	6200 6150 6200 6250
+Connection ~ 6200 6250
+Wire Wire Line
+	11700 6150 12100 6150
+Wire Wire Line
+	12100 6150 12100 6250
+Connection ~ 12100 6250
+Wire Wire Line
+	17650 6150 18050 6150
+Wire Wire Line
+	18050 6150 18050 6250
+Connection ~ 18050 6250
+Wire Wire Line
+	17650 2800 18050 2800
+Wire Wire Line
+	18050 2800 18050 2900
+Connection ~ 18050 2900
 $EndSCHEMATC
