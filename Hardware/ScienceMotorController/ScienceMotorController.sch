@@ -3581,7 +3581,7 @@ Wire Notes Line width 20 style solid
 	1300 1850 1300 15050
 Text Notes 6350 15800 0    394  ~ 0
 Solenoid Valves
-Text GLabel 7250 12300 0    35   Input ~ 0
+Text GLabel 7250 12400 0    35   Input ~ 0
 Encoder_PWM_4
 Text GLabel 7250 12000 0    35   Input ~ 0
 Encoder_PWM_5
@@ -4536,7 +4536,7 @@ Wire Wire Line
 	7300 10600 7450 10600
 Wire Wire Line
 	7450 10800 7300 10800
-Text GLabel 7250 12400 0    35   Input ~ 0
+Text GLabel 7250 12300 0    35   Input ~ 0
 Encoder_PWM_3
 Text GLabel 8650 12700 2    35   Input ~ 0
 Encoder_PWM_2
