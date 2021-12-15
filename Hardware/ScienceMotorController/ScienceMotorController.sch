@@ -470,81 +470,58 @@ Absolute\nEncoders
 $Comp
 L Device:R R33
 U 1 1 6639E6F2
-P 11450 12600
-F 0 "R33" V 11350 12600 50  0000 C CNN
-F 1 "43" V 11450 12600 39  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11380 12600 50  0001 C CNN
-F 3 "~" H 11450 12600 50  0001 C CNN
-	1    11450 12600
-	0    1    1    0   
+P 7300 12600
+F 0 "R33" V 7300 12800 50  0000 C CNN
+F 1 "43" V 7300 12600 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7230 12600 50  0001 C CNN
+F 3 "~" H 7300 12600 50  0001 C CNN
+	1    7300 12600
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED_Small D18
 U 1 1 6639E6F9
-P 11900 12600
-F 0 "D18" H 12000 12650 39  0000 C CNN
-F 1 "LED" H 11800 12650 35  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11900 12600 50  0001 C CNN
-F 3 "~" V 11900 12600 50  0001 C CNN
-	1    11900 12600
-	-1   0    0    -1  
+P 6850 12600
+F 0 "D18" H 6950 12650 39  0000 C CNN
+F 1 "LED" H 6750 12650 35  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6850 12600 50  0001 C CNN
+F 3 "~" V 6850 12600 50  0001 C CNN
+	1    6850 12600
+	1    0    0    1   
 $EndComp
-Wire Wire Line
-	12000 12600 12250 12600
-Wire Wire Line
-	11800 12600 11600 12600
-$Comp
-L power:GND #PWR076
-U 1 1 6639E703
-P 12250 12600
-F 0 "#PWR076" H 12250 12350 50  0001 C CNN
-F 1 "GND" H 12250 12450 39  0000 C CNN
-F 2 "" H 12250 12600 50  0001 C CNN
-F 3 "" H 12250 12600 50  0001 C CNN
-	1    12250 12600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11100 12600 11300 12600
 $Comp
 L Device:R R32
 U 1 1 6640B5FD
-P 11450 12400
-F 0 "R32" V 11350 12400 50  0000 C CNN
-F 1 "43" V 11450 12400 39  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11380 12400 50  0001 C CNN
-F 3 "~" H 11450 12400 50  0001 C CNN
-	1    11450 12400
-	0    1    1    0   
+P 7300 12500
+F 0 "R32" V 7300 12300 50  0000 C CNN
+F 1 "43" V 7300 12500 39  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7230 12500 50  0001 C CNN
+F 3 "~" H 7300 12500 50  0001 C CNN
+	1    7300 12500
+	0    1    -1   0   
 $EndComp
 $Comp
 L Device:LED_Small D17
 U 1 1 6640B604
-P 11900 12400
-F 0 "D17" H 12000 12450 39  0000 C CNN
-F 1 "LED" H 11800 12450 35  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 11900 12400 50  0001 C CNN
-F 3 "~" V 11900 12400 50  0001 C CNN
-	1    11900 12400
-	-1   0    0    -1  
+P 6850 12500
+F 0 "D17" H 6750 12550 39  0000 C CNN
+F 1 "LED" H 6950 12550 35  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6850 12500 50  0001 C CNN
+F 3 "~" V 6850 12500 50  0001 C CNN
+	1    6850 12500
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	12000 12400 12250 12400
-Wire Wire Line
-	11800 12400 11600 12400
 $Comp
 L power:GND #PWR075
 U 1 1 6640B60E
-P 12250 12400
-F 0 "#PWR075" H 12250 12150 50  0001 C CNN
-F 1 "GND" H 12250 12250 39  0000 C CNN
-F 2 "" H 12250 12400 50  0001 C CNN
-F 3 "" H 12250 12400 50  0001 C CNN
-	1    12250 12400
-	1    0    0    -1  
+P 6700 12650
+F 0 "#PWR075" H 6700 12400 50  0001 C CNN
+F 1 "GND" H 6700 12500 39  0000 C CNN
+F 2 "" H 6700 12650 50  0001 C CNN
+F 3 "" H 6700 12650 50  0001 C CNN
+	1    6700 12650
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	11100 12400 11300 12400
 $Comp
 L MRDT_Connectors:Molex_SL_02 LimSwitch1
 U 1 1 66E6B4BD
@@ -944,9 +921,7 @@ Text Notes 13350 11000 0    28   ~ 0
 Blue\n
 Text Notes 13350 10150 0    28   ~ 0
 Blue\n
-Text Notes 11950 12650 0    28   ~ 0
-Blue\n
-Text Notes 11950 12450 0    28   ~ 0
+Text Notes 6900 12750 2    28   ~ 0
 Blue\n
 $Comp
 L MRDT_Connectors:Molex_SL_03 AbsEncode4
@@ -2906,21 +2881,17 @@ Wire Notes Line width 8 style solid
 	17450 9400 17450 9050
 Wire Notes Line width 8 style solid
 	16200 9050 16200 9400
-Text GLabel 10800 10200 0    37   Input ~ 0
-InA1_1
-Text GLabel 10800 10100 0    37   Input ~ 0
-InA2_1
-Text GLabel 10800 10500 0    35   Input ~ 0
-PWMA_1
-Text GLabel 9950 11900 0    37   Input ~ 0
-InA1_2
-Text GLabel 9950 12000 0    37   Input ~ 0
-InA2_2
-Text GLabel 9950 12200 0    35   Input ~ 0
-PWMA_2
-Text GLabel 9950 12300 0    35   Input ~ 0
-PWMA_3
 Text GLabel 12100 10600 2    35   Input ~ 0
+PWMA_1
+Text GLabel 9950 12000 0    37   Input ~ 0
+InA1_2
+Text GLabel 9950 11900 0    37   Input ~ 0
+InA2_2
+Text GLabel 9950 12300 0    35   Input ~ 0
+PWMA_2
+Text GLabel 9950 12200 0    35   Input ~ 0
+PWMA_3
+Text GLabel 10800 10500 0    35   Input ~ 0
 PWMA_4
 $Comp
 L MRDT_Connectors:Molex_SL_02 SolValve1
@@ -3463,7 +3434,6 @@ Wire Wire Line
 Wire Wire Line
 	7450 12300 7250 12300
 NoConn ~ 8450 10700
-NoConn ~ 7450 12500
 Wire Wire Line
 	8600 12100 8450 12100
 Wire Wire Line
@@ -4012,13 +3982,13 @@ Wire Wire Line
 	10800 10300 10950 10300
 Wire Wire Line
 	10800 10400 10950 10400
-Text GLabel 9950 12500 0    37   Input ~ 0
-InA2_4
 Text GLabel 9950 12600 0    37   Input ~ 0
+InA2_4
+Text GLabel 9950 12500 0    37   Input ~ 0
 InA1_4
-Text GLabel 10800 10800 0    37   Input ~ 0
+Text GLabel 10800 10100 0    37   Input ~ 0
 InA2_3
-Text GLabel 10800 10700 0    37   Input ~ 0
+Text GLabel 10800 10200 0    37   Input ~ 0
 InA1_3
 Text GLabel 9950 12800 0    37   Input ~ 0
 InA1_5
@@ -4684,9 +4654,27 @@ F 3 "" H 8250 12850 60  0001 C CNN
 	6    8250 12850
 	-1   0    0    -1  
 $EndComp
-NoConn ~ 7450 12600
 NoConn ~ 7450 12700
 NoConn ~ 7450 12800
 Wire Wire Line
 	8450 12000 9200 12000
+Text GLabel 10800 10800 0    37   Input ~ 0
+InA2_1
+Text GLabel 10800 10700 0    37   Input ~ 0
+InA1_1
+Wire Wire Line
+	7150 12500 6950 12500
+Wire Wire Line
+	6750 12500 6700 12500
+Wire Wire Line
+	6700 12500 6700 12600
+NoConn ~ 11100 12400
+NoConn ~ 11100 12600
+Wire Wire Line
+	7150 12600 6950 12600
+Wire Wire Line
+	6750 12600 6700 12600
+Connection ~ 6700 12600
+Wire Wire Line
+	6700 12600 6700 12650
 $EndSCHEMATC
