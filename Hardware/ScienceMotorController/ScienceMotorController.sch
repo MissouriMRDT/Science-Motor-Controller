@@ -4016,17 +4016,17 @@ Text GLabel 9950 12500 0    37   Input ~ 0
 InA2_4
 Text GLabel 9950 12600 0    37   Input ~ 0
 InA1_4
-Text GLabel 10800 10700 0    37   Input ~ 0
-InA2_3
 Text GLabel 10800 10800 0    37   Input ~ 0
+InA2_3
+Text GLabel 10800 10700 0    37   Input ~ 0
 InA1_3
 Text GLabel 9950 12800 0    37   Input ~ 0
 InA1_5
 Text GLabel 9950 12700 0    37   Input ~ 0
 InA2_5
-Text GLabel 10800 10300 0    37   Input ~ 0
-InA1_6
 Text GLabel 10800 10400 0    37   Input ~ 0
+InA1_6
+Text GLabel 10800 10300 0    37   Input ~ 0
 InA2_6
 Wire Notes Line width 8 style solid
 	16450 2350 17600 2350
