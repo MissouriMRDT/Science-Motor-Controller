@@ -3719,7 +3719,7 @@ $EndComp
 Wire Wire Line
 	2600 10450 2600 10550
 $Comp
-L ScienceMotorController-rescue:PMN280ENEAX-SciMoCoLib U7
+L ScienceMotorController:PMN280ENEAX-SciMoCoLib U7
 U 1 1 64F13429
 P 5100 14050
 F 0 "U7" H 5100 14359 50  0000 C CNN
@@ -3753,7 +3753,7 @@ Wire Wire Line
 	4300 13850 4800 13850
 Connection ~ 4800 13850
 $Comp
-L ScienceMotorController-rescue:PMN280ENEAX-SciMoCoLib U10
+L ScienceMotorController:PMN280ENEAX-SciMoCoLib U10
 U 1 1 65651C73
 P 9250 14000
 F 0 "U10" H 9250 14309 50  0000 C CNN
@@ -3787,7 +3787,7 @@ Wire Wire Line
 	8450 13800 8950 13800
 Connection ~ 8950 13800
 $Comp
-L ScienceMotorController-rescue:PMN280ENEAX-SciMoCoLib U14
+L ScienceMotorController:PMN280ENEAX-SciMoCoLib U14
 U 1 1 656CCAC6
 P 13350 13950
 F 0 "U14" H 13350 14259 50  0000 C CNN
@@ -3864,17 +3864,6 @@ F 3 "~" H 15850 12400 50  0001 C CNN
 	1    15850 12400
 	1    0    0    -1  
 $EndComp
-$Comp
-L ScienceMotorController-rescue:LTC6900-SciMoCoLib U15
-U 1 1 65A4B48D
-P 16800 12650
-F 0 "U15" H 16800 13025 50  0000 C CNN
-F 1 "LTC6900" H 16800 12934 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 16800 12500 50  0001 C CNN
-F 3 "" H 16800 12500 50  0001 C CNN
-	1    16800 12650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	16350 12700 16450 12700
 Wire Wire Line
@@ -3889,8 +3878,6 @@ Wire Wire Line
 Wire Wire Line
 	16000 12700 16000 12200
 Wire Wire Line
-	16450 12500 16400 12500
-Wire Wire Line
 	16400 12500 16400 12200
 Wire Wire Line
 	16400 12200 16000 12200
@@ -3904,8 +3891,6 @@ Wire Wire Line
 NoConn ~ 16450 12800
 Text GLabel 17250 12600 2    50   Input ~ 0
 Oscillator
-Wire Wire Line
-	17150 12600 17250 12600
 Text GLabel 3900 2700 0    50   Input ~ 0
 Oscillator
 Wire Wire Line
@@ -4677,4 +4662,19 @@ Wire Wire Line
 Connection ~ 6700 12600
 Wire Wire Line
 	6700 12600 6700 12650
+Wire Wire Line
+	16450 12500 16400 12500
+$Comp
+L MRDT_Devices:LTC6900 U15
+U 1 1 65A4B48D
+P 16700 12560
+F 0 "U15" H 16700 12935 50  0000 C CNN
+F 1 "LTC6900" H 16700 12844 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 16700 12410 50  0001 C CNN
+F 3 "" H 16700 12410 50  0001 C CNN
+	1    16700 12560
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17090 12600 17250 12600
 $EndSCHEMATC
