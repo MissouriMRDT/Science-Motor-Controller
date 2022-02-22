@@ -2119,7 +2119,7 @@
   )
 
   (module MRDT_Silkscreens:0_MRDT_Logo_50mm (layer F.Cu) (tedit 5AA4CB21) (tstamp 6217A9F2)
-    (at 78.74 70.485)
+    (at 74.295 70.485)
     (tags "Logo, MRDT")
     (fp_text reference G*** (at -8.5852 26.7716) (layer Dwgs.User) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
