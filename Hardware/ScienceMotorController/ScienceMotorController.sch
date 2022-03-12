@@ -124,7 +124,7 @@ U 2 1 629B4C76
 P 1750 6000
 F 0 "Conn5" H 1550 6150 60  0000 C CNN
 F 1 "Input" H 1600 6050 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 1600 5450 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_3_H_Side_By_Side" H 1600 5450 60  0001 C CNN
 F 3 "" H 1600 5450 60  0001 C CNN
 	2    1750 6000
 	1    0    0    -1  
@@ -135,7 +135,7 @@ U 1 1 62A01FF3
 P 1750 5750
 F 0 "Conn5" H 1550 5900 60  0000 C CNN
 F 1 "Input" H 1600 5800 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 1600 5200 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_3_H_Side_By_Side" H 1600 5200 60  0001 C CNN
 F 3 "" H 1600 5200 60  0001 C CNN
 	1    1750 5750
 	1    0    0    -1  
@@ -849,7 +849,7 @@ U 3 1 61D0A092
 P 1750 6250
 F 0 "Conn5" H 1550 6400 60  0000 C CNN
 F 1 "Input" H 1600 6300 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 1600 5700 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_3_H_Side_By_Side" H 1600 5700 60  0001 C CNN
 F 3 "" H 1600 5700 60  0001 C CNN
 	3    1750 6250
 	1    0    0    -1  
@@ -910,7 +910,7 @@ U 2 1 61E6E554
 P 5250 2550
 F 0 "Conn1" H 5222 2597 60  0000 R CNN
 F 1 "Motor1" H 5222 2703 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5100 2000 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side" H 5100 2000 60  0001 C CNN
 F 3 "" H 5100 2000 60  0001 C CNN
 	2    5250 2550
 	-1   0    0    1   
@@ -921,7 +921,7 @@ U 2 1 61F291E0
 P 2400 6600
 F 0 "Conn6" H 2372 6647 60  0000 R CNN
 F 1 "Output1" H 2372 6753 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 2250 6050 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_3_H_Side_By_Side" H 2250 6050 60  0001 C CNN
 F 3 "" H 2250 6050 60  0001 C CNN
 	2    2400 6600
 	-1   0    0    1   
@@ -932,7 +932,7 @@ U 1 1 61F305FA
 P 2400 6350
 F 0 "Conn6" H 2372 6397 60  0000 R CNN
 F 1 "Output1" H 2372 6503 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 2250 5800 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_3_H_Side_By_Side" H 2250 5800 60  0001 C CNN
 F 3 "" H 2250 5800 60  0001 C CNN
 	1    2400 6350
 	-1   0    0    1   
@@ -945,7 +945,7 @@ U 3 1 61C0E45E
 P 2400 6850
 F 0 "Conn6" H 2372 6897 60  0000 R CNN
 F 1 "Output1" H 2372 7003 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 2250 6300 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_3_H_Side_By_Side" H 2250 6300 60  0001 C CNN
 F 3 "" H 2250 6300 60  0001 C CNN
 	3    2400 6850
 	-1   0    0    1   
@@ -1298,7 +1298,7 @@ U 1 1 63DCD6A3
 P 9200 2950
 F 0 "Conn2" H 9000 3000 60  0000 C CNN
 F 1 "Motor2" H 9000 3100 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9050 2400 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side" H 9050 2400 60  0001 C CNN
 F 3 "" H 9050 2400 60  0001 C CNN
 	1    9200 2950
 	-1   0    0    1   
@@ -1309,7 +1309,7 @@ U 2 1 63DCD6A9
 P 9200 2550
 F 0 "Conn2" H 9172 2597 60  0000 R CNN
 F 1 "Motor2" H 9172 2703 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 9050 2000 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side" H 9050 2000 60  0001 C CNN
 F 3 "" H 9050 2000 60  0001 C CNN
 	2    9200 2550
 	-1   0    0    1   
@@ -1599,7 +1599,7 @@ U 1 1 63F1ED50
 P 13150 2950
 F 0 "Conn3" H 12950 3000 60  0000 C CNN
 F 1 "Motor3" H 12950 3100 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 13000 2400 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side" H 13000 2400 60  0001 C CNN
 F 3 "" H 13000 2400 60  0001 C CNN
 	1    13150 2950
 	-1   0    0    1   
@@ -1610,7 +1610,7 @@ U 2 1 63F1ED56
 P 13150 2550
 F 0 "Conn3" H 13122 2597 60  0000 R CNN
 F 1 "Motor3" H 13122 2703 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 13000 2000 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side" H 13000 2000 60  0001 C CNN
 F 3 "" H 13000 2000 60  0001 C CNN
 	2    13150 2550
 	-1   0    0    1   
@@ -2005,7 +2005,7 @@ U 2 1 654B5FDA
 P 2400 7450
 F 0 "Conn7" H 2372 7497 60  0000 R CNN
 F 1 "Output2" H 2372 7603 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2250 6900 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side" H 2250 6900 60  0001 C CNN
 F 3 "" H 2250 6900 60  0001 C CNN
 	2    2400 7450
 	-1   0    0    1   
@@ -2016,7 +2016,7 @@ U 1 1 654B5FE0
 P 2400 7200
 F 0 "Conn7" H 2372 7247 60  0000 R CNN
 F 1 "Output2" H 2372 7353 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 2250 6650 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side" H 2250 6650 60  0001 C CNN
 F 3 "" H 2250 6650 60  0001 C CNN
 	1    2400 7200
 	-1   0    0    1   
@@ -2124,7 +2124,7 @@ U 1 1 61BEEA6A
 P 5250 2950
 F 0 "Conn1" H 5050 3000 60  0000 C CNN
 F 1 "Motor1" H 5050 3100 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 5100 2400 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side" H 5100 2400 60  0001 C CNN
 F 3 "" H 5100 2400 60  0001 C CNN
 	1    5250 2950
 	-1   0    0    1   
@@ -4279,7 +4279,7 @@ U 1 1 63F744B0
 P 17100 2950
 F 0 "Conn4" H 16900 3000 60  0000 C CNN
 F 1 "Motor4" H 16900 3100 60  0000 C CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 16950 2400 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side" H 16950 2400 60  0001 C CNN
 F 3 "" H 16950 2400 60  0001 C CNN
 	1    17100 2950
 	-1   0    0    1   
@@ -4290,7 +4290,7 @@ U 2 1 63F744B6
 P 17100 2550
 F 0 "Conn4" H 17072 2597 60  0000 R CNN
 F 1 "Motor4" H 17072 2703 60  0000 R CNN
-F 2 "MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side" H 16950 2000 60  0001 C CNN
+F 2 "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side" H 16950 2000 60  0001 C CNN
 F 3 "" H 16950 2000 60  0001 C CNN
 	2    17100 2550
 	-1   0    0    1   
