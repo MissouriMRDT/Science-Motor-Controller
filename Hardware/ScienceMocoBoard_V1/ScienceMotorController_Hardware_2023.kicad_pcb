@@ -225,7 +225,7 @@
 
   (footprint "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF0) (tstamp 006da8b8-01f5-416e-bb4f-79ee1df30efa)
-    (at 78.995 137.988)
+    (at 342.151 139.446)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -269,7 +269,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 016436a7-ab75-44a9-aec0-db9d2f76a2a3)
-    (at 186.37 72.988)
+    (at 329.306 79.94)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -311,7 +311,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 03cdf128-0a5f-40e9-a3fe-b577bcffc81e)
-    (at 143.87 115.408)
+    (at 407.026 116.866)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -353,7 +353,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 04cd195d-4af4-426b-b610-8170d550faa8)
-    (at 194.82 60.468)
+    (at 337.756 67.42)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -395,7 +395,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 05684eb1-dbaf-4c52-9f43-a402dca2ce74)
-    (at 184.03 57.038)
+    (at 326.966 63.99)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -452,7 +452,7 @@
 
   (footprint "MRDT_Connectors:MOLEX_SL_03_Vertical" (layer "F.Cu")
     (tedit 5DD89560) (tstamp 05c0b884-4704-4302-984c-d3f0102bbb3e)
-    (at 165.83 52.752)
+    (at 49.7078 270.8148)
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
     (property "Sheetname" "")
     (path "/ae66c4d0-7d79-4760-aeff-8ffa5442de12")
@@ -487,7 +487,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 06749721-0bcd-4f95-ab6f-b4aa18e6b7b6)
-    (at 203.82 55.768)
+    (at 163.322 -48.514)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -529,7 +529,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 07fd375a-4bb0-4097-9dd8-4c03392e7ea1)
-    (at 225.375 30.308)
+    (at 368.311 37.26)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -575,7 +575,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 0aa548b5-0c11-4625-96a0-4760f6a5507f)
-    (at 184.03 63.488)
+    (at 326.966 70.44)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -674,7 +674,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 0bd2b55a-fc31-4afc-b79c-16639c22bafd)
-    (at 199.43 58.438)
+    (at 203.5545 -37.846)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -751,7 +751,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 0e2ab321-9678-4ae3-8ebd-9e0cc0a26201)
-    (at 103.62 136.818)
+    (at 366.776 138.276)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -808,7 +808,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 0e441615-62f0-4803-a701-60288102cc1a)
-    (at 92.165 137.818)
+    (at 355.321 139.276)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -854,7 +854,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 1552edfa-e620-4e06-837c-523d98ae88d0)
-    (at 218.93 32.238)
+    (at 190.5 -49.53)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -953,7 +953,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side" (layer "F.Cu")
     (tedit 62156FC0) (tstamp 205fa718-89cd-498c-bcf2-bba49b232805)
-    (at 171.785 32.562)
+    (at 314.721 39.514)
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
     (property "Sheetname" "")
     (path "/46f4dbf4-e603-48ae-a58c-56f6117ad989")
@@ -996,7 +996,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 20a08aa5-a55b-43c3-aa3a-5678e8fd6b7d)
-    (at 137.47 114.868)
+    (at 400.626 116.326)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -1053,7 +1053,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 21d42290-a04e-460c-bd5e-f5f381352b03)
-    (at 129.02 114.868)
+    (at 392.176 116.326)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -1143,7 +1143,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side" (layer "F.Cu")
     (tedit 62156FC0) (tstamp 27c6a08d-4421-4fc8-b88d-3a941647fd4f)
-    (at 171.785 42.112)
+    (at 204.303 -47.712)
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
     (property "Sheetname" "")
     (path "/cd262ca1-3586-466d-a467-d8b01bf093a7")
@@ -1186,7 +1186,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 2b7d0a31-1150-4d25-803f-e3af29637d7e)
-    (at 199.475 55.888)
+    (at 342.411 62.84)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -1232,7 +1232,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 2fcdfbc8-0237-401d-a847-cc487f56413a)
-    (at 111.93 122.368)
+    (at 375.086 123.826)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -1289,7 +1289,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 319d9a87-cf89-4e95-ac44-3bc854cf04c9)
-    (at 131.31 128.308)
+    (at 150.7725 268.986)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -1364,7 +1364,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 332457bc-2fc9-4a11-bae7-6fc203f74a54)
-    (at 173.63 86.668)
+    (at 316.566 93.62)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -1406,22 +1406,22 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 34f9473b-c3e4-4926-b2d5-0f4afa77ac08)
-    (at 118.47 137.428)
+    (at 54.8132 278.5383 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
     (property "Sheetname" "")
     (path "/b4475406-653b-41e8-98e7-1215a4d4d384")
     (attr smd)
-    (fp_text reference "R18" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R18" (at 0 -1.43 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cc754b51-e38c-4996-be01-bbc90c40039e)
     )
-    (fp_text value "130" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "130" (at 0 1.43 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 25e6e03f-1d50-435f-b879-d4d887526aa4)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp e38eec17-d840-46b9-899c-8c3ea8bd2fc8)
     )
@@ -1435,9 +1435,9 @@
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp 1362f733-6a32-41b6-82b0-3458759f9132))
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp a0bbde4d-4e58-4cd5-bc42-dfe33a7b620c))
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp fc8c346e-fd25-44e2-b448-da691f873964))
-    (pad "1" smd roundrect (at -0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 31 "Net-(D12-Pad2)") (pintype "passive") (tstamp 272d8210-d441-41ba-8e45-eec284d455cd))
-    (pad "2" smd roundrect (at 0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 4 "Encoder_PWM_3") (pintype "passive") (tstamp d255b8d2-7d22-410f-ac2b-f91e3e9e5835))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -1492,7 +1492,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 3774d7fa-077c-4f22-ba1c-74e4afb73205)
-    (at 204.34 46.188)
+    (at 190.246 -40.894)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -1549,22 +1549,22 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3b311e6a-7d45-4917-bf07-3c6dd3373539)
-    (at 126.92 128.388)
+    (at 55.1942 299.72 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
     (property "Sheetname" "")
     (path "/a9580606-4bb4-41eb-bcdb-11e44979c1cf")
     (attr smd)
-    (fp_text reference "R19" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R19" (at 0 -1.43 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 03e89cc7-7567-4878-8323-6680e51622d7)
     )
-    (fp_text value "130" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "130" (at 0 1.43 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3d2782d2-15ad-47fe-8d59-dbf3ca25aded)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp 9ba13d8a-f2da-485c-b389-355ea65d5ba0)
     )
@@ -1578,9 +1578,9 @@
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 1e230aca-1532-4cce-88d5-6f729c01f599))
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp 9bcbb164-4b59-4ec8-b03f-24167f8bdf7d))
     (fp_line (start 0.8 -0.4125) (end 0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp c48ce03d-3734-469d-b2f8-e6dadb636099))
-    (pad "1" smd roundrect (at -0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 32 "Net-(D13-Pad2)") (pintype "passive") (tstamp 804c0c3b-ba69-4cbe-a9fd-58f83a6ff629))
-    (pad "2" smd roundrect (at 0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 5 "Encoder_PWM_4") (pintype "passive") (tstamp 5c6b2f4a-411b-40be-a95d-61e3b1aaf669))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -1591,7 +1591,7 @@
 
   (footprint "MRDT_Connectors:MOLEX_SL_03_Vertical" (layer "F.Cu")
     (tedit 5DD89560) (tstamp 3d1d3b48-528d-483c-99e1-92d11549cf8a)
-    (at 79.89 133.582)
+    (at 86.0044 270.9672)
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
     (property "Sheetname" "")
     (path "/2ce6e20c-5e5f-4b6e-aa53-b48d0af505ae")
@@ -1626,7 +1626,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side" (layer "F.Cu")
     (tedit 62156FC0) (tstamp 3eb3cd9d-c164-43bb-a4c7-7131a3c26367)
-    (at 45.775 132.852)
+    (at 308.931 134.31)
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
     (property "Sheetname" "")
     (path "/de3e784e-289b-48e9-811a-b8cba0269725")
@@ -1669,7 +1669,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3f71d36f-be6d-4897-b278-46bc09a693f9)
-    (at 122.86 134.758)
+    (at 386.016 136.216)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -1711,7 +1711,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 450462db-8861-4847-8999-99531277581c)
-    (at 181.98 73.148)
+    (at 324.916 80.1)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -1753,7 +1753,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 462afe7d-1953-4e67-81d5-3c756746f95a)
-    (at 219.52 36.718)
+    (at 362.456 43.67)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -1837,7 +1837,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 4b8865ca-4257-4151-823a-850cd20e59b9)
-    (at 193.03 49.538)
+    (at 335.966 56.49)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -1927,7 +1927,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 4e6a2d10-f28c-4f50-89e5-e49a3d6c848f)
-    (at 203.865 50.708)
+    (at 146.6209 268.859)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -1971,7 +1971,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 4fda15f5-933f-4b88-95f1-b31a3e1dcbb0)
-    (at 122.86 137.268)
+    (at 386.016 138.726)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -2013,7 +2013,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 515db67a-beb9-4bd8-a746-ad62d4967cd9)
-    (at 182.08 75.658)
+    (at 325.016 82.61)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -2055,7 +2055,7 @@
 
   (footprint "MRDT_Connectors:MOLEX_SL_03_Vertical" (layer "F.Cu")
     (tedit 5DD89560) (tstamp 52f373d1-0533-47a7-8141-517033cd1397)
-    (at 86.03 125.662)
+    (at 50.038 292.7858)
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
     (property "Sheetname" "")
     (path "/bec3790e-715b-4273-99e4-5b5cd5c2ba71")
@@ -2090,7 +2090,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 534f489a-1d00-4192-979d-d964f5540c22)
-    (at 182.025 68.008)
+    (at 168.402 -44.196)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -2136,7 +2136,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 540e2242-3ab0-462a-bbf3-ee6cf15a3b2f)
-    (at 175.58 59.088)
+    (at 318.516 66.04)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -2193,7 +2193,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 554831d5-2306-458c-85e6-1d2caec4d1d6)
-    (at 175.58 65.538)
+    (at 318.516 72.49)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -2250,7 +2250,7 @@
 
   (footprint "MRDT_Connectors:MOLEX_SL_03_Vertical" (layer "F.Cu")
     (tedit 5DD89560) (tstamp 55c6f62c-7103-441d-a6b7-dfea3bc25b86)
-    (at 183.28 43.202)
+    (at 86.868 255.4732)
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
     (property "Sheetname" "")
     (path "/89576370-52f6-4833-9152-f59684fecb1a")
@@ -2329,7 +2329,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 585c65ed-f66c-4156-a39c-515f70ce87ed)
-    (at 177.73 76.468)
+    (at 145.7198 246.9134)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -2371,7 +2371,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 5ae18e17-6029-4ad3-9170-188a2a07c171)
-    (at 103.62 130.368)
+    (at 366.776 131.826)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -2428,7 +2428,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 6203af37-ff46-4a59-b6ce-3cf118698019)
-    (at 118.515 132.288)
+    (at 53.0606 260.5786)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -2472,7 +2472,7 @@
 
   (footprint "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF0) (tstamp 62ee4ffd-2336-4271-8ff6-905bd80c1835)
-    (at 118.515 134.878)
+    (at 381.671 136.336)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -2516,7 +2516,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side" (layer "F.Cu")
     (tedit 62156FC0) (tstamp 63eb7455-55e8-4b4b-84e4-d9609d4b654b)
-    (at 63.225 124.742)
+    (at 125.309 274.868)
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
     (property "Sheetname" "")
     (path "/460afb3d-667d-45a6-baf1-04687f9b8568")
@@ -2559,7 +2559,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 64145823-f827-452a-a0a8-ba96fd471c48)
-    (at 182.08 78.168)
+    (at 325.016 85.12)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -2601,7 +2601,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 6859bac8-62fc-4810-a8ed-b156ab18824b)
-    (at 215.13 41.898)
+    (at 226.822 -39.624)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -2643,7 +2643,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 6937512a-6ca6-43d4-a2be-2d4f615bcfef)
-    (at 193.03 55.988)
+    (at 335.966 62.94)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -2700,7 +2700,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 6c31bf92-3652-48de-b9f5-d1f49b66e210)
-    (at 225.33 35.368)
+    (at 368.266 42.32)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -2742,7 +2742,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 6de79cc2-7ab2-41a2-b6c9-b4ce98c3e732)
-    (at 131.31 125.798)
+    (at 394.466 127.256)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -2784,7 +2784,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 6dee8fe9-0c14-46bf-bb0d-d19096f18837)
-    (at 169.28 87.528)
+    (at 312.216 94.48)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -2826,7 +2826,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 6e119b72-27ef-4b03-b41d-88a9034c694d)
-    (at 129.02 121.318)
+    (at 392.176 122.776)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -2883,7 +2883,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 70a85c16-85aa-4b24-9f72-08415a017475)
-    (at 190.72 65.648)
+    (at 333.656 72.6)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -3013,7 +3013,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 750bf701-3192-498c-9ecc-25fe23b6b043)
-    (at 120.57 114.868)
+    (at 383.726 116.326)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -3070,7 +3070,7 @@
 
   (footprint "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF0) (tstamp 75b0f0c8-0ce7-4f20-b797-bbd6b3d9132d)
-    (at 215.175 39.348)
+    (at 358.111 46.3)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -3147,7 +3147,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side" (layer "F.Cu")
     (tedit 62156FC0) (tstamp 79280aec-bf40-438b-afde-bcbefb751838)
-    (at 74.535 115.192)
+    (at 124.8772 225.465)
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
     (property "Sheetname" "")
     (path "/b800eb0d-4e35-43a2-bf7a-748c18f9176e")
@@ -3190,7 +3190,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 7f277b03-3420-47a0-b70d-c7bb650189a9)
-    (at 177.73 78.978)
+    (at 145.7452 242.3922)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -3274,7 +3274,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 823d295b-b065-4127-8da8-c5a22cabcd2b)
-    (at 135.42 121.858)
+    (at 128.9304 235.966)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -3316,7 +3316,7 @@
 
   (footprint "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF0) (tstamp 824ad4f3-c601-4fcf-b39b-47b3ee5270ed)
-    (at 182.025 70.598)
+    (at 233.68 -52.324)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -4371,7 +4371,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 8511413c-ec99-4a14-ba75-b5ef60bf275f)
-    (at 135.42 119.348)
+    (at 398.576 120.806)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -4413,7 +4413,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 8718938c-c5bd-4f4a-bd20-2080e1bf4cc9)
-    (at 199.475 50.708)
+    (at 342.411 57.66)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -4459,22 +4459,22 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 879c8bb0-d4e7-44a1-bfdc-0e114060c4dc)
-    (at 225.33 32.858)
+    (at 54.5592 255.3481 90)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
     (property "Sheetname" "")
     (path "/3dad2e26-644d-42c0-af9e-32f5707a3bff")
     (attr smd)
-    (fp_text reference "R16" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R16" (at 0 -1.43 90) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 5668d599-87f8-4381-a5f1-7e361f0e2d5b)
     )
-    (fp_text value "130" (at 0 1.43) (layer "F.Fab")
+    (fp_text value "130" (at 0 1.43 90) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 67d813e2-44e2-4600-b66c-e2a9806e905b)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0 90) (layer "F.Fab")
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp 3f54b218-7da9-407a-a05a-87956e5a99cb)
     )
@@ -4488,9 +4488,9 @@
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 45702ae9-9cf6-4867-9a09-24a0be7afddf))
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp cbdb6eba-5810-41d5-b20a-6c7353a17a55))
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp e59a2f1e-4dbc-43fb-872d-b1571b8806a7))
-    (pad "1" smd roundrect (at -0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 29 "Net-(D10-Pad2)") (pintype "passive") (tstamp 7be79950-8c5c-47e3-a80b-ab6ea1f38cc2))
-    (pad "2" smd roundrect (at 0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.9125 0 90) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 6 "Encoder_PWM_2") (pintype "passive") (tstamp 88830d5a-14cc-4060-8791-71fd4b863d10))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -4501,7 +4501,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 87ee2c06-5da9-4744-ae2e-4fc9aef8af5a)
-    (at 215.13 44.408)
+    (at 358.066 51.36)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -4543,7 +4543,7 @@
 
   (footprint "MRDT_Connectors:MOLEX_SL_03_Vertical" (layer "F.Cu")
     (tedit 5DD89560) (tstamp 88fac23b-f8c2-4400-a8da-48359a3c2270)
-    (at 99.51 124.032)
+    (at 85.5726 228.1682)
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
     (property "Sheetname" "")
     (path "/3dbabd8a-445d-4c32-929e-cc30127a897f")
@@ -4578,7 +4578,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp 89102950-7e9e-455a-a628-03b9e269724a)
-    (at 175.58 71.988)
+    (at 318.516 78.94)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -4635,7 +4635,7 @@
 
   (footprint "MRDT_Connectors:MOLEX_SL_03_Vertical" (layer "F.Cu")
     (tedit 5DD89560) (tstamp 893fd820-4e52-499a-abc4-a6baaa8be763)
-    (at 57.27 135.382)
+    (at 86.3854 284.9372)
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
     (property "Sheetname" "")
     (path "/44e44281-283f-4213-bd55-fa1314f3cf26")
@@ -4714,7 +4714,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 8a4a9b26-4451-4ee7-abe7-d1aace902d67)
-    (at 203.82 53.258)
+    (at 181.864 -51.308)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -4756,7 +4756,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 8b722bce-899d-4bf4-b321-b7c9a65ec473)
-    (at 122.86 132.248)
+    (at 386.016 133.706)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -4798,7 +4798,7 @@
 
   (footprint "Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT" (layer "F.Cu")
     (tedit 59FE1FB7) (tstamp 8bfad12e-2860-42ac-9152-c6a83bdb8887)
-    (at 87.225 118.018)
+    (at 146.4115 261.5245)
     (descr "DCDC-Converter, TRACO, TSR 1-xxxx")
     (tags "DCDC-Converter TRACO TSR-1")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -4891,7 +4891,7 @@
 
   (footprint "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF0) (tstamp 90b64bc0-66f5-4377-b222-a33426396147)
-    (at 164.935 87.648)
+    (at 307.871 94.6)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -4935,7 +4935,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 90e5084a-acbd-4d8a-88db-4c425ad07c0e)
-    (at 210.74 46.998)
+    (at 353.676 53.95)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -4977,7 +4977,7 @@
 
   (footprint "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF0) (tstamp 91209fb6-bdf6-4a40-9887-cea1414a5bf3)
-    (at 50.235 125.078)
+    (at 313.391 126.536)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -5021,7 +5021,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp 98317fd7-90cd-4e22-a07b-f7cd3291005d)
-    (at 219.52 39.228)
+    (at 362.456 46.18)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -5098,7 +5098,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 9f91a638-b5e1-4ab6-ad06-65c8fb8e702f)
-    (at 176.2 54.548)
+    (at 319.136 61.5)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -5140,7 +5140,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side" (layer "F.Cu")
     (tedit 62156FC0) (tstamp 9fb3670b-aecc-4a2b-a970-855740fc5ec9)
-    (at 57.085 115.192)
+    (at 320.241 116.65)
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
     (property "Sheetname" "")
     (path "/4f3578d9-196b-41e7-8b03-c3c988032074")
@@ -5183,7 +5183,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 9fbd9d31-7cf8-4ea3-8d55-896376c9d218)
-    (at 208.21 50.668)
+    (at 351.146 57.62)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -5225,7 +5225,7 @@
 
   (footprint "MRDT_Connectors:MOLEX_SL_03_Vertical" (layer "F.Cu")
     (tedit 5DD89560) (tstamp a0f8605b-563a-458e-a4a3-4b6afc3bb954)
-    (at 91.2 133.412)
+    (at 86.868 299.2374)
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
     (property "Sheetname" "")
     (path "/e6a715b5-9935-4849-a11e-00a375ab6a2a")
@@ -5260,7 +5260,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp a31b88f3-188c-47dc-95a4-30b0d07288cb)
-    (at 166.94 74.088)
+    (at 220.472 -51.562)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -5317,7 +5317,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a5db6f3b-a208-41ab-9db0-9239d62f04f7)
-    (at 164.89 92.708)
+    (at 163.322 -43.942)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -5359,7 +5359,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp a91b252f-b084-464a-a987-da10bfe1aa46)
-    (at 87.775 137.988)
+    (at 121.5898 235.839)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -5403,7 +5403,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp a9aa3cc3-d098-4325-bb2b-68ef146a4492)
-    (at 176.245 51.998)
+    (at 319.181 58.95)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -5480,7 +5480,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp ab2e5120-27fd-4a8f-8471-804b498bdf7f)
-    (at 112.07 128.818)
+    (at 375.226 130.276)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -5537,7 +5537,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp acde62f2-76d9-4ed4-add2-f98653353213)
-    (at 112.07 135.268)
+    (at 175.006 -46.228)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -5594,7 +5594,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp ad5a0ab2-14c9-47dc-be9a-1d84121c097e)
-    (at 199.475 53.298)
+    (at 342.411 60.25)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -5638,7 +5638,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp adcfcdb1-7a10-40ae-a4f6-514ba5ba491a)
-    (at 127.21 130.898)
+    (at 181.864 -42.418)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -7133,7 +7133,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp af224cb4-de3a-4a07-b02e-d21190050693)
-    (at 229.72 30.268)
+    (at 372.656 37.22)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -7217,7 +7217,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp b1e2b80c-076f-49dc-8626-0901c848226f)
-    (at 120.57 121.318)
+    (at 383.726 122.776)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -7673,7 +7673,7 @@
 
   (footprint "MRDT_Connectors:MOLEX_SL_03_Vertical" (layer "F.Cu")
     (tedit 5DD89560) (tstamp b4b4bd44-0815-4a15-9942-599c37e472c9)
-    (at 74.72 125.832)
+    (at 86.8934 241.8334)
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
     (property "Sheetname" "")
     (path "/1015481d-2e3d-4373-82ac-f99c1c1b0350")
@@ -7708,7 +7708,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp b5d137a5-5af8-424f-bca0-9a3a06e54e34)
-    (at 199.17 60.948)
+    (at 230.632 -45.466)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -7750,7 +7750,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp b6185d83-992e-4b9a-b9cb-0c511f2ca3c2)
-    (at 50.235 127.668)
+    (at 53.2892 303.911)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -7794,7 +7794,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp b8d52d4c-71ad-45e0-93e3-a4ef92338064)
-    (at 120.52 127.768)
+    (at 220.472 -41.91)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -7851,7 +7851,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp bbe57b07-1ce2-447e-a512-4b83cf592907)
-    (at 169.28 90.038)
+    (at 227.33 -50.038)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -7893,7 +7893,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp c1ea47e3-3c88-4fd5-9511-00595c817921)
-    (at 195.07 65.488)
+    (at 338.006 72.44)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -7935,7 +7935,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp c34740a5-65d9-4d58-90db-8c9a26a6d4db)
-    (at 166.94 80.538)
+    (at 309.876 87.49)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -7992,7 +7992,7 @@
 
   (footprint "MRDT_Connectors:Square_Anderson_2_V_Side_By_Side" (layer "F.Cu")
     (tedit 62156FC0) (tstamp c897cf2b-4df0-4a15-88b4-2c6a6016e2bd)
-    (at 189.235 32.562)
+    (at 124.547 255.564)
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
     (property "Sheetname" "")
     (path "/9c46e44a-301f-4adc-af9c-b892d007541c")
@@ -8035,7 +8035,7 @@
 
   (footprint "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF0) (tstamp cd5c8e4d-c26d-4bd8-b073-f891f98a41c5)
-    (at 126.965 125.838)
+    (at 175.006 -53.34 180)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -8066,9 +8066,9 @@
     (fp_line (start 0.8 0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp 1ff17024-eab2-4a8b-b025-5ac50fc2e0e0))
     (fp_line (start -0.8 0.4) (end 0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp 2aa37767-735e-4f86-9a7f-0e18a18d15cb))
     (fp_line (start -0.8 -0.1) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp 72799a3c-be88-4a5f-9f02-89ca38452ac7))
-    (pad "1" smd roundrect (at -0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.875 0 180) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 8 "Net-(C2-Pad1)") (pinfunction "K") (pintype "passive") (tstamp eed6160c-5a07-4f08-a5bc-dac8e6ea0d5c))
-    (pad "2" smd roundrect (at 0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.875 0 180) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 7 "+12V") (pinfunction "A") (pintype "passive") (tstamp 0dd91932-c670-4b07-915d-ba8b83ced182))
     (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -8079,7 +8079,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp d59d6d52-d321-4e7d-9296-c3c191be6a7e)
-    (at 176.245 49.408)
+    (at 53.1622 283.0576)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -8123,7 +8123,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp d5b593c1-f1a3-4e7d-ac1a-d5f740e49c35)
-    (at 210.785 36.758)
+    (at 149.987 246.9134)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -8167,7 +8167,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp d6e3a2ab-b89d-44f2-8e2e-97d0372625c3)
-    (at 173.385 79.098)
+    (at 316.321 86.05)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -8213,7 +8213,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp d994d99e-e005-41b0-b2a2-be20744db788)
-    (at 215.175 36.758)
+    (at 358.111 43.71)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -8259,7 +8259,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp db896522-1e33-40d6-afaf-fda391de4529)
-    (at 169.28 85.018)
+    (at 312.216 91.97)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -8301,7 +8301,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp de3ed1fd-50c2-4cb0-a4a7-f6b93ba2fbb1)
-    (at 173.385 76.508)
+    (at 168.543 -48.514)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -8391,7 +8391,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e4bbf3d1-0fa6-41fb-9257-396e61d4a5e1)
-    (at 173.34 81.648)
+    (at 316.276 88.6)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -8433,7 +8433,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e64a9639-7a2d-4105-b678-53116169266e)
-    (at 148.22 112.898)
+    (at 181.864 -46.99 180)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -8462,9 +8462,9 @@
     (fp_line (start 0.8 -0.4125) (end 0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 73b613c2-5ec1-4b6f-ba2b-b658cd4312a6))
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp b86e6153-2bb3-4c2e-89de-1b375e5ad9fb))
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp ea571f22-3f09-462f-8bfb-10a5d478f402))
-    (pad "1" smd roundrect (at -0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.9125 0 180) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 71 "Net-(R6-Pad1)") (pintype "passive") (tstamp 3b23f38d-634b-4fe2-a179-51688475a5e1))
-    (pad "2" smd roundrect (at 0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.9125 0 180) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 55 "Net-(Q1-Pad4)") (pintype "passive") (tstamp 580578fb-16bb-4ad9-8fc2-994bef7413a9))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -8517,7 +8517,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ee46e3dc-6c51-460a-8c9f-ca02a7555f79)
-    (at 164.89 90.198)
+    (at 307.826 97.15)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -8559,7 +8559,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp ee967a59-50ca-4f4d-990a-d97c5ef140b7)
-    (at 204.34 39.738)
+    (at 239.776 -45.466)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -8616,7 +8616,7 @@
 
   (footprint "MRDT_Devices:OKI_Horizontal" (layer "F.Cu")
     (tedit 5DD8981C) (tstamp f1361de1-d849-4c29-a69b-3816ce581f69)
-    (at 39.82 113.488)
+    (at 146.6088 224.2312)
     (tags "OKI")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
     (property "Sheetname" "")
@@ -8657,7 +8657,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp f16017ff-9cff-4f76-8bd9-64e22b544387)
-    (at 210.74 44.488)
+    (at 353.676 51.44)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -10463,7 +10463,7 @@
 
   (footprint "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEF) (tstamp f6152724-91e1-42f9-888a-9fbf8c5ea21e)
-    (at 190.72 68.158)
+    (at 149.8346 242.3414)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -10505,7 +10505,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp f77e1831-87cc-482d-a56b-be148cbdd2b7)
-    (at 127.21 133.408)
+    (at 390.366 134.866)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -10589,7 +10589,7 @@
 
   (footprint "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF0) (tstamp f9a07a64-2489-4037-abd5-7cb100df2f41)
-    (at 190.475 63.098)
+    (at 333.411 70.05)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -10633,7 +10633,7 @@
 
   (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (layer "F.Cu")
     (tedit 5D9F72B1) (tstamp fcbe3a21-f3f4-40cb-b828-57bee8019a05)
-    (at 210.48 32.238)
+    (at 353.416 39.19)
     (descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "SOIC SO")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -10690,7 +10690,7 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp fcc3873a-562e-4a47-9f59-afbecd081b45)
-    (at 173.63 84.158)
+    (at 316.566 91.11)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "ScienceMotorController_Hardware_2023.kicad_sch")
@@ -10735,5 +10735,20 @@
   (gr_line (start 219.738 152.146) (end 32.738 152.146) (layer "Edge.Cuts") (width 0.2) (tstamp 6d59e4fe-1bdf-4e6b-a253-e45b9ae93f0a))
   (gr_line (start 219.738 152.146) (end 219.738 25.146) (layer "Edge.Cuts") (width 0.2) (tstamp 8a80bacd-c149-488c-b539-aa17b5f56ee0))
   (gr_line (start 32.738 25.146) (end 219.738 25.146) (layer "Edge.Cuts") (width 0.2) (tstamp c57ed9c7-0194-4f98-8bb0-f955ff72c807))
+  (gr_text "Servos" (at 88.3666 221.0308) (layer "User.1") (tstamp 1c979570-7a6f-414d-ac88-c3c48766a4ba)
+    (effects (font (size 2.54 2.54) (thickness 0.3)))
+  )
+  (gr_text "Power" (at 136.144 216.916) (layer "User.1") (tstamp 222e0307-861a-4ffe-9684-bee23974962a)
+    (effects (font (size 2.54 2.54) (thickness 0.3)))
+  )
+  (gr_text "X-Axis" (at 203.2 -59.69) (layer "User.1") (tstamp 2e5a58a5-ec85-4139-be89-4e7e32de7196)
+    (effects (font (size 2.54 2.54) (thickness 0.3)))
+  )
+  (gr_text "Limit Swithches" (at 111.8108 -131.826) (layer "User.1") (tstamp 603e9e72-f580-4528-a85f-2b842aaab972)
+    (effects (font (size 2.54 2.54) (thickness 0.3)))
+  )
+  (gr_text "Encoders" (at 51.6636 216.8906) (layer "User.1") (tstamp 77e1041c-b7ae-4172-8fb0-274623d90f64)
+    (effects (font (size 2.54 2.54) (thickness 0.3)))
+  )
 
 )
