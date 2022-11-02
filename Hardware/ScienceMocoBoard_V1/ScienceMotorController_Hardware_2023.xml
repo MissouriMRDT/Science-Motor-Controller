@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\Users\c0nn0\Documents\Rover\ScienceMotorController_Hardware_2023\ScienceMotorController_Hardware_2023.kicad_sch</source>
-    <date>9/28/2022 4:06:05 PM</date>
+    <source>C:\GitHub\ScienceMotorController_Hardware\Hardware\ScienceMocoBoard_V1\ScienceMotorController_Hardware_2023.kicad_sch</source>
+    <date>11/02/2022 6:04:14 PM</date>
     <tool>Eeschema (6.0.7)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -11,10 +11,10 @@
         <rev>1.01</rev>
         <date>9/15/2022</date>
         <source>ScienceMotorController_Hardware_2023.kicad_sch</source>
-        <comment number="1" value="Buneta, Cavazos, Medrow"/>
+        <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
-        <comment number="4" value=""/>
+        <comment number="4" value="Buneta, Cavazos, Medrow"/>
         <comment number="5" value=""/>
         <comment number="6" value=""/>
         <comment number="7" value=""/>
@@ -40,7 +40,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>bec3790e-715b-4273-99e4-5b5cd5c2ba71</tstamps>
+      <tstamps>ae66c4d0-7d79-4760-aeff-8ffa5442de12</tstamps>
     </comp>
     <comp ref="AbsEncode3">
       <value>Molex_SL_03</value>
@@ -49,7 +49,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ab041477-29cd-4a62-8078-50f664242a24</tstamps>
+      <tstamps>bec3790e-715b-4273-99e4-5b5cd5c2ba71</tstamps>
     </comp>
     <comp ref="AbsEncode4">
       <value>Molex_SL_03</value>
@@ -58,7 +58,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ae66c4d0-7d79-4760-aeff-8ffa5442de12</tstamps>
+      <tstamps>ab041477-29cd-4a62-8078-50f664242a24</tstamps>
     </comp>
     <comp ref="C1">
       <value>10uF</value>
@@ -70,6 +70,24 @@
       <tstamps>6a01bcbe-0f8d-4511-8472-b6ea46b3b117</tstamps>
     </comp>
     <comp ref="C2">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50401f1f-9598-4ca8-80d1-7efecb14a718</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>71e85445-3339-4664-9e2b-0614603fb73d</tstamps>
+    </comp>
+    <comp ref="C4">
       <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
@@ -78,113 +96,99 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>32295ade-1b36-49fa-a78a-6c19e9890d65</tstamps>
     </comp>
-    <comp ref="C3">
-      <value>0.1u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d225ac25-fed3-41b7-b48b-3c5c75e86c71</tstamps>
-    </comp>
-    <comp ref="C4">
-      <value>0.1u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>0944af9c-240f-4e42-8390-e5b74dcf9843</tstamps>
-    </comp>
     <comp ref="C5">
-      <value>0.1u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>71e85445-3339-4664-9e2b-0614603fb73d</tstamps>
+      <tstamps>4619c30f-55db-484f-afc1-eea8e7151b4a</tstamps>
     </comp>
     <comp ref="C6">
-      <value>0.1u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>323428fa-7943-452f-a6db-7c11afa79b35</tstamps>
-    </comp>
-    <comp ref="C7">
       <value>10u</value>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b9e57549-93b4-4a55-bd41-a87402c53bda</tstamps>
-    </comp>
-    <comp ref="C8">
-      <value>10u</value>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>de1bd98c-1689-4ae8-8329-0abaf7066be9</tstamps>
-    </comp>
-    <comp ref="C9">
-      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7654cbf4-048a-4496-b38c-d9c0877df919</tstamps>
     </comp>
-    <comp ref="C10">
-      <value>10u</value>
-      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>3ca6b816-8f89-44fd-a25b-de3e7d98b5f4</tstamps>
-    </comp>
-    <comp ref="C11">
+    <comp ref="C7">
       <value>0.1u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>886d9d60-8686-48d7-8ca2-4cb4d88a4c13</tstamps>
+      <tstamps>068774bc-b5ee-4753-9f00-16adcc8c3fd7</tstamps>
     </comp>
-    <comp ref="C12">
+    <comp ref="C8">
       <value>0.1u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a6f235f2-9050-400b-a3a1-0422d5b7f351</tstamps>
-    </comp>
-    <comp ref="C13">
-      <value>0.1u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>89083feb-7d70-485e-ae62-9b1f3ec9c4ab</tstamps>
     </comp>
-    <comp ref="C14">
+    <comp ref="C9">
       <value>0.1u</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>0e1e0c28-a9f7-4ec9-a420-536c29a632e1</tstamps>
+      <tstamps>3cc3cf86-120d-4494-b15b-8b862a41a9b5</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3017ed73-9a2d-4341-a744-3029bc756ad1</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33dd7ed7-8fd9-40d1-bcee-e456968f7d1b</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a287d42e-5490-4d6c-8fc3-045a3a8a4c45</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7699feab-8fdc-49a3-80af-c4c69b556b59</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f35108d-460e-4a35-af5c-053cd4485fa6</tstamps>
     </comp>
     <comp ref="Conn1">
       <value>Input</value>
-      <footprint>MRDT_Connectors:Square_Anderson_3_H_Side_By_Side</footprint>
+      <footprint>MRDT_Connectors:Square_Anderson_2_H_Side_By_Side</footprint>
       <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
@@ -193,7 +197,7 @@
     </comp>
     <comp ref="Conn2">
       <value>Output1</value>
-      <footprint>MRDT_Connectors:Square_Anderson_3_H_Side_By_Side</footprint>
+      <footprint>MRDT_Connectors:Square_Anderson_2_H_Side_By_Side</footprint>
       <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
@@ -211,57 +215,69 @@
     </comp>
     <comp ref="Conn4">
       <value>AndersonPP</value>
-      <footprint>MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side</footprint>
+      <footprint>MRDT_Connectors:Square_Anderson_2_H_Side_By_Side</footprint>
       <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>cbd9c19c-e946-4dad-b9a1-ea73dd8fe82c 75c9acb9-29ef-4cb9-bdea-67c497f35062</tstamps>
+      <tstamps>cd262ca1-3586-466d-a467-d8b01bf093a7 6c6e361b-4a07-4b89-a3cf-7e412883c1a4</tstamps>
     </comp>
     <comp ref="Conn5">
       <value>AndersonPP</value>
-      <footprint>MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side</footprint>
+      <footprint>MRDT_Connectors:Square_Anderson_2_H_Side_By_Side</footprint>
       <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>f91a7175-05b4-43db-840b-8e12265281dc 28d66157-5186-468b-90bf-3143d6c03da1</tstamps>
+      <tstamps>de3e784e-289b-48e9-811a-b8cba0269725 158c6d96-163c-4c21-8189-8b32c95b4cdf</tstamps>
     </comp>
     <comp ref="Conn6">
       <value>AndersonPP</value>
-      <footprint>MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side</footprint>
+      <footprint>MRDT_Connectors:Square_Anderson_2_H_Side_By_Side</footprint>
+      <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f3578d9-196b-41e7-8b03-c3c988032074 369feaea-9bbc-42eb-ba91-271c009547c5</tstamps>
+    </comp>
+    <comp ref="Conn7">
+      <value>AndersonPP</value>
+      <footprint>MRDT_Connectors:Square_Anderson_2_H_Side_By_Side</footprint>
       <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>46f4dbf4-e603-48ae-a58c-56f6117ad989 45e5d604-34a8-4ec6-8a22-709075fb152c</tstamps>
     </comp>
-    <comp ref="Conn7">
-      <value>AndersonPP</value>
-      <footprint>MRDT_Connectors:Anderson_2_Horizontal_Side_by_Side</footprint>
-      <libsource lib="MRDT_Connectors" part="AndersonPP" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>ff004ee1-7f50-423d-bb78-d346560a8b92 e14dbf37-f7d8-4371-8285-72a8a172b955</tstamps>
-    </comp>
     <comp ref="D1">
-      <value>LED</value>
+      <value>Pink</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>32ee5c04-5c75-4e00-ab94-81e5051e9138</tstamps>
+      <tstamps>73dc6e6e-917d-4b44-9b59-493b890a076b</tstamps>
     </comp>
     <comp ref="D2">
-      <value>LED</value>
+      <value>Pink</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>9e3d5680-c078-405b-9106-4c5435715cd4</tstamps>
+      <tstamps>b52205c3-285b-4577-8b85-ed2f9c2edb0e</tstamps>
     </comp>
     <comp ref="D3">
       <value>GREEN</value>
@@ -273,24 +289,54 @@
       <tstamps>296f66fd-e159-449e-95d9-8b60f7adabbf</tstamps>
     </comp>
     <comp ref="D4">
-      <value>LED</value>
+      <value>Pink</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>1596f165-a110-4dc4-8543-402670b99263</tstamps>
+      <tstamps>7472f51f-83a4-47bd-8468-4ab3939804d9</tstamps>
     </comp>
     <comp ref="D5">
-      <value>LED</value>
+      <value>Pink</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>725f11a6-2138-4388-862c-dd517d8500ee</tstamps>
+      <tstamps>ca0d2ecc-60f0-4fba-86bd-6c5e65b1aab1</tstamps>
     </comp>
     <comp ref="D6">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>728ada8b-6e82-4d89-980b-748d6f8a9eee</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1582fecd-37f7-40db-9fc2-44b1a892ec8a</tstamps>
+    </comp>
+    <comp ref="D8">
       <value>GREEN</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
@@ -299,7 +345,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>598cdd74-582a-4328-8a46-2899cb32fdfa</tstamps>
     </comp>
-    <comp ref="D7">
+    <comp ref="D9">
       <value>GREEN</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
@@ -308,61 +354,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f3c1543b-17eb-47d4-861e-a0bc0346cede</tstamps>
     </comp>
-    <comp ref="D8">
-      <value>LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>856f9257-775a-406e-ab32-7efbb3b126a4</tstamps>
-    </comp>
-    <comp ref="D9">
-      <value>RED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>37359198-fde6-4c4e-b635-7a4eed1e41ae</tstamps>
-    </comp>
     <comp ref="D10">
-      <value>RED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d0dae439-c3a7-435b-9f4d-038802817173</tstamps>
-    </comp>
-    <comp ref="D11">
-      <value>LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>680afab4-0e46-4283-ac10-8039b7aa78a8</tstamps>
-    </comp>
-    <comp ref="D12">
-      <value>LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>df7619a2-ce54-44dd-a829-fc5694ef2354</tstamps>
-    </comp>
-    <comp ref="D13">
-      <value>LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a2679166-b267-46d9-885c-62b8a2a66f1e</tstamps>
-    </comp>
-    <comp ref="D14">
       <value>YELLOW</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
@@ -371,7 +363,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5dc036ae-0fa1-4187-ae73-3847aa3a299d</tstamps>
     </comp>
-    <comp ref="D15">
+    <comp ref="D11">
       <value>YELLOW</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
@@ -380,16 +372,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>28be116c-66b0-47b7-a14b-6ed527c2353f</tstamps>
     </comp>
-    <comp ref="D16">
-      <value>YELLOW</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>17c5b3b9-e973-4d31-bca8-5fda7fe24ba1</tstamps>
-    </comp>
-    <comp ref="D17">
+    <comp ref="D12">
       <value>YELLOW</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
@@ -398,153 +381,148 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>31029f63-98f0-40fc-ac63-fbed36e940d4</tstamps>
     </comp>
-    <comp ref="D18">
-      <value>LED</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>96dd2a22-1537-49d3-9b96-b5c6282ca1a5</tstamps>
-    </comp>
-    <comp ref="D19">
-      <value>D_Small</value>
-      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b12b7b4d-f277-4087-9653-58fd33f18d5f</tstamps>
-    </comp>
-    <comp ref="D20">
-      <value>D_Small</value>
-      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e8acaa2d-d7bc-4287-b8d4-4ed5bc407d0a</tstamps>
-    </comp>
-    <comp ref="D21">
-      <value>D_Small</value>
-      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>1582fecd-37f7-40db-9fc2-44b1a892ec8a</tstamps>
-    </comp>
-    <comp ref="D22">
-      <value>D_Small</value>
-      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e8aca29b-b889-4a92-8ebd-53c4e47104cd</tstamps>
-    </comp>
-    <comp ref="D23">
-      <value>Pink</value>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f5f2645a-9076-4b29-9cbc-334730704e0d</tstamps>
-    </comp>
-    <comp ref="D24">
-      <value>Pink</value>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>17592884-e57d-4394-a0e9-56785873eb45</tstamps>
-    </comp>
-    <comp ref="D25">
-      <value>Pink</value>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>fe43cc6f-d4e5-4586-8d21-efefcfe6ac5b</tstamps>
-    </comp>
-    <comp ref="D26">
-      <value>Pink</value>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a41405ec-1755-4b98-b524-4996f5fee55d</tstamps>
-    </comp>
-    <comp ref="D27">
-      <value>Pink</value>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>358bf528-d23c-4575-9dd6-300bfe65ce6f</tstamps>
-    </comp>
-    <comp ref="D28">
-      <value>Pink</value>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>73878527-5081-4040-911d-f82c6bee887d</tstamps>
-    </comp>
-    <comp ref="D29">
-      <value>Pink</value>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>f3e8210e-bcbc-43c5-97e8-1dd9f179b34c</tstamps>
-    </comp>
-    <comp ref="D30">
-      <value>Pink</value>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>faf09a11-8b2b-46be-a690-1260d657f4b7</tstamps>
-    </comp>
-    <comp ref="D31">
-      <value>D_Small</value>
-      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>27a56c43-4c49-4c08-ab32-78cc46cbe2d1</tstamps>
-    </comp>
-    <comp ref="D32">
-      <value>D_Small</value>
-      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>ec3671ae-6cc6-4719-9f02-68de951b9356</tstamps>
-    </comp>
-    <comp ref="D33">
-      <value>D_Small</value>
-      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>cd09656f-d221-4d23-9525-11396d6248ba</tstamps>
-    </comp>
-    <comp ref="D34">
-      <value>D_Small</value>
-      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b3fbf651-4524-4a41-8b96-38a7c6d2bb0a</tstamps>
-    </comp>
-    <comp ref="D35">
+    <comp ref="D13">
       <value>YELLOW</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>65e7e68c-a9cd-48cb-af73-ef3976aa3747</tstamps>
+      <tstamps>17c5b3b9-e973-4d31-bca8-5fda7fe24ba1</tstamps>
     </comp>
-    <comp ref="D36">
+    <comp ref="D14">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98a344b2-860d-49e2-a508-eb2b43548329</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cd09656f-d221-4d23-9525-11396d6248ba</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>Pink</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4631b7e7-97a9-4f5c-b300-ed4685b20c16</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>Pink</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee07a1a2-0761-4949-9759-4c2706859aaa</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>Pink</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2b1040c-357f-48c2-8f00-7aeddef781e1</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>Pink</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
+      </fields>
+      <libsource lib="Simulation_SPICE" part="DIODE" description="Diode, anode on pin 1, for simulation only!"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="Spice_Primitive" value="D"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2a57614-54fa-48ff-abc9-ed70e9a0cef7</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>004be9fc-7fe7-4963-a73b-71a7a6dfc941</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d14c19f6-5100-4b74-826e-1c52fb1de418</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9207e4a0-629f-4fc6-923e-1c143725976e</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>D_Small</value>
+      <footprint>Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cb6df7c-8b7a-4f76-913d-ebdc55bc9501</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37359198-fde6-4c4e-b635-7a4eed1e41ae</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>RED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0dae439-c3a7-435b-9f4d-038802817173</tstamps>
+    </comp>
+    <comp ref="D26">
       <value>YELLOW</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
@@ -553,34 +531,16 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ae48aa53-28c2-4160-a852-fa9bb5c230be</tstamps>
     </comp>
-    <comp ref="D37">
+    <comp ref="D27">
       <value>YELLOW</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>0b42f7d6-c409-46fb-9706-2a262b367d38</tstamps>
+      <tstamps>65e7e68c-a9cd-48cb-af73-ef3976aa3747</tstamps>
     </comp>
-    <comp ref="D38">
-      <value>YELLOW</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5622bf60-08f2-4db4-a553-e120b83852f6</tstamps>
-    </comp>
-    <comp ref="D39">
-      <value>YELLOW</value>
-      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8b4a9045-3245-49f3-b44b-9e87a83d71e7</tstamps>
-    </comp>
-    <comp ref="D40">
+    <comp ref="D28">
       <value>YELLOW</value>
       <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
@@ -589,16 +549,34 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>64fe68da-dc19-4381-b53f-869b6da3ef54</tstamps>
     </comp>
-    <comp ref="LimSwitch1">
-      <value>Molex_SL_02</value>
-      <footprint>MRDT_Connectors:MOLEX_SL_02_Vertical</footprint>
-      <libsource lib="MRDT_Connectors" part="Molex_SL_02" description=""/>
+    <comp ref="D29">
+      <value>YELLOW</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>cec7a1e3-18a2-4d5d-a0e0-7df1cf49fda9</tstamps>
+      <tstamps>8b4a9045-3245-49f3-b44b-9e87a83d71e7</tstamps>
     </comp>
-    <comp ref="LimSwitch2">
+    <comp ref="D30">
+      <value>YELLOW</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b42f7d6-c409-46fb-9706-2a262b367d38</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>YELLOW</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED_Small" description="Light emitting diode, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5622bf60-08f2-4db4-a553-e120b83852f6</tstamps>
+    </comp>
+    <comp ref="LimSwitch1">
       <value>Molex_SL_02</value>
       <footprint>MRDT_Connectors:MOLEX_SL_02_Vertical</footprint>
       <libsource lib="MRDT_Connectors" part="Molex_SL_02" description=""/>
@@ -607,34 +585,16 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a2008ac9-3c1c-41b9-9315-f4756a7ac31f</tstamps>
     </comp>
+    <comp ref="LimSwitch2">
+      <value>Molex_SL_02</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_02_Vertical</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_02" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cec7a1e3-18a2-4d5d-a0e0-7df1cf49fda9</tstamps>
+    </comp>
     <comp ref="LimSwitch3">
-      <value>Molex_SL_02</value>
-      <footprint>MRDT_Connectors:MOLEX_SL_02_Vertical</footprint>
-      <libsource lib="MRDT_Connectors" part="Molex_SL_02" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8d699295-dbd8-4d84-beb4-5e931871762d</tstamps>
-    </comp>
-    <comp ref="LimSwitch4">
-      <value>Molex_SL_02</value>
-      <footprint>MRDT_Connectors:MOLEX_SL_02_Vertical</footprint>
-      <libsource lib="MRDT_Connectors" part="Molex_SL_02" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>9bb03fe6-9ce3-4200-91c4-4123674cd4ad</tstamps>
-    </comp>
-    <comp ref="LimSwitch5">
-      <value>Molex_SL_02</value>
-      <footprint>MRDT_Connectors:MOLEX_SL_02_Vertical</footprint>
-      <libsource lib="MRDT_Connectors" part="Molex_SL_02" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d34cd166-682b-4178-9933-097d356139c7</tstamps>
-    </comp>
-    <comp ref="LimSwitch6">
       <value>Molex_SL_02</value>
       <footprint>MRDT_Connectors:MOLEX_SL_02_Vertical</footprint>
       <libsource lib="MRDT_Connectors" part="Molex_SL_02" description=""/>
@@ -643,137 +603,54 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>f3cf2a3a-f1d3-4aa7-9dc0-177905fe652d</tstamps>
     </comp>
-    <comp ref="Q1">
-      <value>BSS138</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
-      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+    <comp ref="LimSwitch4">
+      <value>Molex_SL_02</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_02_Vertical</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_02" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b8d0ecd2-71f4-4bde-a5fa-5aae8c41f0ee</tstamps>
+      <tstamps>d34cd166-682b-4178-9933-097d356139c7</tstamps>
+    </comp>
+    <comp ref="LimSwitch5">
+      <value>Molex_SL_02</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_02_Vertical</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_02" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d699295-dbd8-4d84-beb4-5e931871762d</tstamps>
+    </comp>
+    <comp ref="LimSwitch6">
+      <value>Molex_SL_02</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_02_Vertical</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_02" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bb03fe6-9ce3-4200-91c4-4123674cd4ad</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>SI4156DY</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="FDS2734" description="3.0A Id, 250V Vds, N-Channel MOSFET, 117mOhm Ron, SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8a78db9-817c-44b4-abe4-de05c01ea93b</tstamps>
     </comp>
     <comp ref="Q2">
-      <value>BSS138</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
-      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
+      <value>SI4156DY</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="FDS2734" description="3.0A Id, 250V Vds, N-Channel MOSFET, 117mOhm Ron, SOIC-8"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>42158bcb-32a7-4dc0-b397-7bb1c8301f7c</tstamps>
+      <tstamps>664d7984-52c8-46e5-9d4d-ea7f90d73632</tstamps>
     </comp>
     <comp ref="Q3">
-      <value>BSS138</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
-      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>07906edf-dfdd-444a-a918-71c82d0b056f</tstamps>
-    </comp>
-    <comp ref="Q4">
-      <value>BSS138</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
-      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b5fef26c-4b70-4c61-9d28-2e65211c0279</tstamps>
-    </comp>
-    <comp ref="Q5">
-      <value>BSS138</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
-      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>20ee49f8-bf23-4002-b5d7-dae51e6316e6</tstamps>
-    </comp>
-    <comp ref="Q6">
-      <value>BSS138</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
-      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>cb025134-2b25-4d1e-8fa0-1eb5637d125f</tstamps>
-    </comp>
-    <comp ref="Q7">
-      <value>BSS138</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
-      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>87b9aacb-279d-4126-a200-ef1a73adc303</tstamps>
-    </comp>
-    <comp ref="Q8">
-      <value>BSS138</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
-      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5c839f4d-8966-4515-bc1e-8376857a0726</tstamps>
-    </comp>
-    <comp ref="Q9">
-      <value>BSS138</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</datasheet>
-      <libsource lib="Transistor_FET" part="BSS138" description="50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>38b15cee-b5cf-46e8-b963-155148dbeec1</tstamps>
-    </comp>
-    <comp ref="Q10">
-      <value>SI4156DY</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
-      <libsource lib="Transistor_FET" part="FDS2734" description="3.0A Id, 250V Vds, N-Channel MOSFET, 117mOhm Ron, SOIC-8"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>c9d0ac06-0c9f-453b-a516-93929474d5cb</tstamps>
-    </comp>
-    <comp ref="Q11">
-      <value>SI4156DY</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
-      <libsource lib="Transistor_FET" part="FDS2734" description="3.0A Id, 250V Vds, N-Channel MOSFET, 117mOhm Ron, SOIC-8"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>613a5e6e-5d4c-4779-b543-62f6f8686c6b</tstamps>
-    </comp>
-    <comp ref="Q12">
-      <value>SI4156DY</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
-      <libsource lib="Transistor_FET" part="FDS2734" description="3.0A Id, 250V Vds, N-Channel MOSFET, 117mOhm Ron, SOIC-8"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>ccaa7ac9-5d6f-4b2c-ab25-85645a08fd14</tstamps>
-    </comp>
-    <comp ref="Q13">
-      <value>SI4156DY</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
-      <libsource lib="Transistor_FET" part="FDS2734" description="3.0A Id, 250V Vds, N-Channel MOSFET, 117mOhm Ron, SOIC-8"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5d701fbe-822a-4096-8c4f-7400678082ad</tstamps>
-    </comp>
-    <comp ref="Q14">
       <value>SI4156DY</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
@@ -783,7 +660,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>a35993b9-292f-4b22-8025-63b69b6c337c</tstamps>
     </comp>
-    <comp ref="Q15">
+    <comp ref="Q4">
       <value>SI4156DY</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
@@ -793,7 +670,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c7dab8a1-ba89-4304-b7bf-5234ac83ef7c</tstamps>
     </comp>
-    <comp ref="Q16">
+    <comp ref="Q5">
       <value>SI4156DY</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
@@ -801,9 +678,9 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>da07ab73-9ef3-4705-803d-a244ca5f9c10</tstamps>
+      <tstamps>2bd045fe-c56a-4d0e-ac3d-9edc194c67bf</tstamps>
     </comp>
-    <comp ref="Q17">
+    <comp ref="Q6">
       <value>SI4156DY</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
@@ -811,49 +688,9 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>0ebacb01-855e-403f-b116-a349f06c5c38</tstamps>
+      <tstamps>e26b4222-78f6-456c-b1bf-fa43de405d84</tstamps>
     </comp>
-    <comp ref="Q18">
-      <value>SI4156DY</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
-      <libsource lib="Transistor_FET" part="FDS2734" description="3.0A Id, 250V Vds, N-Channel MOSFET, 117mOhm Ron, SOIC-8"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>0a643269-87ec-4868-accb-a0ec660ee504</tstamps>
-    </comp>
-    <comp ref="Q19">
-      <value>SI4156DY</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
-      <libsource lib="Transistor_FET" part="FDS2734" description="3.0A Id, 250V Vds, N-Channel MOSFET, 117mOhm Ron, SOIC-8"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>703050dd-f6d3-41f1-a9d8-9cc5e536bf36</tstamps>
-    </comp>
-    <comp ref="Q20">
-      <value>SI4156DY</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
-      <libsource lib="Transistor_FET" part="FDS2734" description="3.0A Id, 250V Vds, N-Channel MOSFET, 117mOhm Ron, SOIC-8"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>9b1c1740-8514-4585-9eef-7044588a1b43</tstamps>
-    </comp>
-    <comp ref="Q21">
-      <value>SI4156DY</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
-      <libsource lib="Transistor_FET" part="FDS2734" description="3.0A Id, 250V Vds, N-Channel MOSFET, 117mOhm Ron, SOIC-8"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>039c4fb0-f3dc-4751-bd7e-ff3c41797203</tstamps>
-    </comp>
-    <comp ref="Q22">
+    <comp ref="Q7">
       <value>SI4156DY</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
@@ -863,7 +700,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>86faf566-a23c-4f26-804c-70fc2224c6cf</tstamps>
     </comp>
-    <comp ref="Q23">
+    <comp ref="Q8">
       <value>SI4156DY</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
@@ -873,7 +710,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5980cada-537f-4065-af11-277f838d46d6</tstamps>
     </comp>
-    <comp ref="Q24">
+    <comp ref="Q9">
       <value>SI4156DY</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
@@ -881,9 +718,9 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>049b2d5c-18c2-45c7-b772-8c380c038b73</tstamps>
+      <tstamps>ab53d7bf-ad14-4d0e-ac17-df7f2a428d69</tstamps>
     </comp>
-    <comp ref="Q25">
+    <comp ref="Q10">
       <value>SI4156DY</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
@@ -891,18 +728,87 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>06390c28-5229-4c3f-ba38-caf684b73b87</tstamps>
+      <tstamps>b17c7af9-6380-427f-a3fa-7809150c8487</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>SI4156DY</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="FDS2734" description="3.0A Id, 250V Vds, N-Channel MOSFET, 117mOhm Ron, SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>580185cf-4215-41d9-aad6-abf9c22ff7af</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>SI4156DY</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="FDS2734" description="3.0A Id, 250V Vds, N-Channel MOSFET, 117mOhm Ron, SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cc408900-a9ac-4718-bbae-fc67a0c6f297</tstamps>
+    </comp>
+    <comp ref="Q13">
+      <value>SI4156DY</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="FDS2734" description="3.0A Id, 250V Vds, N-Channel MOSFET, 117mOhm Ron, SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b6d2303-6afd-4d18-a566-15f60455a215</tstamps>
+    </comp>
+    <comp ref="Q14">
+      <value>SI4156DY</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="FDS2734" description="3.0A Id, 250V Vds, N-Channel MOSFET, 117mOhm Ron, SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1dfafd89-a366-4f06-a8f9-304c34cb7e84</tstamps>
+    </comp>
+    <comp ref="Q15">
+      <value>SI4156DY</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="FDS2734" description="3.0A Id, 250V Vds, N-Channel MOSFET, 117mOhm Ron, SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f25ab3d-7844-44b1-9a5f-2ca27371fdf7</tstamps>
+    </comp>
+    <comp ref="Q16">
+      <value>SI4156DY</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.onsemi.com/pdf/datasheet/fds8896-d.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="FDS2734" description="3.0A Id, 250V Vds, N-Channel MOSFET, 117mOhm Ron, SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78fa71bf-addc-4303-8787-8a459ef12da1</tstamps>
     </comp>
     <comp ref="R1">
-      <value>1k</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>039ec4bc-a7a7-42f3-b5ab-e9ac6abd1f56</tstamps>
+      <tstamps>cf6b4979-538c-4662-8051-82d401bfe671</tstamps>
     </comp>
     <comp ref="R2">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0ae9631d-0fce-4db6-a01e-3c5ed7a67133</tstamps>
+    </comp>
+    <comp ref="R3">
       <value>1k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -911,25 +817,61 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>c960cf53-f74d-4f5e-99a2-b84be433de56</tstamps>
     </comp>
-    <comp ref="R3">
-      <value>1k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a7026390-b14d-40d1-b1e0-bf7e0a560094</tstamps>
-    </comp>
     <comp ref="R4">
-      <value>1k</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>cdeca517-147d-42b7-a2d1-0faebc900fa1</tstamps>
+      <tstamps>8c90daca-b6da-4b97-9c0e-69b6c97446a1</tstamps>
     </comp>
     <comp ref="R5">
+      <value>120</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>911c2eb8-b219-43bf-a32e-6cac5ca4edf8</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb3387f4-4110-457a-aff4-1e78c2721bf9</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ae0a2cf-dc31-4663-999f-745de96fef1b</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56e50ccb-3def-4df1-8db5-7b7606c00e96</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b221166-aa73-4742-a985-eda7cd497a9b</tstamps>
+    </comp>
+    <comp ref="R10">
       <value>300</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -938,7 +880,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>7fb69d16-152a-47e8-bc28-03e8651598ad</tstamps>
     </comp>
-    <comp ref="R6">
+    <comp ref="R11">
       <value>130</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -947,86 +889,41 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>74e954c8-c15c-46ff-acda-395ddbf85c5c</tstamps>
     </comp>
-    <comp ref="R7">
-      <value>1k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8f2ba7b3-fa5f-4c92-9ce8-4d7ffde5c896</tstamps>
-    </comp>
-    <comp ref="R8">
-      <value>1k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>5b86a6c4-ada2-43fa-8dfd-3dfccc37ac68</tstamps>
-    </comp>
-    <comp ref="R9">
-      <value>130</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>cf53b830-6e5f-405e-a32f-534449fd4a3e</tstamps>
-    </comp>
-    <comp ref="R10">
-      <value>130</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>ad3c9621-15bc-4700-be98-7ad7d549fb0f</tstamps>
-    </comp>
-    <comp ref="R11">
-      <value>1k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8282b83c-2d72-4f94-9f9d-e5fcf40392a4</tstamps>
-    </comp>
     <comp ref="R12">
-      <value>1k</value>
+      <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>da0eb6bd-71d6-4b1c-bf6d-37d6d2b25522</tstamps>
+      <tstamps>81f5304d-4b36-46a3-ad29-94478c9b94a8</tstamps>
     </comp>
     <comp ref="R13">
-      <value>1k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>cead4484-e752-41ac-86fa-bf733611dcdb</tstamps>
-    </comp>
-    <comp ref="R14">
-      <value>1k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a246684e-f392-4efa-863e-66933daccd90</tstamps>
-    </comp>
-    <comp ref="R15">
-      <value>130</value>
+      <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>3dad2e26-644d-42c0-af9e-32f5707a3bff</tstamps>
+      <tstamps>542e2291-70e6-4962-b4ef-baf08ac05246</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a37ae9ba-184d-4956-b549-5c42436b129f</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0027c8b-d343-41aa-ac27-bc3b9871dd3d</tstamps>
     </comp>
     <comp ref="R16">
       <value>130</value>
@@ -1035,7 +932,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d964315e-31d0-43d3-9d46-2f425917bdc4</tstamps>
+      <tstamps>3dad2e26-644d-42c0-af9e-32f5707a3bff</tstamps>
     </comp>
     <comp ref="R17">
       <value>130</value>
@@ -1044,7 +941,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a9580606-4bb4-41eb-bcdb-11e44979c1cf</tstamps>
+      <tstamps>d964315e-31d0-43d3-9d46-2f425917bdc4</tstamps>
     </comp>
     <comp ref="R18">
       <value>130</value>
@@ -1056,49 +953,49 @@
       <tstamps>b4475406-653b-41e8-98e7-1215a4d4d384</tstamps>
     </comp>
     <comp ref="R19">
-      <value>100</value>
+      <value>130</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a6d8464a-ed15-4097-a74c-2702ded886cd</tstamps>
+      <tstamps>a9580606-4bb4-41eb-bcdb-11e44979c1cf</tstamps>
     </comp>
     <comp ref="R20">
-      <value>100</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>a0aecd1c-bb16-4e5a-af81-8d7d53f18cf4</tstamps>
+      <tstamps>e859d9bb-2c8c-4916-ab35-fe0cc52cfa36</tstamps>
     </comp>
     <comp ref="R21">
-      <value>100</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>caa2a993-ff35-4597-85e3-f919cc18b7a2</tstamps>
+      <tstamps>4e9f1c9a-a077-4f85-8191-1a99b3c66cff</tstamps>
     </comp>
     <comp ref="R22">
-      <value>100</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>3edcea5c-d038-48a1-a77e-3d1755f67017</tstamps>
+      <tstamps>9cb14830-5af9-44f8-a578-b635663306a8</tstamps>
     </comp>
     <comp ref="R23">
-      <value>100</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>56e50ccb-3def-4df1-8db5-7b7606c00e96</tstamps>
+      <tstamps>7e6f4012-a5ef-4bc3-aae1-7b1fe3d38198</tstamps>
     </comp>
     <comp ref="R24">
       <value>100</value>
@@ -1107,7 +1004,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>9b221166-aa73-4742-a985-eda7cd497a9b</tstamps>
+      <tstamps>9fa73566-1731-4874-b7da-d403bd52e877</tstamps>
     </comp>
     <comp ref="R25">
       <value>100</value>
@@ -1116,7 +1013,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>0f4e74c4-f3c6-424d-a9e5-8c48a8c50471</tstamps>
+      <tstamps>a161328f-b1f1-4bd5-802d-630a4cb52a52</tstamps>
     </comp>
     <comp ref="R26">
       <value>100</value>
@@ -1125,162 +1022,72 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>b507fc02-b5d9-4fdf-8c72-b7ca479fb481</tstamps>
+      <tstamps>67d278d2-c233-4ab7-b4b3-dff029755848</tstamps>
     </comp>
     <comp ref="R27">
-      <value>500</value>
+      <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>dc16949b-1626-42e4-b4a9-8e1d02dbc836</tstamps>
+      <tstamps>0d0b88c2-da98-4855-8bca-b17f5ea62f01</tstamps>
     </comp>
     <comp ref="R28">
-      <value>500</value>
+      <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>0923dacf-e383-4d01-9796-1ba31d2eb0d4</tstamps>
+      <tstamps>f30a7c88-dc9e-4130-baf8-3d7cdca974f1</tstamps>
     </comp>
     <comp ref="R29">
-      <value>500</value>
+      <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>53385f4b-c78b-48fa-aec1-df74fb5b1a6e</tstamps>
+      <tstamps>91840afc-7470-4db8-8f4b-8f82d5bca4b0</tstamps>
     </comp>
     <comp ref="R30">
-      <value>500</value>
+      <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>4f63f482-2663-4e9a-a7e4-d6e0834d855c</tstamps>
+      <tstamps>3451f637-38d9-4edf-95f2-be94ab81aea1</tstamps>
     </comp>
     <comp ref="R31">
-      <value>500</value>
+      <value>100</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>6cd52ae4-58cb-4d9e-9ab0-c093f18d35db</tstamps>
+      <tstamps>ef13ffbc-3398-47eb-93d6-063808d42002</tstamps>
     </comp>
     <comp ref="R32">
-      <value>500</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>550ecb77-0077-45d9-b0f0-441ec9106c2e</tstamps>
-    </comp>
-    <comp ref="R33">
-      <value>500</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d5c50dc7-bb25-45e5-8fcf-250214eda9b6</tstamps>
-    </comp>
-    <comp ref="R34">
-      <value>500</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e7ff3c86-cb6d-4582-af75-a9c804a46efa</tstamps>
-    </comp>
-    <comp ref="R35">
-      <value>100</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>555fc9ac-e6b1-4249-a472-fd7f14f0e74b</tstamps>
-    </comp>
-    <comp ref="R36">
-      <value>100</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>75a4a3a1-6ab4-4d56-9eeb-0718833ee4a2</tstamps>
-    </comp>
-    <comp ref="R37">
-      <value>100</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>8293ab18-6e03-4fee-9cae-f515a530c395</tstamps>
-    </comp>
-    <comp ref="R38">
-      <value>100</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>23215352-595d-4d6a-9140-6b39fdedc67f</tstamps>
-    </comp>
-    <comp ref="R39">
-      <value>100</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>a37ae9ba-184d-4956-b549-5c42436b129f</tstamps>
-    </comp>
-    <comp ref="R40">
-      <value>100</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>d0027c8b-d343-41aa-ac27-bc3b9871dd3d</tstamps>
-    </comp>
-    <comp ref="R41">
-      <value>100</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>40d5f638-a025-4bd6-a611-c82f31931c9f</tstamps>
-    </comp>
-    <comp ref="R42">
-      <value>100</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>460129d6-d2be-4849-bd89-be6c89663c75</tstamps>
-    </comp>
-    <comp ref="R43">
       <value>130</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>48a034a6-3dc2-416d-93f0-28ebe386dc5c</tstamps>
+      <tstamps>cf53b830-6e5f-405e-a32f-534449fd4a3e</tstamps>
     </comp>
-    <comp ref="R44">
+    <comp ref="R33">
+      <value>130</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad3c9621-15bc-4700-be98-7ad7d549fb0f</tstamps>
+    </comp>
+    <comp ref="R34">
       <value>130</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1289,25 +1096,25 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ab1fafef-cc4e-4bf8-8c6b-e33184828726</tstamps>
     </comp>
-    <comp ref="R45">
+    <comp ref="R35">
       <value>130</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>ae81b5d8-7c31-475f-a7b9-e84890724bf7</tstamps>
+      <tstamps>48a034a6-3dc2-416d-93f0-28ebe386dc5c</tstamps>
     </comp>
-    <comp ref="R46">
+    <comp ref="R36">
       <value>130</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>fb06bb07-313b-4d68-bb20-5726f512b4f6</tstamps>
+      <tstamps>62112bd3-c8ca-4224-b042-2172b73ce64e</tstamps>
     </comp>
-    <comp ref="R47">
+    <comp ref="R37">
       <value>130</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
@@ -1316,14 +1123,23 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>3c311855-7d2e-45d7-b8dd-90f22e4f4125</tstamps>
     </comp>
-    <comp ref="R48">
+    <comp ref="R38">
       <value>130</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>62112bd3-c8ca-4224-b042-2172b73ce64e</tstamps>
+      <tstamps>ae81b5d8-7c31-475f-a7b9-e84890724bf7</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>130</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb06bb07-313b-4d68-bb20-5726f512b4f6</tstamps>
     </comp>
     <comp ref="Servo1">
       <value>Molex_SL_03</value>
@@ -1343,136 +1159,53 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>1015481d-2e3d-4373-82ac-f99c1c1b0350</tstamps>
     </comp>
-    <comp ref="SolVal1">
-      <value>Molex_SL_02</value>
-      <footprint>MRDT_Connectors:MOLEX_SL_02_Vertical</footprint>
-      <libsource lib="MRDT_Connectors" part="Molex_SL_02" description=""/>
+    <comp ref="Servo3">
+      <value>Molex_SL_03</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_03_Vertical</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_03" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>e8630507-6d8c-461f-9d79-966ff7d055d3</tstamps>
+      <tstamps>89576370-52f6-4833-9152-f59684fecb1a</tstamps>
     </comp>
-    <comp ref="SolVal2">
-      <value>Molex_SL_02</value>
-      <footprint>MRDT_Connectors:MOLEX_SL_02_Vertical</footprint>
-      <libsource lib="MRDT_Connectors" part="Molex_SL_02" description=""/>
+    <comp ref="Servo4">
+      <value>Molex_SL_03</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_03_Vertical</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_03" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>cbb2715e-4fb2-4e8c-b40e-237983299c50</tstamps>
+      <tstamps>2ce6e20c-5e5f-4b6e-aa53-b48d0af505ae</tstamps>
     </comp>
-    <comp ref="SolVal3">
-      <value>Molex_SL_02</value>
-      <footprint>MRDT_Connectors:MOLEX_SL_02_Vertical</footprint>
-      <libsource lib="MRDT_Connectors" part="Molex_SL_02" description=""/>
+    <comp ref="Servo5">
+      <value>Molex_SL_03</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_03_Vertical</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_03" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>c2bfca6f-632d-4708-9ceb-5d58ed4cfee6</tstamps>
+      <tstamps>44e44281-283f-4213-bd55-fa1314f3cf26</tstamps>
     </comp>
-    <comp ref="SolVal4">
-      <value>Molex_SL_02</value>
-      <footprint>MRDT_Connectors:MOLEX_SL_02_Vertical</footprint>
-      <libsource lib="MRDT_Connectors" part="Molex_SL_02" description=""/>
+    <comp ref="Servo6">
+      <value>Molex_SL_03</value>
+      <footprint>MRDT_Connectors:MOLEX_SL_03_Vertical</footprint>
+      <libsource lib="MRDT_Connectors" part="Molex_SL_03" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>0643a390-dcd2-4108-99cd-bea5113c285e</tstamps>
-    </comp>
-    <comp ref="SolVal5">
-      <value>Molex_SL_02</value>
-      <footprint>MRDT_Connectors:MOLEX_SL_02_Vertical</footprint>
-      <libsource lib="MRDT_Connectors" part="Molex_SL_02" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>25376406-a1a8-421f-9b35-7fdf48bf1b6b</tstamps>
-    </comp>
-    <comp ref="SolVal6">
-      <value>Molex_SL_02</value>
-      <footprint>MRDT_Connectors:MOLEX_SL_02_Vertical</footprint>
-      <libsource lib="MRDT_Connectors" part="Molex_SL_02" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>9bf4723b-5683-40ae-9f82-09a2168a8bd2</tstamps>
-    </comp>
-    <comp ref="SolVal7">
-      <value>Molex_SL_02</value>
-      <footprint>MRDT_Connectors:MOLEX_SL_02_Vertical</footprint>
-      <libsource lib="MRDT_Connectors" part="Molex_SL_02" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>03af7b42-2cf1-4d66-8bab-70cf45ab8712</tstamps>
-    </comp>
-    <comp ref="SolVal8">
-      <value>Molex_SL_02</value>
-      <footprint>MRDT_Connectors:MOLEX_SL_02_Vertical</footprint>
-      <libsource lib="MRDT_Connectors" part="Molex_SL_02" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>1f73637b-3289-4af4-ae96-10de5acb5ec8</tstamps>
-    </comp>
-    <comp ref="SolVal9">
-      <value>Molex_SL_02</value>
-      <footprint>MRDT_Connectors:MOLEX_SL_02_Vertical</footprint>
-      <libsource lib="MRDT_Connectors" part="Molex_SL_02" description=""/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>23395804-7c65-44bd-850c-91ae889a884e</tstamps>
+      <tstamps>e6a715b5-9935-4849-a11e-00a375ab6a2a</tstamps>
     </comp>
     <comp ref="U1">
-      <value>3V3 OKI</value>
-      <footprint>MRDT_Devices:OKI_Horizontal</footprint>
-      <libsource lib="MRDT_Devices" part="OKI" description="DC/DC Buck Converter"/>
+      <value>IRS2005S</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/infineon-technologies/IRS2005STRPBF/6131392</datasheet>
+      <libsource lib="Driver_FET" part="IRS2005S" description="High and Low Side Driver, 200V, 290/600mA, SOIC-8"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>2ca3e144-c5aa-4c0e-a343-bd942d3a2b8d</tstamps>
+      <tstamps>9cce9e00-6419-4cd9-b467-04823c9618a6</tstamps>
     </comp>
     <comp ref="U2">
-      <value>TSR_1-2450</value>
-      <footprint>Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT</footprint>
-      <datasheet>http://www.tracopower.com/products/tsr1.pdf</datasheet>
-      <libsource lib="Regulator_Switching" part="TSR_1-2450" description="1A step-down regulator module, fixed 5V output voltage, 5-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>b95846fc-d8f1-436a-ae5c-8c9302cdd231</tstamps>
-    </comp>
-    <comp ref="U3">
-      <value>TM4C129E_Launchpad</value>
-      <footprint>MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM</footprint>
-      <libsource lib="MRDT_Shields" part="TM4C129E_Launchpad" description="TIVA C Full Headers"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>e03ebd5c-0afd-46a3-a0d0-4ee486b41006 289043c5-72d1-447a-b8f3-bec0f2378d9c 8a3813e1-0158-44f7-b917-5595ef0ac996 a39f38c5-dd5d-4bf4-80c5-3ca595e094cd eb4550b1-1bea-4549-94c1-43c2e0b7b7d5 ba9a048f-6960-4f38-bd8c-a7a37a4bae26 c92802c1-7622-44b2-9ef3-bd89c53ad5d0 18d02a80-bf5b-40ff-9440-64bb9887979e</tstamps>
-    </comp>
-    <comp ref="U4">
-      <value>IRS2005S</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/infineon-technologies/IRS2005STRPBF/6131392</datasheet>
-      <libsource lib="Driver_FET" part="IRS2005S" description="High and Low Side Driver, 200V, 290/600mA, SOIC-8"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>97ca0c88-f017-421e-bfd4-3ec0c2131fea</tstamps>
-    </comp>
-    <comp ref="U5">
-      <value>IRS2005S</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/infineon-technologies/IRS2005STRPBF/6131392</datasheet>
-      <libsource lib="Driver_FET" part="IRS2005S" description="High and Low Side Driver, 200V, 290/600mA, SOIC-8"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>ceb7b45c-6462-4ad8-9467-2dfe42a9b9cb</tstamps>
-    </comp>
-    <comp ref="U6">
       <value>IRS2005S</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/infineon-technologies/IRS2005STRPBF/6131392</datasheet>
@@ -1482,7 +1215,26 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fefeeb64-61f8-4d70-b90d-d50afd7443b9</tstamps>
     </comp>
-    <comp ref="U7">
+    <comp ref="U3">
+      <value>3V3 OKI</value>
+      <footprint>MRDT_Devices:OKI_Horizontal</footprint>
+      <libsource lib="MRDT_Devices" part="OKI" description="DC/DC Buck Converter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2ca3e144-c5aa-4c0e-a343-bd942d3a2b8d</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TSR_1-2450</value>
+      <footprint>Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT</footprint>
+      <datasheet>http://www.tracopower.com/products/tsr1.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="TSR_1-2450" description="1A step-down regulator module, fixed 5V output voltage, 5-36V input voltage, -40°C to +85°C temperature range, TO-220 compatible LM78xx replacement"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b95846fc-d8f1-436a-ae5c-8c9302cdd231</tstamps>
+    </comp>
+    <comp ref="U5">
       <value>IRS2005S</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/infineon-technologies/IRS2005STRPBF/6131392</datasheet>
@@ -1490,29 +1242,9 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>1ba35dcd-3848-4655-8287-edfddfb8bb3d</tstamps>
+      <tstamps>d377f90b-66c5-46fa-b6ab-025481aaaf2b</tstamps>
     </comp>
-    <comp ref="U8">
-      <value>IRS2005S</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/infineon-technologies/IRS2005STRPBF/6131392</datasheet>
-      <libsource lib="Driver_FET" part="IRS2005S" description="High and Low Side Driver, 200V, 290/600mA, SOIC-8"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>443e50e6-f937-4cd3-a8d3-c80cba65d382</tstamps>
-    </comp>
-    <comp ref="U9">
-      <value>IRS2005S</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>https://www.digikey.com/en/products/detail/infineon-technologies/IRS2005STRPBF/6131392</datasheet>
-      <libsource lib="Driver_FET" part="IRS2005S" description="High and Low Side Driver, 200V, 290/600mA, SOIC-8"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>737201b0-8620-4ad7-9224-fa0012705b06</tstamps>
-    </comp>
-    <comp ref="U10">
+    <comp ref="U6">
       <value>IRS2005S</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/infineon-technologies/IRS2005STRPBF/6131392</datasheet>
@@ -1522,7 +1254,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>eb1b15c1-c690-4b72-a623-778639d2e703</tstamps>
     </comp>
-    <comp ref="U11">
+    <comp ref="U7">
       <value>IRS2005S</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>https://www.digikey.com/en/products/detail/infineon-technologies/IRS2005STRPBF/6131392</datasheet>
@@ -1530,7 +1262,46 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>685e4cc9-aad3-41de-899c-39d6e2382d28</tstamps>
+      <tstamps>d793ffe4-9e11-4770-9e07-76808f59c2b9</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>IRS2005S</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/infineon-technologies/IRS2005STRPBF/6131392</datasheet>
+      <libsource lib="Driver_FET" part="IRS2005S" description="High and Low Side Driver, 200V, 290/600mA, SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d64f9ad-f754-45f4-8ad8-21f3efe3fdc3</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>IRS2005S</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/infineon-technologies/IRS2005STRPBF/6131392</datasheet>
+      <libsource lib="Driver_FET" part="IRS2005S" description="High and Low Side Driver, 200V, 290/600mA, SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0e1fe294-4d42-4374-a729-855e40f57ac3</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>IRS2005S</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.digikey.com/en/products/detail/infineon-technologies/IRS2005STRPBF/6131392</datasheet>
+      <libsource lib="Driver_FET" part="IRS2005S" description="High and Low Side Driver, 200V, 290/600mA, SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6a7f20a-2876-4ab2-8927-afca054dcd52</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>TM4C129E_Launchpad</value>
+      <footprint>MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM</footprint>
+      <libsource lib="MRDT_Shields" part="TM4C129E_Launchpad" description="TIVA C Full Headers"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb4550b1-1bea-4549-94c1-43c2e0b7b7d5 e03ebd5c-0afd-46a3-a0d0-4ee486b41006 ba9a048f-6960-4f38-bd8c-a7a37a4bae26 c92802c1-7622-44b2-9ef3-bd89c53ad5d0 a39f38c5-dd5d-4bf4-80c5-3ca595e094cd 289043c5-72d1-447a-b8f3-bec0f2378d9c 8a3813e1-0158-44f7-b917-5595ef0ac996 18d02a80-bf5b-40ff-9440-64bb9887979e</tstamps>
     </comp>
   </components>
   <libparts>
@@ -1612,22 +1383,6 @@
       <fields>
         <field name="Reference">R</field>
         <field name="Value">R</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="R_Small">
-      <description>Resistor, small symbol</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_Small</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
@@ -1807,22 +1562,19 @@
         <pin num="3" name="Vout" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="Transistor_FET" part="BSS138">
-      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
-      <docs>https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</docs>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
+    <libpart lib="Simulation_SPICE" part="DIODE">
+      <description>Diode, anode on pin 1, for simulation only!</description>
+      <docs>~</docs>
       <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">BSS138</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/BSS138-D.PDF</field>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+        <field name="Datasheet">~</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">D</field>
       </fields>
       <pins>
-        <pin num="1" name="G" type="input"/>
-        <pin num="2" name="S" type="passive"/>
-        <pin num="3" name="D" type="passive"/>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Transistor_FET" part="FDS2734">
@@ -1857,16 +1609,19 @@
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Driver_FET.kicad_sym</uri>
     </library>
     <library logical="MRDT_Connectors">
-      <uri>C:/GitHub/KeyCadLibrary/MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.kicad_sym</uri>
+      <uri>C:/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.kicad_sym</uri>
     </library>
     <library logical="MRDT_Devices">
-      <uri>C:/GitHub/KeyCadLibrary/MRDT_KiCAD_Libraries/Symbols/MRDT_Devices.kicad_sym</uri>
+      <uri>C:/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Devices.kicad_sym</uri>
     </library>
     <library logical="MRDT_Shields">
-      <uri>C:/GitHub/KeyCadLibrary/MRDT_KiCAD_Libraries/Symbols/MRDT_Shields.kicad_sym</uri>
+      <uri>C:/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Shields.kicad_sym</uri>
     </library>
     <library logical="Regulator_Switching">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="Simulation_SPICE">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Simulation_SPICE.kicad_sym</uri>
     </library>
     <library logical="Transistor_FET">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
@@ -1878,93 +1633,79 @@
       <node ref="AbsEncode2" pin="1" pintype="input"/>
       <node ref="AbsEncode3" pin="1" pintype="input"/>
       <node ref="AbsEncode4" pin="1" pintype="input"/>
-      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
       <node ref="LimSwitch1" pin="1" pintype="input"/>
       <node ref="LimSwitch2" pin="1" pintype="input"/>
       <node ref="LimSwitch3" pin="1" pintype="input"/>
       <node ref="LimSwitch4" pin="1" pintype="input"/>
       <node ref="LimSwitch5" pin="1" pintype="input"/>
       <node ref="LimSwitch6" pin="1" pintype="input"/>
-      <node ref="R6" pin="2" pintype="passive"/>
-      <node ref="U1" pin="3" pinfunction="Vo" pintype="output"/>
-      <node ref="U3" pin="+3V3" pinfunction="A1_1" pintype="input"/>
-      <node ref="U3" pin="+3V3'" pinfunction="A2_1" pintype="input"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U11" pin="+3V3" pinfunction="A1_1" pintype="input"/>
+      <node ref="U11" pin="+3V3'" pinfunction="A2_1" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="Vo" pintype="output"/>
     </net>
     <net code="2" name="+5V">
-      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
       <node ref="Servo1" pin="1" pintype="input"/>
       <node ref="Servo2" pin="1" pintype="input"/>
-      <node ref="U2" pin="3" pinfunction="Vout" pintype="power_out"/>
+      <node ref="Servo3" pin="1" pintype="input"/>
+      <node ref="Servo4" pin="1" pintype="input"/>
+      <node ref="Servo5" pin="1" pintype="input"/>
+      <node ref="Servo6" pin="1" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="Vout" pintype="power_out"/>
     </net>
     <net code="3" name="+12V">
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="Conn1" pin="2" pinfunction="V+Log" pintype="input"/>
       <node ref="Conn2" pin="2" pinfunction="V+Log" pintype="input"/>
       <node ref="Conn3" pin="2" pinfunction="V+Log" pintype="input"/>
-      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D32" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D33" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D34" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="Q10" pin="5" pinfunction="D" pintype="passive"/>
-      <node ref="Q10" pin="6" pinfunction="D" pintype="passive"/>
-      <node ref="Q10" pin="7" pinfunction="D" pintype="passive"/>
-      <node ref="Q10" pin="8" pinfunction="D" pintype="passive"/>
-      <node ref="Q12" pin="5" pinfunction="D" pintype="passive"/>
-      <node ref="Q12" pin="6" pinfunction="D" pintype="passive"/>
-      <node ref="Q12" pin="7" pinfunction="D" pintype="passive"/>
-      <node ref="Q12" pin="8" pinfunction="D" pintype="passive"/>
-      <node ref="Q14" pin="5" pinfunction="D" pintype="passive"/>
-      <node ref="Q14" pin="6" pinfunction="D" pintype="passive"/>
-      <node ref="Q14" pin="7" pinfunction="D" pintype="passive"/>
-      <node ref="Q14" pin="8" pinfunction="D" pintype="passive"/>
-      <node ref="Q16" pin="5" pinfunction="D" pintype="passive"/>
-      <node ref="Q16" pin="6" pinfunction="D" pintype="passive"/>
-      <node ref="Q16" pin="7" pinfunction="D" pintype="passive"/>
-      <node ref="Q16" pin="8" pinfunction="D" pintype="passive"/>
-      <node ref="Q18" pin="5" pinfunction="D" pintype="passive"/>
-      <node ref="Q18" pin="6" pinfunction="D" pintype="passive"/>
-      <node ref="Q18" pin="7" pinfunction="D" pintype="passive"/>
-      <node ref="Q18" pin="8" pinfunction="D" pintype="passive"/>
-      <node ref="Q20" pin="5" pinfunction="D" pintype="passive"/>
-      <node ref="Q20" pin="6" pinfunction="D" pintype="passive"/>
-      <node ref="Q20" pin="7" pinfunction="D" pintype="passive"/>
-      <node ref="Q20" pin="8" pinfunction="D" pintype="passive"/>
-      <node ref="Q22" pin="5" pinfunction="D" pintype="passive"/>
-      <node ref="Q22" pin="6" pinfunction="D" pintype="passive"/>
-      <node ref="Q22" pin="7" pinfunction="D" pintype="passive"/>
-      <node ref="Q22" pin="8" pinfunction="D" pintype="passive"/>
-      <node ref="Q24" pin="5" pinfunction="D" pintype="passive"/>
-      <node ref="Q24" pin="6" pinfunction="D" pintype="passive"/>
-      <node ref="Q24" pin="7" pinfunction="D" pintype="passive"/>
-      <node ref="Q24" pin="8" pinfunction="D" pintype="passive"/>
-      <node ref="R2" pin="2" pintype="passive"/>
-      <node ref="SolVal1" pin="1" pintype="input"/>
-      <node ref="SolVal2" pin="1" pintype="input"/>
-      <node ref="SolVal3" pin="1" pintype="input"/>
-      <node ref="SolVal4" pin="1" pintype="input"/>
-      <node ref="SolVal5" pin="1" pintype="input"/>
-      <node ref="SolVal6" pin="1" pintype="input"/>
-      <node ref="SolVal7" pin="1" pintype="input"/>
-      <node ref="SolVal8" pin="1" pintype="input"/>
-      <node ref="SolVal9" pin="1" pintype="input"/>
-      <node ref="U1" pin="1" pinfunction="Vi" pintype="input"/>
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q1" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="Q11" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q11" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q11" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q11" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="Q13" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q13" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q13" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q13" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="Q15" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q15" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q15" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q15" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="Q3" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q3" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q3" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q3" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="Q5" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q5" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q5" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q5" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="Q7" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q7" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q7" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q7" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="Q9" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q9" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q9" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q9" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VCC" pintype="power_in"/>
       <node ref="U10" pin="1" pinfunction="VCC" pintype="power_in"/>
-      <node ref="U11" pin="1" pinfunction="VCC" pintype="power_in"/>
-      <node ref="U2" pin="1" pinfunction="Vin" pintype="power_in"/>
-      <node ref="U4" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="Vi" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="Vin" pintype="power_in"/>
       <node ref="U5" pin="1" pinfunction="VCC" pintype="power_in"/>
       <node ref="U6" pin="1" pinfunction="VCC" pintype="power_in"/>
       <node ref="U7" pin="1" pinfunction="VCC" pintype="power_in"/>
@@ -1972,144 +1713,140 @@
       <node ref="U9" pin="1" pinfunction="VCC" pintype="power_in"/>
     </net>
     <net code="4" name="/M+">
-      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
       <node ref="C3" pin="2" pintype="passive"/>
-      <node ref="C4" pin="2" pintype="passive"/>
-      <node ref="C5" pin="2" pintype="passive"/>
-      <node ref="C6" pin="2" pintype="passive"/>
-      <node ref="C7" pin="1" pintype="passive"/>
-      <node ref="C8" pin="1" pintype="passive"/>
-      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
       <node ref="Conn4" pin="1" pinfunction="GND" pintype="input"/>
       <node ref="Conn5" pin="1" pinfunction="GND" pintype="input"/>
       <node ref="Conn6" pin="1" pinfunction="GND" pintype="input"/>
       <node ref="Conn7" pin="1" pinfunction="GND" pintype="input"/>
-      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D26" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="Q10" pin="1" pinfunction="S" pintype="passive"/>
-      <node ref="Q10" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q10" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q11" pin="5" pinfunction="D" pintype="passive"/>
-      <node ref="Q11" pin="6" pinfunction="D" pintype="passive"/>
-      <node ref="Q11" pin="7" pinfunction="D" pintype="passive"/>
-      <node ref="Q11" pin="8" pinfunction="D" pintype="passive"/>
-      <node ref="Q12" pin="1" pinfunction="S" pintype="passive"/>
-      <node ref="Q12" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q12" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q13" pin="5" pinfunction="D" pintype="passive"/>
-      <node ref="Q13" pin="6" pinfunction="D" pintype="passive"/>
-      <node ref="Q13" pin="7" pinfunction="D" pintype="passive"/>
-      <node ref="Q13" pin="8" pinfunction="D" pintype="passive"/>
-      <node ref="Q14" pin="1" pinfunction="S" pintype="passive"/>
-      <node ref="Q14" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q14" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q15" pin="5" pinfunction="D" pintype="passive"/>
-      <node ref="Q15" pin="6" pinfunction="D" pintype="passive"/>
-      <node ref="Q15" pin="7" pinfunction="D" pintype="passive"/>
-      <node ref="Q15" pin="8" pinfunction="D" pintype="passive"/>
-      <node ref="Q16" pin="1" pinfunction="S" pintype="passive"/>
-      <node ref="Q16" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q16" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q17" pin="5" pinfunction="D" pintype="passive"/>
-      <node ref="Q17" pin="6" pinfunction="D" pintype="passive"/>
-      <node ref="Q17" pin="7" pinfunction="D" pintype="passive"/>
-      <node ref="Q17" pin="8" pinfunction="D" pintype="passive"/>
-      <node ref="U4" pin="6" pinfunction="VS" pintype="passive"/>
-      <node ref="U5" pin="6" pinfunction="VS" pintype="passive"/>
-      <node ref="U6" pin="6" pinfunction="VS" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q10" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q10" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q10" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q10" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="Q11" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q11" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q11" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q12" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q12" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q12" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q12" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q2" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q4" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q4" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q4" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="Q9" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q9" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q9" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="VS" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="VS" pintype="passive"/>
       <node ref="U7" pin="6" pinfunction="VS" pintype="passive"/>
+      <node ref="U8" pin="6" pinfunction="VS" pintype="passive"/>
     </net>
     <net code="5" name="/M-">
-      <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
       <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="C8" pin="2" pintype="passive"/>
-      <node ref="C9" pin="2" pintype="passive"/>
       <node ref="Conn4" pin="2" pinfunction="V+Log" pintype="input"/>
       <node ref="Conn5" pin="2" pinfunction="V+Log" pintype="input"/>
       <node ref="Conn6" pin="2" pinfunction="V+Log" pintype="input"/>
       <node ref="Conn7" pin="2" pinfunction="V+Log" pintype="input"/>
-      <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D30" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="Q18" pin="1" pinfunction="S" pintype="passive"/>
-      <node ref="Q18" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q18" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q19" pin="5" pinfunction="D" pintype="passive"/>
-      <node ref="Q19" pin="6" pinfunction="D" pintype="passive"/>
-      <node ref="Q19" pin="7" pinfunction="D" pintype="passive"/>
-      <node ref="Q19" pin="8" pinfunction="D" pintype="passive"/>
-      <node ref="Q20" pin="1" pinfunction="S" pintype="passive"/>
-      <node ref="Q20" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q20" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q21" pin="5" pinfunction="D" pintype="passive"/>
-      <node ref="Q21" pin="6" pinfunction="D" pintype="passive"/>
-      <node ref="Q21" pin="7" pinfunction="D" pintype="passive"/>
-      <node ref="Q21" pin="8" pinfunction="D" pintype="passive"/>
-      <node ref="Q22" pin="1" pinfunction="S" pintype="passive"/>
-      <node ref="Q22" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q22" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q23" pin="5" pinfunction="D" pintype="passive"/>
-      <node ref="Q23" pin="6" pinfunction="D" pintype="passive"/>
-      <node ref="Q23" pin="7" pinfunction="D" pintype="passive"/>
-      <node ref="Q23" pin="8" pinfunction="D" pintype="passive"/>
-      <node ref="Q24" pin="1" pinfunction="S" pintype="passive"/>
-      <node ref="Q24" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q24" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q25" pin="5" pinfunction="D" pintype="passive"/>
-      <node ref="Q25" pin="6" pinfunction="D" pintype="passive"/>
-      <node ref="Q25" pin="7" pinfunction="D" pintype="passive"/>
-      <node ref="Q25" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="Q13" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q13" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q13" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q14" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q14" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q14" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q14" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="Q15" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q15" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q15" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q16" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q16" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q16" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q16" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q6" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q6" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q6" pin="8" pinfunction="D" pintype="passive"/>
+      <node ref="Q7" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q8" pin="5" pinfunction="D" pintype="passive"/>
+      <node ref="Q8" pin="6" pinfunction="D" pintype="passive"/>
+      <node ref="Q8" pin="7" pinfunction="D" pintype="passive"/>
+      <node ref="Q8" pin="8" pinfunction="D" pintype="passive"/>
       <node ref="U10" pin="6" pinfunction="VS" pintype="passive"/>
-      <node ref="U11" pin="6" pinfunction="VS" pintype="passive"/>
-      <node ref="U8" pin="6" pinfunction="VS" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="VS" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="VS" pintype="passive"/>
       <node ref="U9" pin="6" pinfunction="VS" pintype="passive"/>
     </net>
     <net code="6" name="Encoder_PWM_1">
       <node ref="AbsEncode1" pin="3" pintype="input"/>
-      <node ref="R16" pin="2" pintype="passive"/>
-      <node ref="U3" pin="PA6" pinfunction="B1_8" pintype="input"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U11" pin="PA6" pinfunction="B1_8" pintype="input"/>
     </net>
     <net code="7" name="Encoder_PWM_2">
-      <node ref="AbsEncode3" pin="3" pintype="input"/>
-      <node ref="R15" pin="2" pintype="passive"/>
-      <node ref="U3" pin="PD2" pinfunction="A2_2" pintype="input"/>
+      <node ref="AbsEncode4" pin="3" pintype="input"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U11" pin="PD2" pinfunction="A2_2" pintype="input"/>
     </net>
     <net code="8" name="Encoder_PWM_3">
-      <node ref="AbsEncode4" pin="3" pintype="input"/>
+      <node ref="AbsEncode2" pin="3" pintype="input"/>
       <node ref="R18" pin="2" pintype="passive"/>
-      <node ref="U3" pin="PD5" pinfunction="A2_6" pintype="input"/>
+      <node ref="U11" pin="PD5" pinfunction="A2_6" pintype="input"/>
     </net>
     <net code="9" name="Encoder_PWM_4">
-      <node ref="AbsEncode2" pin="3" pintype="input"/>
-      <node ref="R17" pin="2" pintype="passive"/>
-      <node ref="U3" pin="PD3" pinfunction="A1_7" pintype="input"/>
+      <node ref="AbsEncode3" pin="3" pintype="input"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U11" pin="PD3" pinfunction="A1_7" pintype="input"/>
     </net>
     <net code="10" name="FWD_PWM_1">
-      <node ref="U11" pin="3" pinfunction="LIN" pintype="input"/>
-      <node ref="U3" pin="PD1" pinfunction="D1_6" pintype="input"/>
-      <node ref="U7" pin="2" pinfunction="HIN" pintype="input"/>
+      <node ref="D1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="HIN" pintype="input"/>
+      <node ref="U11" pin="PD1" pinfunction="D1_6" pintype="input"/>
+      <node ref="U5" pin="3" pinfunction="LIN" pintype="input"/>
     </net>
     <net code="11" name="FWD_PWM_2">
-      <node ref="U3" pin="PM4" pinfunction="B1_9" pintype="input"/>
-      <node ref="U5" pin="2" pinfunction="HIN" pintype="input"/>
-      <node ref="U9" pin="3" pinfunction="LIN" pintype="input"/>
+      <node ref="D17" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U10" pin="3" pinfunction="LIN" pintype="input"/>
+      <node ref="U11" pin="PM4" pinfunction="B1_9" pintype="input"/>
+      <node ref="U8" pin="2" pinfunction="HIN" pintype="input"/>
     </net>
     <net code="12" name="FWD_PWM_3">
-      <node ref="U3" pin="PM7" pinfunction="D2_2" pintype="input"/>
-      <node ref="U4" pin="2" pinfunction="HIN" pintype="input"/>
-      <node ref="U8" pin="3" pinfunction="LIN" pintype="input"/>
+      <node ref="D16" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U11" pin="PM7" pinfunction="D2_2" pintype="input"/>
+      <node ref="U7" pin="2" pinfunction="HIN" pintype="input"/>
+      <node ref="U9" pin="3" pinfunction="LIN" pintype="input"/>
     </net>
     <net code="13" name="FWD_PWM_4">
-      <node ref="U10" pin="3" pinfunction="LIN" pintype="input"/>
-      <node ref="U3" pin="PL4" pinfunction="C1_5" pintype="input"/>
-      <node ref="U6" pin="2" pinfunction="HIN" pintype="input"/>
+      <node ref="D2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U11" pin="PL4" pinfunction="C1_5" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="HIN" pintype="input"/>
+      <node ref="U6" pin="3" pinfunction="LIN" pintype="input"/>
     </net>
     <net code="14" name="GND">
       <node ref="AbsEncode1" pin="2" pintype="input"/>
@@ -2117,74 +1854,69 @@
       <node ref="AbsEncode3" pin="2" pintype="input"/>
       <node ref="AbsEncode4" pin="2" pintype="input"/>
       <node ref="C1" pin="2" pintype="passive"/>
-      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
       <node ref="Conn1" pin="1" pinfunction="GND" pintype="input"/>
       <node ref="Conn2" pin="1" pinfunction="GND" pintype="input"/>
       <node ref="Conn3" pin="1" pinfunction="GND" pintype="input"/>
       <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D26" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D29" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D35" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D36" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D37" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D38" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D39" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D40" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D30" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D31" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q11" pin="1" pinfunction="S" pintype="passive"/>
-      <node ref="Q11" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q11" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q13" pin="1" pinfunction="S" pintype="passive"/>
-      <node ref="Q13" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q13" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q15" pin="1" pinfunction="S" pintype="passive"/>
-      <node ref="Q15" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q15" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q17" pin="1" pinfunction="S" pintype="passive"/>
-      <node ref="Q17" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q17" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q19" pin="1" pinfunction="S" pintype="passive"/>
-      <node ref="Q19" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q19" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q10" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q10" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q10" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q12" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q12" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q12" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q14" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q14" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q14" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q16" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q16" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q16" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="S" pintype="passive"/>
       <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q21" pin="1" pinfunction="S" pintype="passive"/>
-      <node ref="Q21" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q21" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q23" pin="1" pinfunction="S" pintype="passive"/>
-      <node ref="Q23" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q23" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q25" pin="1" pinfunction="S" pintype="passive"/>
-      <node ref="Q25" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q25" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="S" pintype="passive"/>
       <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="S" pintype="passive"/>
       <node ref="Q6" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q7" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q8" pin="1" pinfunction="S" pintype="passive"/>
       <node ref="Q8" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q9" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="R27" pin="2" pintype="passive"/>
-      <node ref="R28" pin="2" pintype="passive"/>
-      <node ref="R29" pin="2" pintype="passive"/>
-      <node ref="R30" pin="2" pintype="passive"/>
-      <node ref="R31" pin="2" pintype="passive"/>
-      <node ref="R32" pin="2" pintype="passive"/>
-      <node ref="R33" pin="2" pintype="passive"/>
-      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
       <node ref="Servo1" pin="2" pintype="input"/>
       <node ref="Servo2" pin="2" pintype="input"/>
-      <node ref="U1" pin="2" pinfunction="GND" pintype="output"/>
+      <node ref="Servo3" pin="2" pintype="input"/>
+      <node ref="Servo4" pin="2" pintype="input"/>
+      <node ref="Servo5" pin="2" pintype="input"/>
+      <node ref="Servo6" pin="2" pintype="input"/>
+      <node ref="U1" pin="4" pinfunction="COM" pintype="power_in"/>
       <node ref="U10" pin="4" pinfunction="COM" pintype="power_in"/>
-      <node ref="U11" pin="4" pinfunction="COM" pintype="power_in"/>
-      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
-      <node ref="U3" pin="GND" pinfunction="B2_2" pintype="input"/>
-      <node ref="U4" pin="4" pinfunction="COM" pintype="power_in"/>
+      <node ref="U11" pin="GND" pinfunction="B1_2" pintype="input"/>
+      <node ref="U2" pin="4" pinfunction="COM" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND" pintype="output"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
       <node ref="U5" pin="4" pinfunction="COM" pintype="power_in"/>
       <node ref="U6" pin="4" pinfunction="COM" pintype="power_in"/>
       <node ref="U7" pin="4" pinfunction="COM" pintype="power_in"/>
@@ -2192,578 +1924,494 @@
       <node ref="U9" pin="4" pinfunction="COM" pintype="power_in"/>
     </net>
     <net code="15" name="Limit_Switch_1">
-      <node ref="LimSwitch6" pin="2" pintype="input"/>
-      <node ref="U3" pin="PE4" pinfunction="A1_2" pintype="input"/>
+      <node ref="LimSwitch3" pin="2" pintype="input"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="U11" pin="PE4" pinfunction="A1_2" pintype="input"/>
     </net>
     <net code="16" name="Limit_Switch_2">
-      <node ref="LimSwitch2" pin="2" pintype="input"/>
-      <node ref="R44" pin="2" pintype="passive"/>
-      <node ref="U3" pin="PC4" pinfunction="A1_3" pintype="input"/>
+      <node ref="LimSwitch1" pin="2" pintype="input"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="U11" pin="PC4" pinfunction="A1_3" pintype="input"/>
     </net>
     <net code="17" name="Limit_Switch_3">
-      <node ref="LimSwitch1" pin="2" pintype="input"/>
-      <node ref="R43" pin="2" pintype="passive"/>
-      <node ref="U3" pin="PC5" pinfunction="A1_4" pintype="input"/>
+      <node ref="LimSwitch2" pin="2" pintype="input"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="U11" pin="PC5" pinfunction="A1_4" pintype="input"/>
     </net>
     <net code="18" name="Limit_Switch_4">
-      <node ref="LimSwitch5" pin="2" pintype="input"/>
-      <node ref="R47" pin="2" pintype="passive"/>
-      <node ref="U3" pin="PC6" pinfunction="A1_5" pintype="input"/>
+      <node ref="LimSwitch4" pin="2" pintype="input"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="U11" pin="PC6" pinfunction="A1_5" pintype="input"/>
     </net>
     <net code="19" name="Limit_Switch_5">
-      <node ref="LimSwitch3" pin="2" pintype="input"/>
-      <node ref="R45" pin="2" pintype="passive"/>
-      <node ref="U3" pin="PE5" pinfunction="A1_6" pintype="input"/>
+      <node ref="LimSwitch5" pin="2" pintype="input"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="U11" pin="PE5" pinfunction="A1_6" pintype="input"/>
     </net>
     <net code="20" name="Limit_Switch_6">
-      <node ref="LimSwitch4" pin="2" pintype="input"/>
-      <node ref="R46" pin="2" pintype="passive"/>
-      <node ref="U3" pin="PC7" pinfunction="A1_8" pintype="input"/>
+      <node ref="LimSwitch6" pin="2" pintype="input"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="U11" pin="PC7" pinfunction="A1_8" pintype="input"/>
     </net>
-    <net code="21" name="Net-(C3-Pad1)">
+    <net code="21" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="VB" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(C3-Pad1)">
       <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U4" pin="8" pinfunction="VB" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="VB" pintype="passive"/>
     </net>
-    <net code="22" name="Net-(C4-Pad1)">
-      <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
+    <net code="23" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U5" pin="8" pinfunction="VB" pintype="passive"/>
     </net>
-    <net code="23" name="Net-(C5-Pad1)">
-      <node ref="C5" pin="1" pintype="passive"/>
-      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
+    <net code="24" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U6" pin="8" pinfunction="VB" pintype="passive"/>
     </net>
-    <net code="24" name="Net-(C6-Pad1)">
-      <node ref="C6" pin="1" pintype="passive"/>
-      <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
+    <net code="25" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U7" pin="8" pinfunction="VB" pintype="passive"/>
     </net>
-    <net code="25" name="Net-(C11-Pad1)">
-      <node ref="C11" pin="1" pintype="passive"/>
-      <node ref="D31" pin="1" pinfunction="K" pintype="passive"/>
+    <net code="26" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U8" pin="8" pinfunction="VB" pintype="passive"/>
-    </net>
-    <net code="26" name="Net-(C12-Pad1)">
-      <node ref="C12" pin="1" pintype="passive"/>
-      <node ref="D32" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U9" pin="8" pinfunction="VB" pintype="passive"/>
     </net>
     <net code="27" name="Net-(C13-Pad1)">
       <node ref="C13" pin="1" pintype="passive"/>
-      <node ref="D33" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U10" pin="8" pinfunction="VB" pintype="passive"/>
+      <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U9" pin="8" pinfunction="VB" pintype="passive"/>
     </net>
     <net code="28" name="Net-(C14-Pad1)">
       <node ref="C14" pin="1" pintype="passive"/>
-      <node ref="D34" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="U11" pin="8" pinfunction="VB" pintype="passive"/>
+      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U10" pin="8" pinfunction="VB" pintype="passive"/>
     </net>
-    <net code="29" name="Net-(D1-Pad1)">
-      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+    <net code="29" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="R1" pin="1" pintype="passive"/>
     </net>
-    <net code="30" name="Net-(D2-Pad1)">
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R3" pin="1" pintype="passive"/>
+    <net code="30" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
     </net>
     <net code="31" name="Net-(D3-Pad2)">
       <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
     </net>
-    <net code="32" name="Net-(D4-Pad1)">
-      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+    <net code="32" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="33" name="Net-(D5-Pad1)">
-      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R7" pin="1" pintype="passive"/>
-    </net>
-    <net code="34" name="Net-(D6-Pad2)">
-      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R6" pin="1" pintype="passive"/>
-    </net>
-    <net code="35" name="Net-(D7-Pad2)">
-      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+    <net code="33" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
     </net>
-    <net code="36" name="Net-(D8-Pad1)">
-      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R8" pin="1" pintype="passive"/>
-    </net>
-    <net code="37" name="Net-(D9-Pad2)">
-      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R9" pin="2" pintype="passive"/>
-    </net>
-    <net code="38" name="Net-(D10-Pad2)">
-      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R10" pin="1" pintype="passive"/>
-    </net>
-    <net code="39" name="Net-(D11-Pad1)">
-      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+    <net code="34" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
     </net>
-    <net code="40" name="Net-(D12-Pad1)">
-      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R12" pin="1" pintype="passive"/>
+    <net code="35" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
     </net>
-    <net code="41" name="Net-(D13-Pad1)">
-      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R13" pin="1" pintype="passive"/>
-    </net>
-    <net code="42" name="Net-(D14-Pad2)">
-      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R15" pin="1" pintype="passive"/>
-    </net>
-    <net code="43" name="Net-(D15-Pad2)">
-      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+    <net code="36" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R16" pin="1" pintype="passive"/>
     </net>
-    <net code="44" name="Net-(D16-Pad2)">
-      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+    <net code="37" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R17" pin="1" pintype="passive"/>
     </net>
-    <net code="45" name="Net-(D17-Pad2)">
-      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+    <net code="38" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R18" pin="1" pintype="passive"/>
     </net>
-    <net code="46" name="Net-(D18-Pad1)">
-      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R14" pin="1" pintype="passive"/>
+    <net code="39" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
     </net>
-    <net code="47" name="Net-(D23-Pad1)">
-      <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R28" pin="1" pintype="passive"/>
+    <net code="40" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
     </net>
-    <net code="48" name="Net-(D24-Pad1)">
-      <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R30" pin="1" pintype="passive"/>
+    <net code="41" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
     </net>
-    <net code="49" name="Net-(D25-Pad1)">
-      <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R32" pin="1" pintype="passive"/>
+    <net code="42" name="Net-(D18-Pad2)">
+      <node ref="D18" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
     </net>
-    <net code="50" name="Net-(D26-Pad1)">
-      <node ref="D26" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R34" pin="1" pintype="passive"/>
+    <net code="43" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
     </net>
-    <net code="51" name="Net-(D27-Pad1)">
-      <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R27" pin="1" pintype="passive"/>
+    <net code="44" name="Net-(D24-Pad2)">
+      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
     </net>
-    <net code="52" name="Net-(D28-Pad1)">
-      <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R29" pin="1" pintype="passive"/>
-    </net>
-    <net code="53" name="Net-(D29-Pad1)">
-      <node ref="D29" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R31" pin="1" pintype="passive"/>
-    </net>
-    <net code="54" name="Net-(D30-Pad1)">
-      <node ref="D30" pin="1" pinfunction="K" pintype="passive"/>
+    <net code="45" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R33" pin="1" pintype="passive"/>
     </net>
-    <net code="55" name="Net-(D35-Pad2)">
-      <node ref="D35" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R43" pin="1" pintype="passive"/>
+    <net code="46" name="Net-(D26-Pad2)">
+      <node ref="D26" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
     </net>
-    <net code="56" name="Net-(D36-Pad2)">
-      <node ref="D36" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R44" pin="1" pintype="passive"/>
+    <net code="47" name="Net-(D27-Pad2)">
+      <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
     </net>
-    <net code="57" name="Net-(D37-Pad2)">
-      <node ref="D37" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R45" pin="1" pintype="passive"/>
+    <net code="48" name="Net-(D28-Pad2)">
+      <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
     </net>
-    <net code="58" name="Net-(D38-Pad2)">
-      <node ref="D38" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R46" pin="1" pintype="passive"/>
+    <net code="49" name="Net-(D29-Pad2)">
+      <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
     </net>
-    <net code="59" name="Net-(D39-Pad2)">
-      <node ref="D39" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R47" pin="1" pintype="passive"/>
+    <net code="50" name="Net-(D30-Pad2)">
+      <node ref="D30" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
     </net>
-    <net code="60" name="Net-(D40-Pad2)">
-      <node ref="D40" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R48" pin="1" pintype="passive"/>
+    <net code="51" name="Net-(D31-Pad2)">
+      <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
     </net>
-    <net code="61" name="Net-(Q1-Pad3)">
-      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="SolVal1" pin="2" pintype="input"/>
+    <net code="52" name="Net-(Q1-Pad4)">
+      <node ref="Q1" pin="4" pinfunction="G" pintype="input"/>
+      <node ref="R6" pin="2" pintype="passive"/>
     </net>
-    <net code="62" name="Net-(Q2-Pad3)">
-      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R3" pin="2" pintype="passive"/>
-      <node ref="SolVal2" pin="2" pintype="input"/>
-    </net>
-    <net code="63" name="Net-(Q3-Pad3)">
-      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R4" pin="2" pintype="passive"/>
-      <node ref="SolVal3" pin="2" pintype="input"/>
-    </net>
-    <net code="64" name="Net-(Q4-Pad3)">
-      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+    <net code="53" name="Net-(Q2-Pad4)">
+      <node ref="Q2" pin="4" pinfunction="G" pintype="input"/>
       <node ref="R7" pin="2" pintype="passive"/>
-      <node ref="SolVal4" pin="2" pintype="input"/>
     </net>
-    <net code="65" name="Net-(Q5-Pad3)">
-      <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
+    <net code="54" name="Net-(Q3-Pad4)">
+      <node ref="Q3" pin="4" pinfunction="G" pintype="input"/>
       <node ref="R8" pin="2" pintype="passive"/>
-      <node ref="SolVal5" pin="2" pintype="input"/>
     </net>
-    <net code="66" name="Net-(Q6-Pad3)">
-      <node ref="Q6" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R11" pin="2" pintype="passive"/>
-      <node ref="SolVal6" pin="2" pintype="input"/>
+    <net code="55" name="Net-(Q4-Pad4)">
+      <node ref="Q4" pin="4" pinfunction="G" pintype="input"/>
+      <node ref="R9" pin="2" pintype="passive"/>
     </net>
-    <net code="67" name="Net-(Q7-Pad3)">
-      <node ref="Q7" pin="3" pinfunction="D" pintype="passive"/>
+    <net code="56" name="Net-(Q5-Pad4)">
+      <node ref="Q5" pin="4" pinfunction="G" pintype="input"/>
       <node ref="R12" pin="2" pintype="passive"/>
-      <node ref="SolVal7" pin="2" pintype="input"/>
     </net>
-    <net code="68" name="Net-(Q8-Pad3)">
-      <node ref="Q8" pin="3" pinfunction="D" pintype="passive"/>
+    <net code="57" name="Net-(Q6-Pad4)">
+      <node ref="Q6" pin="4" pinfunction="G" pintype="input"/>
       <node ref="R13" pin="2" pintype="passive"/>
-      <node ref="SolVal8" pin="2" pintype="input"/>
     </net>
-    <net code="69" name="Net-(Q9-Pad3)">
-      <node ref="Q9" pin="3" pinfunction="D" pintype="passive"/>
+    <net code="58" name="Net-(Q7-Pad4)">
+      <node ref="Q7" pin="4" pinfunction="G" pintype="input"/>
       <node ref="R14" pin="2" pintype="passive"/>
-      <node ref="SolVal9" pin="2" pintype="input"/>
     </net>
-    <net code="70" name="Net-(Q10-Pad4)">
-      <node ref="Q10" pin="4" pinfunction="G" pintype="input"/>
-      <node ref="R19" pin="2" pintype="passive"/>
+    <net code="59" name="Net-(Q8-Pad4)">
+      <node ref="Q8" pin="4" pinfunction="G" pintype="input"/>
+      <node ref="R15" pin="2" pintype="passive"/>
     </net>
-    <net code="71" name="Net-(Q11-Pad4)">
-      <node ref="Q11" pin="4" pinfunction="G" pintype="input"/>
-      <node ref="R20" pin="2" pintype="passive"/>
-    </net>
-    <net code="72" name="Net-(Q12-Pad4)">
-      <node ref="Q12" pin="4" pinfunction="G" pintype="input"/>
-      <node ref="R21" pin="2" pintype="passive"/>
-    </net>
-    <net code="73" name="Net-(Q13-Pad4)">
-      <node ref="Q13" pin="4" pinfunction="G" pintype="input"/>
-      <node ref="R22" pin="2" pintype="passive"/>
-    </net>
-    <net code="74" name="Net-(Q14-Pad4)">
-      <node ref="Q14" pin="4" pinfunction="G" pintype="input"/>
-      <node ref="R23" pin="2" pintype="passive"/>
-    </net>
-    <net code="75" name="Net-(Q15-Pad4)">
-      <node ref="Q15" pin="4" pinfunction="G" pintype="input"/>
+    <net code="60" name="Net-(Q9-Pad4)">
+      <node ref="Q9" pin="4" pinfunction="G" pintype="input"/>
       <node ref="R24" pin="2" pintype="passive"/>
     </net>
-    <net code="76" name="Net-(Q16-Pad4)">
-      <node ref="Q16" pin="4" pinfunction="G" pintype="input"/>
+    <net code="61" name="Net-(Q10-Pad4)">
+      <node ref="Q10" pin="4" pinfunction="G" pintype="input"/>
       <node ref="R25" pin="2" pintype="passive"/>
     </net>
-    <net code="77" name="Net-(Q17-Pad4)">
-      <node ref="Q17" pin="4" pinfunction="G" pintype="input"/>
+    <net code="62" name="Net-(Q11-Pad4)">
+      <node ref="Q11" pin="4" pinfunction="G" pintype="input"/>
       <node ref="R26" pin="2" pintype="passive"/>
     </net>
-    <net code="78" name="Net-(Q18-Pad4)">
-      <node ref="Q18" pin="4" pinfunction="G" pintype="input"/>
-      <node ref="R35" pin="2" pintype="passive"/>
+    <net code="63" name="Net-(Q12-Pad4)">
+      <node ref="Q12" pin="4" pinfunction="G" pintype="input"/>
+      <node ref="R27" pin="2" pintype="passive"/>
     </net>
-    <net code="79" name="Net-(Q19-Pad4)">
-      <node ref="Q19" pin="4" pinfunction="G" pintype="input"/>
-      <node ref="R36" pin="2" pintype="passive"/>
+    <net code="64" name="Net-(Q13-Pad4)">
+      <node ref="Q13" pin="4" pinfunction="G" pintype="input"/>
+      <node ref="R28" pin="2" pintype="passive"/>
     </net>
-    <net code="80" name="Net-(Q20-Pad4)">
-      <node ref="Q20" pin="4" pinfunction="G" pintype="input"/>
-      <node ref="R37" pin="2" pintype="passive"/>
+    <net code="65" name="Net-(Q14-Pad4)">
+      <node ref="Q14" pin="4" pinfunction="G" pintype="input"/>
+      <node ref="R29" pin="2" pintype="passive"/>
     </net>
-    <net code="81" name="Net-(Q21-Pad4)">
-      <node ref="Q21" pin="4" pinfunction="G" pintype="input"/>
-      <node ref="R38" pin="2" pintype="passive"/>
+    <net code="66" name="Net-(Q15-Pad4)">
+      <node ref="Q15" pin="4" pinfunction="G" pintype="input"/>
+      <node ref="R30" pin="2" pintype="passive"/>
     </net>
-    <net code="82" name="Net-(Q22-Pad4)">
-      <node ref="Q22" pin="4" pinfunction="G" pintype="input"/>
-      <node ref="R39" pin="2" pintype="passive"/>
+    <net code="67" name="Net-(Q16-Pad4)">
+      <node ref="Q16" pin="4" pinfunction="G" pintype="input"/>
+      <node ref="R31" pin="2" pintype="passive"/>
     </net>
-    <net code="83" name="Net-(Q23-Pad4)">
-      <node ref="Q23" pin="4" pinfunction="G" pintype="input"/>
-      <node ref="R40" pin="2" pintype="passive"/>
+    <net code="68" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="HO" pintype="output"/>
     </net>
-    <net code="84" name="Net-(Q24-Pad4)">
-      <node ref="Q24" pin="4" pinfunction="G" pintype="input"/>
-      <node ref="R41" pin="2" pintype="passive"/>
+    <net code="69" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="LO" pintype="output"/>
     </net>
-    <net code="85" name="Net-(Q25-Pad4)">
-      <node ref="Q25" pin="4" pinfunction="G" pintype="input"/>
-      <node ref="R42" pin="2" pintype="passive"/>
+    <net code="70" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="HO" pintype="output"/>
     </net>
-    <net code="86" name="Net-(R9-Pad1)">
+    <net code="71" name="Net-(R9-Pad1)">
       <node ref="R9" pin="1" pintype="passive"/>
-      <node ref="U3" pin="PQ0" pinfunction="A2_7" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="LO" pintype="output"/>
     </net>
-    <net code="87" name="Net-(R10-Pad2)">
-      <node ref="R10" pin="2" pintype="passive"/>
-      <node ref="U3" pin="PP4" pinfunction="A2_8" pintype="input"/>
-    </net>
-    <net code="88" name="Net-(R19-Pad1)">
-      <node ref="R19" pin="1" pintype="passive"/>
-      <node ref="U4" pin="7" pinfunction="HO" pintype="output"/>
-    </net>
-    <net code="89" name="Net-(R20-Pad1)">
-      <node ref="R20" pin="1" pintype="passive"/>
-      <node ref="U4" pin="5" pinfunction="LO" pintype="output"/>
-    </net>
-    <net code="90" name="Net-(R21-Pad1)">
-      <node ref="R21" pin="1" pintype="passive"/>
+    <net code="72" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pintype="passive"/>
       <node ref="U5" pin="7" pinfunction="HO" pintype="output"/>
     </net>
-    <net code="91" name="Net-(R22-Pad1)">
-      <node ref="R22" pin="1" pintype="passive"/>
+    <net code="73" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
       <node ref="U5" pin="5" pinfunction="LO" pintype="output"/>
     </net>
-    <net code="92" name="Net-(R23-Pad1)">
-      <node ref="R23" pin="1" pintype="passive"/>
+    <net code="74" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1" pintype="passive"/>
       <node ref="U6" pin="7" pinfunction="HO" pintype="output"/>
     </net>
-    <net code="93" name="Net-(R24-Pad1)">
-      <node ref="R24" pin="1" pintype="passive"/>
+    <net code="75" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1" pintype="passive"/>
       <node ref="U6" pin="5" pinfunction="LO" pintype="output"/>
     </net>
-    <net code="94" name="Net-(R25-Pad1)">
-      <node ref="R25" pin="1" pintype="passive"/>
+    <net code="76" name="Net-(R24-Pad1)">
+      <node ref="R24" pin="1" pintype="passive"/>
       <node ref="U7" pin="7" pinfunction="HO" pintype="output"/>
     </net>
-    <net code="95" name="Net-(R26-Pad1)">
-      <node ref="R26" pin="1" pintype="passive"/>
+    <net code="77" name="Net-(R25-Pad1)">
+      <node ref="R25" pin="1" pintype="passive"/>
       <node ref="U7" pin="5" pinfunction="LO" pintype="output"/>
     </net>
-    <net code="96" name="Net-(R35-Pad1)">
-      <node ref="R35" pin="1" pintype="passive"/>
+    <net code="78" name="Net-(R26-Pad1)">
+      <node ref="R26" pin="1" pintype="passive"/>
       <node ref="U8" pin="7" pinfunction="HO" pintype="output"/>
     </net>
-    <net code="97" name="Net-(R36-Pad1)">
-      <node ref="R36" pin="1" pintype="passive"/>
+    <net code="79" name="Net-(R27-Pad1)">
+      <node ref="R27" pin="1" pintype="passive"/>
       <node ref="U8" pin="5" pinfunction="LO" pintype="output"/>
     </net>
-    <net code="98" name="Net-(R37-Pad1)">
-      <node ref="R37" pin="1" pintype="passive"/>
+    <net code="80" name="Net-(R28-Pad1)">
+      <node ref="R28" pin="1" pintype="passive"/>
       <node ref="U9" pin="7" pinfunction="HO" pintype="output"/>
     </net>
-    <net code="99" name="Net-(R38-Pad1)">
-      <node ref="R38" pin="1" pintype="passive"/>
+    <net code="81" name="Net-(R29-Pad1)">
+      <node ref="R29" pin="1" pintype="passive"/>
       <node ref="U9" pin="5" pinfunction="LO" pintype="output"/>
     </net>
-    <net code="100" name="Net-(R39-Pad1)">
-      <node ref="R39" pin="1" pintype="passive"/>
+    <net code="82" name="Net-(R30-Pad1)">
+      <node ref="R30" pin="1" pintype="passive"/>
       <node ref="U10" pin="7" pinfunction="HO" pintype="output"/>
     </net>
-    <net code="101" name="Net-(R40-Pad1)">
-      <node ref="R40" pin="1" pintype="passive"/>
+    <net code="83" name="Net-(R31-Pad1)">
+      <node ref="R31" pin="1" pintype="passive"/>
       <node ref="U10" pin="5" pinfunction="LO" pintype="output"/>
     </net>
-    <net code="102" name="Net-(R41-Pad1)">
-      <node ref="R41" pin="1" pintype="passive"/>
-      <node ref="U11" pin="7" pinfunction="HO" pintype="output"/>
+    <net code="84" name="Net-(R32-Pad1)">
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U11" pin="PQ0" pinfunction="A2_7" pintype="input"/>
     </net>
-    <net code="103" name="Net-(R42-Pad1)">
-      <node ref="R42" pin="1" pintype="passive"/>
-      <node ref="U11" pin="5" pinfunction="LO" pintype="output"/>
+    <net code="85" name="Net-(R33-Pad2)">
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="U11" pin="PP4" pinfunction="A2_8" pintype="input"/>
     </net>
-    <net code="104" name="RVS_PWM_1">
-      <node ref="U11" pin="2" pinfunction="HIN" pintype="input"/>
-      <node ref="U3" pin="PD0" pinfunction="D1_7" pintype="input"/>
+    <net code="86" name="RVS_PWM_1">
+      <node ref="D4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="LIN" pintype="input"/>
+      <node ref="U11" pin="PD0" pinfunction="D1_7" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="HIN" pintype="input"/>
+    </net>
+    <net code="87" name="RVS_PWM_2">
+      <node ref="D19" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U10" pin="2" pinfunction="HIN" pintype="input"/>
+      <node ref="U11" pin="PM5" pinfunction="B1_10" pintype="input"/>
+      <node ref="U8" pin="3" pinfunction="LIN" pintype="input"/>
+    </net>
+    <net code="88" name="RVS_PWM_3">
+      <node ref="D18" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U11" pin="PM6" pinfunction="D2_10" pintype="input"/>
       <node ref="U7" pin="3" pinfunction="LIN" pintype="input"/>
-    </net>
-    <net code="105" name="RVS_PWM_2">
-      <node ref="U3" pin="PM5" pinfunction="B1_10" pintype="input"/>
-      <node ref="U5" pin="3" pinfunction="LIN" pintype="input"/>
       <node ref="U9" pin="2" pinfunction="HIN" pintype="input"/>
     </net>
-    <net code="106" name="RVS_PWM_3">
-      <node ref="U3" pin="PM6" pinfunction="D2_10" pintype="input"/>
-      <node ref="U4" pin="3" pinfunction="LIN" pintype="input"/>
-      <node ref="U8" pin="2" pinfunction="HIN" pintype="input"/>
+    <net code="89" name="RVS_PWM_4">
+      <node ref="D5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U11" pin="PL5" pinfunction="C1_6" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="LIN" pintype="input"/>
+      <node ref="U6" pin="2" pinfunction="HIN" pintype="input"/>
     </net>
-    <net code="107" name="RVS_PWM_4">
-      <node ref="U10" pin="2" pinfunction="HIN" pintype="input"/>
-      <node ref="U3" pin="PL5" pinfunction="C1_6" pintype="input"/>
-      <node ref="U6" pin="3" pinfunction="LIN" pintype="input"/>
-    </net>
-    <net code="108" name="Servo_1">
+    <net code="90" name="Servo_1">
       <node ref="Servo1" pin="3" pintype="input"/>
-      <node ref="U3" pin="PB2" pinfunction="A1_9" pintype="input"/>
+      <node ref="U11" pin="PB2" pinfunction="A1_9" pintype="input"/>
     </net>
-    <net code="109" name="Servo_2">
+    <net code="91" name="Servo_2">
       <node ref="Servo2" pin="3" pintype="input"/>
-      <node ref="U3" pin="PB3" pinfunction="A1_10" pintype="input"/>
+      <node ref="U11" pin="PB3" pinfunction="A1_10" pintype="input"/>
     </net>
-    <net code="110" name="Solenoid_Valve_1">
-      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="U3" pin="PB4" pinfunction="B2_3" pintype="input"/>
+    <net code="92" name="Servo_3">
+      <node ref="Servo3" pin="3" pintype="input"/>
+      <node ref="U11" pin="PD7" pinfunction="B1_7" pintype="input"/>
     </net>
-    <net code="111" name="Solenoid_Valve_2">
-      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="U3" pin="PP0" pinfunction="A2_3" pintype="input"/>
+    <net code="93" name="Servo_4">
+      <node ref="Servo4" pin="3" pintype="input"/>
+      <node ref="U11" pin="PD4" pinfunction="A2_5" pintype="input"/>
     </net>
-    <net code="112" name="Solenoid_Valve_3">
-      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="U3" pin="PB5" pinfunction="B2_4" pintype="input"/>
+    <net code="94" name="Servo_5">
+      <node ref="Servo5" pin="3" pintype="input"/>
+      <node ref="U11" pin="PA4" pinfunction="B2_9" pintype="input"/>
     </net>
-    <net code="113" name="Solenoid_Valve_4">
-      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="U3" pin="PP1" pinfunction="A2_4" pintype="input"/>
+    <net code="95" name="Servo_6">
+      <node ref="Servo6" pin="3" pintype="input"/>
+      <node ref="U11" pin="PA5" pinfunction="B2_10" pintype="input"/>
     </net>
-    <net code="114" name="Solenoid_Valve_5">
-      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="U3" pin="PK0" pinfunction="B2_5" pintype="input"/>
+    <net code="96" name="unconnected-(U11-Pad+5V')">
+      <node ref="U11" pin="+5V'" pinfunction="B2_1" pintype="input+no_connect"/>
     </net>
-    <net code="115" name="Solenoid_Valve_6">
-      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="U3" pin="PD4" pinfunction="A2_5" pintype="input"/>
+    <net code="97" name="unconnected-(U11-Pad+5V)">
+      <node ref="U11" pin="+5V" pinfunction="B1_1" pintype="input+no_connect"/>
     </net>
-    <net code="116" name="Solenoid_Valve_7">
-      <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="U3" pin="PK1" pinfunction="B2_6" pintype="input"/>
+    <net code="98" name="unconnected-(U11-PadPA7)">
+      <node ref="U11" pin="PA7" pinfunction="D2_4" pintype="input+no_connect"/>
     </net>
-    <net code="117" name="Solenoid_Valve_8">
-      <node ref="Q8" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="U3" pin="PK2" pinfunction="B2_7" pintype="input"/>
+    <net code="99" name="unconnected-(U11-PadPB4)">
+      <node ref="U11" pin="PB4" pinfunction="B2_3" pintype="input+no_connect"/>
     </net>
-    <net code="118" name="Solenoid_Valve_9">
-      <node ref="Q9" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="U3" pin="PK3" pinfunction="B2_8" pintype="input"/>
+    <net code="100" name="unconnected-(U11-PadPB5)">
+      <node ref="U11" pin="PB5" pinfunction="B2_4" pintype="input+no_connect"/>
     </net>
-    <net code="119" name="unconnected-(R48-Pad2)">
-      <node ref="R48" pin="2" pintype="passive"/>
+    <net code="101" name="unconnected-(U11-PadPE0)">
+      <node ref="U11" pin="PE0" pinfunction="B1_3" pintype="input+no_connect"/>
     </net>
-    <net code="120" name="unconnected-(U3-Pad+5V')">
-      <node ref="U3" pin="+5V'" pinfunction="B2_1" pintype="input+no_connect"/>
+    <net code="102" name="unconnected-(U11-PadPE1)">
+      <node ref="U11" pin="PE1" pinfunction="B1_4" pintype="input+no_connect"/>
     </net>
-    <net code="121" name="unconnected-(U3-Pad+5V)">
-      <node ref="U3" pin="+5V" pinfunction="B1_1" pintype="input+no_connect"/>
+    <net code="103" name="unconnected-(U11-PadPE2)">
+      <node ref="U11" pin="PE2" pinfunction="B1_5" pintype="input+no_connect"/>
     </net>
-    <net code="122" name="unconnected-(U3-PadPA4)">
-      <node ref="U3" pin="PA4" pinfunction="B2_9" pintype="input+no_connect"/>
+    <net code="104" name="unconnected-(U11-PadPE3)">
+      <node ref="U11" pin="PE3" pinfunction="B1_6" pintype="input+no_connect"/>
     </net>
-    <net code="123" name="unconnected-(U3-PadPA5)">
-      <node ref="U3" pin="PA5" pinfunction="B2_10" pintype="input+no_connect"/>
+    <net code="105" name="unconnected-(U11-PadPF1)">
+      <node ref="U11" pin="PF1" pinfunction="C1_1" pintype="input+no_connect"/>
     </net>
-    <net code="124" name="unconnected-(U3-PadPA7)">
-      <node ref="U3" pin="PA7" pinfunction="D2_4" pintype="input+no_connect"/>
+    <net code="106" name="unconnected-(U11-PadPF2)">
+      <node ref="U11" pin="PF2" pinfunction="C1_2" pintype="input+no_connect"/>
     </net>
-    <net code="125" name="unconnected-(U3-PadPD7)">
-      <node ref="U3" pin="PD7" pinfunction="B1_7" pintype="input+no_connect"/>
+    <net code="107" name="unconnected-(U11-PadPF3)">
+      <node ref="U11" pin="PF3" pinfunction="C1_3" pintype="input+no_connect"/>
     </net>
-    <net code="126" name="unconnected-(U3-PadPE0)">
-      <node ref="U3" pin="PE0" pinfunction="B1_3" pintype="input+no_connect"/>
+    <net code="108" name="unconnected-(U11-PadPG0)">
+      <node ref="U11" pin="PG0" pinfunction="C1_4" pintype="input+no_connect"/>
     </net>
-    <net code="127" name="unconnected-(U3-PadPE1)">
-      <node ref="U3" pin="PE1" pinfunction="B1_4" pintype="input+no_connect"/>
+    <net code="109" name="unconnected-(U11-PadPG1)">
+      <node ref="U11" pin="PG1" pinfunction="C2_1" pintype="input+no_connect"/>
     </net>
-    <net code="128" name="unconnected-(U3-PadPE2)">
-      <node ref="U3" pin="PE2" pinfunction="B1_5" pintype="input+no_connect"/>
+    <net code="110" name="unconnected-(U11-PadPH0)">
+      <node ref="U11" pin="PH0" pinfunction="C2_7" pintype="input+no_connect"/>
     </net>
-    <net code="129" name="unconnected-(U3-PadPE3)">
-      <node ref="U3" pin="PE3" pinfunction="B1_6" pintype="input+no_connect"/>
+    <net code="111" name="unconnected-(U11-PadPH1)">
+      <node ref="U11" pin="PH1" pinfunction="C2_8" pintype="input+no_connect"/>
     </net>
-    <net code="130" name="unconnected-(U3-PadPF1)">
-      <node ref="U3" pin="PF1" pinfunction="C1_1" pintype="input+no_connect"/>
+    <net code="112" name="unconnected-(U11-PadPH2)">
+      <node ref="U11" pin="PH2" pinfunction="D1_3" pintype="input+no_connect"/>
     </net>
-    <net code="131" name="unconnected-(U3-PadPF2)">
-      <node ref="U3" pin="PF2" pinfunction="C1_2" pintype="input+no_connect"/>
+    <net code="113" name="unconnected-(U11-PadPH3)">
+      <node ref="U11" pin="PH3" pinfunction="D1_4" pintype="input+no_connect"/>
     </net>
-    <net code="132" name="unconnected-(U3-PadPF3)">
-      <node ref="U3" pin="PF3" pinfunction="C1_3" pintype="input+no_connect"/>
+    <net code="114" name="unconnected-(U11-PadPK0)">
+      <node ref="U11" pin="PK0" pinfunction="B2_5" pintype="input+no_connect"/>
     </net>
-    <net code="133" name="unconnected-(U3-PadPG0)">
-      <node ref="U3" pin="PG0" pinfunction="C1_4" pintype="input+no_connect"/>
+    <net code="115" name="unconnected-(U11-PadPK1)">
+      <node ref="U11" pin="PK1" pinfunction="B2_6" pintype="input+no_connect"/>
     </net>
-    <net code="134" name="unconnected-(U3-PadPG1)">
-      <node ref="U3" pin="PG1" pinfunction="C2_1" pintype="input+no_connect"/>
+    <net code="116" name="unconnected-(U11-PadPK2)">
+      <node ref="U11" pin="PK2" pinfunction="B2_7" pintype="input+no_connect"/>
     </net>
-    <net code="135" name="unconnected-(U3-PadPH0)">
-      <node ref="U3" pin="PH0" pinfunction="C2_7" pintype="input+no_connect"/>
+    <net code="117" name="unconnected-(U11-PadPK3)">
+      <node ref="U11" pin="PK3" pinfunction="B2_8" pintype="input+no_connect"/>
     </net>
-    <net code="136" name="unconnected-(U3-PadPH1)">
-      <node ref="U3" pin="PH1" pinfunction="C2_8" pintype="input+no_connect"/>
+    <net code="118" name="unconnected-(U11-PadPK4)">
+      <node ref="U11" pin="PK4" pinfunction="C2_2" pintype="input+no_connect"/>
     </net>
-    <net code="137" name="unconnected-(U3-PadPH2)">
-      <node ref="U3" pin="PH2" pinfunction="D1_3" pintype="input+no_connect"/>
+    <net code="119" name="unconnected-(U11-PadPK5)">
+      <node ref="U11" pin="PK5" pinfunction="C2_3" pintype="input+no_connect"/>
     </net>
-    <net code="138" name="unconnected-(U3-PadPH3)">
-      <node ref="U3" pin="PH3" pinfunction="D1_4" pintype="input+no_connect"/>
+    <net code="120" name="unconnected-(U11-PadPK6)">
+      <node ref="U11" pin="PK6" pinfunction="C2_9" pintype="input+no_connect"/>
     </net>
-    <net code="139" name="unconnected-(U3-PadPK4)">
-      <node ref="U3" pin="PK4" pinfunction="C2_2" pintype="input+no_connect"/>
+    <net code="121" name="unconnected-(U11-PadPK7)">
+      <node ref="U11" pin="PK7" pinfunction="C2_10" pintype="input+no_connect"/>
     </net>
-    <net code="140" name="unconnected-(U3-PadPK5)">
-      <node ref="U3" pin="PK5" pinfunction="C2_3" pintype="input+no_connect"/>
+    <net code="122" name="unconnected-(U11-PadPL0)">
+      <node ref="U11" pin="PL0" pinfunction="C1_7" pintype="input+no_connect"/>
     </net>
-    <net code="141" name="unconnected-(U3-PadPK6)">
-      <node ref="U3" pin="PK6" pinfunction="C2_9" pintype="input+no_connect"/>
+    <net code="123" name="unconnected-(U11-PadPL1)">
+      <node ref="U11" pin="PL1" pinfunction="C1_8" pintype="input+no_connect"/>
     </net>
-    <net code="142" name="unconnected-(U3-PadPK7)">
-      <node ref="U3" pin="PK7" pinfunction="C2_10" pintype="input+no_connect"/>
+    <net code="124" name="unconnected-(U11-PadPL2)">
+      <node ref="U11" pin="PL2" pinfunction="C1_9" pintype="input+no_connect"/>
     </net>
-    <net code="143" name="unconnected-(U3-PadPL0)">
-      <node ref="U3" pin="PL0" pinfunction="C1_7" pintype="input+no_connect"/>
+    <net code="125" name="unconnected-(U11-PadPL3)">
+      <node ref="U11" pin="PL3" pinfunction="C1_10" pintype="input+no_connect"/>
     </net>
-    <net code="144" name="unconnected-(U3-PadPL1)">
-      <node ref="U3" pin="PL1" pinfunction="C1_8" pintype="input+no_connect"/>
+    <net code="126" name="unconnected-(U11-PadPM0)">
+      <node ref="U11" pin="PM0" pinfunction="C2_4" pintype="input+no_connect"/>
     </net>
-    <net code="145" name="unconnected-(U3-PadPL2)">
-      <node ref="U3" pin="PL2" pinfunction="C1_9" pintype="input+no_connect"/>
+    <net code="127" name="unconnected-(U11-PadPM1)">
+      <node ref="U11" pin="PM1" pinfunction="C2_5" pintype="input+no_connect"/>
     </net>
-    <net code="146" name="unconnected-(U3-PadPL3)">
-      <node ref="U3" pin="PL3" pinfunction="C1_10" pintype="input+no_connect"/>
+    <net code="128" name="unconnected-(U11-PadPM2)">
+      <node ref="U11" pin="PM2" pinfunction="C2_6" pintype="input+no_connect"/>
     </net>
-    <net code="147" name="unconnected-(U3-PadPM0)">
-      <node ref="U3" pin="PM0" pinfunction="C2_4" pintype="input+no_connect"/>
+    <net code="129" name="unconnected-(U11-PadPM3)">
+      <node ref="U11" pin="PM3" pinfunction="D1_2" pintype="input+no_connect"/>
     </net>
-    <net code="148" name="unconnected-(U3-PadPM1)">
-      <node ref="U3" pin="PM1" pinfunction="C2_5" pintype="input+no_connect"/>
+    <net code="130" name="unconnected-(U11-PadPN2)">
+      <node ref="U11" pin="PN2" pinfunction="D1_8" pintype="input+no_connect"/>
     </net>
-    <net code="149" name="unconnected-(U3-PadPM2)">
-      <node ref="U3" pin="PM2" pinfunction="C2_6" pintype="input+no_connect"/>
+    <net code="131" name="unconnected-(U11-PadPN3)">
+      <node ref="U11" pin="PN3" pinfunction="D1_9" pintype="input+no_connect"/>
     </net>
-    <net code="150" name="unconnected-(U3-PadPM3)">
-      <node ref="U3" pin="PM3" pinfunction="D1_2" pintype="input+no_connect"/>
+    <net code="132" name="unconnected-(U11-PadPN4)">
+      <node ref="U11" pin="PN4" pinfunction="A2_10" pintype="input+no_connect"/>
     </net>
-    <net code="151" name="unconnected-(U3-PadPN2)">
-      <node ref="U3" pin="PN2" pinfunction="D1_8" pintype="input+no_connect"/>
+    <net code="133" name="unconnected-(U11-PadPN5)">
+      <node ref="U11" pin="PN5" pinfunction="A2_9" pintype="input+no_connect"/>
     </net>
-    <net code="152" name="unconnected-(U3-PadPN3)">
-      <node ref="U3" pin="PN3" pinfunction="D1_9" pintype="input+no_connect"/>
+    <net code="134" name="unconnected-(U11-PadPP0)">
+      <node ref="U11" pin="PP0" pinfunction="A2_3" pintype="input+no_connect"/>
     </net>
-    <net code="153" name="unconnected-(U3-PadPN4)">
-      <node ref="U3" pin="PN4" pinfunction="A2_10" pintype="input+no_connect"/>
+    <net code="135" name="unconnected-(U11-PadPP1)">
+      <node ref="U11" pin="PP1" pinfunction="A2_4" pintype="input+no_connect"/>
     </net>
-    <net code="154" name="unconnected-(U3-PadPN5)">
-      <node ref="U3" pin="PN5" pinfunction="A2_9" pintype="input+no_connect"/>
+    <net code="136" name="unconnected-(U11-PadPP2)">
+      <node ref="U11" pin="PP2" pinfunction="D1_10" pintype="input+no_connect"/>
     </net>
-    <net code="155" name="unconnected-(U3-PadPP2)">
-      <node ref="U3" pin="PP2" pinfunction="D1_10" pintype="input+no_connect"/>
+    <net code="137" name="unconnected-(U11-PadPP3)">
+      <node ref="U11" pin="PP3" pinfunction="D2_8" pintype="input+no_connect"/>
     </net>
-    <net code="156" name="unconnected-(U3-PadPP3)">
-      <node ref="U3" pin="PP3" pinfunction="D2_8" pintype="input+no_connect"/>
+    <net code="138" name="unconnected-(U11-PadPP5)">
+      <node ref="U11" pin="PP5" pinfunction="D2_3" pintype="input+no_connect"/>
     </net>
-    <net code="157" name="unconnected-(U3-PadPP5)">
-      <node ref="U3" pin="PP5" pinfunction="D2_3" pintype="input+no_connect"/>
+    <net code="139" name="unconnected-(U11-PadPQ1)">
+      <node ref="U11" pin="PQ1" pinfunction="D2_9" pintype="input+no_connect"/>
     </net>
-    <net code="158" name="unconnected-(U3-PadPQ1)">
-      <node ref="U3" pin="PQ1" pinfunction="D2_9" pintype="input+no_connect"/>
+    <net code="140" name="unconnected-(U11-PadPQ2)">
+      <node ref="U11" pin="PQ2" pinfunction="D2_6" pintype="input+no_connect"/>
     </net>
-    <net code="159" name="unconnected-(U3-PadPQ2)">
-      <node ref="U3" pin="PQ2" pinfunction="D2_6" pintype="input+no_connect"/>
+    <net code="141" name="unconnected-(U11-PadPQ3)">
+      <node ref="U11" pin="PQ3" pinfunction="D2_7" pintype="input+no_connect"/>
     </net>
-    <net code="160" name="unconnected-(U3-PadPQ3)">
-      <node ref="U3" pin="PQ3" pinfunction="D2_7" pintype="input+no_connect"/>
+    <net code="142" name="unconnected-(U11-PadRese')">
+      <node ref="U11" pin="Rese'" pinfunction="D2_5" pintype="input+no_connect"/>
     </net>
-    <net code="161" name="unconnected-(U3-PadRese')">
-      <node ref="U3" pin="Rese'" pinfunction="D2_5" pintype="input+no_connect"/>
-    </net>
-    <net code="162" name="unconnected-(U3-PadRese)">
-      <node ref="U3" pin="Rese" pinfunction="D1_5" pintype="input+no_connect"/>
+    <net code="143" name="unconnected-(U11-PadRese)">
+      <node ref="U11" pin="Rese" pinfunction="D1_5" pintype="input+no_connect"/>
     </net>
   </nets>
 </export>
