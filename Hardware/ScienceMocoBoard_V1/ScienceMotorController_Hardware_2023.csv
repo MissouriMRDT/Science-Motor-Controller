@@ -1,25 +1,31 @@
-"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
-1;"U6,U2,U9,U8,U10,U1,U5,U7";"SOIC-8_3.9x4.9mm_P1.27mm";8;"IRS2005S";;;
-2;"D6,D23,D15,D20,D14,D22,D7,D21";"D_0603_1608Metric_Pad1.05x0.95mm_HandSolder";8;"D_Small";;;
-3;"Servo1,AbsEncode2,AbsEncode4,Servo4,AbsEncode3,Servo3,Servo5,AbsEncode1,Servo6,Servo2";"MOLEX_SL_03_Vertical";10;"Molex_SL_03";;;
-4;"R22,R1,R2,R21,R23,R4,R5,R20";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";8;"120";;;
-5;"C10,C13,C3,C2,C8,C9,C7,C14";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";8;"0.1u";;;
-6;"R33,R34,R37,R18,R19,R17,R11,R39,R16,R32,R35,R38,R36";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";13;"130";;;
-7;"Q10,Q8,Q14,Q1,Q4,Q2,Q16,Q9,Q13,Q7,Q3,Q5,Q12,Q15,Q6,Q11";"SOIC-8_3.9x4.9mm_P1.27mm";16;"SI4156DY";;;
-8;"D19,D16,D17,D4,D5,D18,D2,D1";"LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder";8;"Pink";;;
-9;"C5,C11,C6,C12";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";4;"10u";;;
-10;"LimSwitch3,LimSwitch2,LimSwitch1,LimSwitch4,LimSwitch5,LimSwitch6";"MOLEX_SL_02_Vertical";6;"Molex_SL_02";;;
-11;"R10";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"300";;;
-12;"D27,D31,D10,D29,D30,D26,D28,D13,D12,D11";"LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder";10;"YELLOW";;;
-13;"R9,R25,R30,R31,R13,R24,R26,R8,R15,R29,R27,R7,R12,R6,R14,R28";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";16;"100";;;
-14;"D9,D3,D8";"LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder";3;"GREEN";;;
-15;"Conn3";"Square_Anderson_2_H_Side_By_Side";1;"Output2";;;
-16;"Conn1";"Square_Anderson_2_H_Side_By_Side";1;"Input";;;
-17;"C1,Ce";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";2;"10uF";;;
-18;"R3";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"1k";;;
-19;"U4";"Converter_DCDC_TRACO_TSR-1_THT";1;"TSR_1-2450";;;
-20;"D24,D25";"LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder";2;"RED";;;
-21;"U11";"TM4C129E_Launchpad_FULL_THT_BOTTOM";1;"TM4C129E_Launchpad";;;
-22;"Conn2";"Square_Anderson_2_H_Side_By_Side";1;"Output1";;;
-23;"U3";"OKI_Horizontal";1;"3V3 OKI";;;
-24;"Conn7,Conn4,Conn5,Conn6";"Square_Anderson_2_H_Side_By_Side";4;"AndersonPP";;;
+"Source:","C:\GitHub\ScienceMotorController_Hardware\Hardware\ScienceMocoBoard_V1\ScienceMotorController_Hardware_2023.kicad_sch"
+"Date:","11/02/2022 11:08:02 PM"
+"Tool:","Eeschema (6.0.7)"
+"Generator:","C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value_with_fp.py"
+"Component Count:","134"
+"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor"
+"AbsEncode1, AbsEncode2, AbsEncode3, AbsEncode4, ","4","Molex_SL_03","Molex_SL_03","MRDT_Connectors:MOLEX_SL_03_Vertical","",""
+"C1, C4, ","2","10uF","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor",""
+"C2, C3, C7, C8, C9, C10, C13, C14, ","8","0.1u","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor",""
+"C5, C6, C11, C12, ","4","10u","C_Small","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor, small symbol",""
+"Conn1, ","1","Input","AndersonPP","MRDT_Connectors:Square_Anderson_2_H_Side_By_Side","",""
+"Conn2, ","1","Output1","AndersonPP","MRDT_Connectors:Square_Anderson_2_H_Side_By_Side","",""
+"Conn3, ","1","Output2","AndersonPP","MRDT_Connectors:Square_Anderson_2_H_Side_By_Side","",""
+"Conn4, Conn5, Conn6, Conn7, ","4","AndersonPP","AndersonPP","MRDT_Connectors:Square_Anderson_2_H_Side_By_Side","",""
+"D1, D2, D4, D5, D16, D17, D18, D19, ","8","Pink","DIODE","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","Diode, anode on pin 1, for simulation only!",""
+"D3, D8, D9, ","3","GREEN","LED_Small","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","Light emitting diode, small symbol",""
+"D6, D7, D14, D15, D20, D21, D22, D23, ","8","D_Small","D_Small","Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder","Diode, small symbol",""
+"D10, D11, D12, D13, D26, D27, D28, D29, D30, D31, ","10","YELLOW","LED_Small","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","Light emitting diode, small symbol",""
+"D24, D25, ","2","RED","LED_Small","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","Light emitting diode, small symbol",""
+"LimSwitch1, LimSwitch2, LimSwitch3, LimSwitch4, LimSwitch5, LimSwitch6, ","6","Molex_SL_02","Molex_SL_02","MRDT_Connectors:MOLEX_SL_02_Vertical","",""
+"Q1, Q2, Q3, Q4, Q5, Q6, Q7, Q8, Q9, Q10, Q11, Q12, Q13, Q14, Q15, Q16, ","16","SI4156DY","FDS2734","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","3.0A Id, 250V Vds, N-Channel MOSFET, 117mOhm Ron, SOIC-8",""
+"R1, R2, R4, R5, R20, R21, R22, R23, ","8","120","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
+"R3, ","1","1k","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
+"R6, R7, R8, R9, R12, R13, R14, R15, R24, R25, R26, R27, R28, R29, R30, R31, ","16","100","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
+"R10, ","1","300","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
+"R11, R16, R17, R18, R19, R32, R33, R34, R35, R36, R37, R38, R39, ","13","130","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor",""
+"Servo1, Servo2, Servo3, Servo4, Servo5, Servo6, ","6","Molex_SL_03","Molex_SL_03","MRDT_Connectors:MOLEX_SL_03_Vertical","",""
+"U1, U2, U5, U6, U7, U8, U9, U10, ","8","IRS2005S","IRS2005S","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","High and Low Side Driver, 200V, 290/600mA, SOIC-8",""
+"U3, ","1","3V3 OKI","OKI","MRDT_Devices:OKI_Horizontal","DC/DC Buck Converter",""
+"U4, ","1","TSR_1-2450","TSR_1-2450","Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT","1A step-down regulator module, fixed 5V output voltage, 5-36V input voltage, -40Â°C to +85Â°C temperature range, TO-220 compatible LM78xx replacement",""
+"U11, ","1","TM4C129E_Launchpad","TM4C129E_Launchpad","MRDT_Shields:TM4C129E_Launchpad_FULL_THT_BOTTOM","TIVA C Full Headers",""
