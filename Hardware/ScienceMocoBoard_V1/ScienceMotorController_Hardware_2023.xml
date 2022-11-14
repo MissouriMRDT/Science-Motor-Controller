@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\GitHub\ScienceMotorController_Hardware\Hardware\ScienceMocoBoard_V1\ScienceMotorController_Hardware_2023.kicad_sch</source>
-    <date>11/02/2022 11:08:02 PM</date>
+    <date>11/10/2022 10:43:10 PM</date>
     <tool>Eeschema (6.0.7)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -97,7 +97,7 @@
       <tstamps>32295ade-1b36-49fa-a78a-6c19e9890d65</tstamps>
     </comp>
     <comp ref="C5">
-      <value>10u</value>
+      <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
@@ -106,7 +106,7 @@
       <tstamps>4619c30f-55db-484f-afc1-eea8e7151b4a</tstamps>
     </comp>
     <comp ref="C6">
-      <value>10u</value>
+      <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
@@ -151,7 +151,7 @@
       <tstamps>3017ed73-9a2d-4341-a744-3029bc756ad1</tstamps>
     </comp>
     <comp ref="C11">
-      <value>10u</value>
+      <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
@@ -160,7 +160,7 @@
       <tstamps>33dd7ed7-8fd9-40d1-bcee-e456968f7d1b</tstamps>
     </comp>
     <comp ref="C12">
-      <value>10u</value>
+      <value>10uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
       <property name="Sheetname" value=""/>
@@ -881,7 +881,7 @@
       <tstamps>7fb69d16-152a-47e8-bc28-03e8651598ad</tstamps>
     </comp>
     <comp ref="R11">
-      <value>130</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -926,7 +926,7 @@
       <tstamps>d0027c8b-d343-41aa-ac27-bc3b9871dd3d</tstamps>
     </comp>
     <comp ref="R16">
-      <value>130</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -935,7 +935,7 @@
       <tstamps>3dad2e26-644d-42c0-af9e-32f5707a3bff</tstamps>
     </comp>
     <comp ref="R17">
-      <value>130</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -944,7 +944,7 @@
       <tstamps>d964315e-31d0-43d3-9d46-2f425917bdc4</tstamps>
     </comp>
     <comp ref="R18">
-      <value>130</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -953,7 +953,7 @@
       <tstamps>b4475406-653b-41e8-98e7-1215a4d4d384</tstamps>
     </comp>
     <comp ref="R19">
-      <value>130</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -1070,7 +1070,7 @@
       <tstamps>ef13ffbc-3398-47eb-93d6-063808d42002</tstamps>
     </comp>
     <comp ref="R32">
-      <value>130</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -1079,7 +1079,7 @@
       <tstamps>cf53b830-6e5f-405e-a32f-534449fd4a3e</tstamps>
     </comp>
     <comp ref="R33">
-      <value>130</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -1088,7 +1088,7 @@
       <tstamps>ad3c9621-15bc-4700-be98-7ad7d549fb0f</tstamps>
     </comp>
     <comp ref="R34">
-      <value>130</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -1097,7 +1097,7 @@
       <tstamps>ab1fafef-cc4e-4bf8-8c6b-e33184828726</tstamps>
     </comp>
     <comp ref="R35">
-      <value>130</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -1106,7 +1106,7 @@
       <tstamps>48a034a6-3dc2-416d-93f0-28ebe386dc5c</tstamps>
     </comp>
     <comp ref="R36">
-      <value>130</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -1115,7 +1115,7 @@
       <tstamps>62112bd3-c8ca-4224-b042-2172b73ce64e</tstamps>
     </comp>
     <comp ref="R37">
-      <value>130</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -1124,7 +1124,7 @@
       <tstamps>3c311855-7d2e-45d7-b8dd-90f22e4f4125</tstamps>
     </comp>
     <comp ref="R38">
-      <value>130</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -1133,7 +1133,7 @@
       <tstamps>ae81b5d8-7c31-475f-a7b9-e84890724bf7</tstamps>
     </comp>
     <comp ref="R39">
-      <value>130</value>
+      <value>120</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -1303,6 +1303,42 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>eb4550b1-1bea-4549-94c1-43c2e0b7b7d5 e03ebd5c-0afd-46a3-a0d0-4ee486b41006 ba9a048f-6960-4f38-bd8c-a7a37a4bae26 c92802c1-7622-44b2-9ef3-bd89c53ad5d0 a39f38c5-dd5d-4bf4-80c5-3ca595e094cd 289043c5-72d1-447a-b8f3-bec0f2378d9c 8a3813e1-0158-44f7-b917-5595ef0ac996 18d02a80-bf5b-40ff-9440-64bb9887979e</tstamps>
     </comp>
+    <comp ref="V1">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole_Corner</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>385e1073-e8ee-4204-8262-b68e828176b6</tstamps>
+    </comp>
+    <comp ref="V2">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole_Corner</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b4dcbca0-27b8-40c0-8259-04e5ea35a88a</tstamps>
+    </comp>
+    <comp ref="V3">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole_Corner</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df564af1-db08-44de-89e6-2a6bfacb7389</tstamps>
+    </comp>
+    <comp ref="V4">
+      <value>Via</value>
+      <footprint>MRDT_Drill_Holes:4_40_Hole_Corner</footprint>
+      <libsource lib="MRDT_Drill_Holes" part="Via" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="ScienceMotorController_Hardware_2023.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2c35478b-bc32-43b3-89fb-253ddd3b5959</tstamps>
+    </comp>
   </components>
   <libparts>
     <libpart lib="Device" part="C">
@@ -1456,6 +1492,15 @@
         <pin num="1" name="Vi" type="input"/>
         <pin num="2" name="GND" type="output"/>
         <pin num="3" name="Vo" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="MRDT_Drill_Holes" part="Via">
+      <fields>
+        <field name="Reference">V</field>
+        <field name="Value">Via</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
       </pins>
     </libpart>
     <libpart lib="MRDT_Shields" part="TM4C129E_Launchpad">
@@ -1613,6 +1658,9 @@
     </library>
     <library logical="MRDT_Devices">
       <uri>C:/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Devices.kicad_sym</uri>
+    </library>
+    <library logical="MRDT_Drill_Holes">
+      <uri>C:/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Drill_Holes.kicad_sym</uri>
     </library>
     <library logical="MRDT_Shields">
       <uri>C:/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Shields.kicad_sym</uri>
@@ -1913,7 +1961,7 @@
       <node ref="Servo6" pin="2" pintype="input"/>
       <node ref="U1" pin="4" pinfunction="COM" pintype="power_in"/>
       <node ref="U10" pin="4" pinfunction="COM" pintype="power_in"/>
-      <node ref="U11" pin="GND" pinfunction="B1_2" pintype="input"/>
+      <node ref="U11" pin="GND" pinfunction="D2_1" pintype="input"/>
       <node ref="U2" pin="4" pinfunction="COM" pintype="power_in"/>
       <node ref="U3" pin="2" pinfunction="GND" pintype="output"/>
       <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
@@ -2412,6 +2460,18 @@
     </net>
     <net code="143" name="unconnected-(U11-PadRese)">
       <node ref="U11" pin="Rese" pinfunction="D1_5" pintype="input+no_connect"/>
+    </net>
+    <net code="144" name="unconnected-(V1-Pad1)">
+      <node ref="V1" pin="1" pintype="input"/>
+    </net>
+    <net code="145" name="unconnected-(V2-Pad1)">
+      <node ref="V2" pin="1" pintype="input"/>
+    </net>
+    <net code="146" name="unconnected-(V3-Pad1)">
+      <node ref="V3" pin="1" pintype="input"/>
+    </net>
+    <net code="147" name="unconnected-(V4-Pad1)">
+      <node ref="V4" pin="1" pintype="input"/>
     </net>
   </nets>
 </export>
