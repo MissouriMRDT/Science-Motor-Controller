@@ -392,7 +392,7 @@
       "idf": "",
       "netlist": "ScienceMotorController.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../../Documentation/ScienceMotorController.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
