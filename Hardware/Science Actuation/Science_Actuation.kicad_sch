@@ -6529,7 +6529,7 @@
     (property "Datasheet" "" (at 16.51 69.85 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid ebf6b53c-ef41-4e07-ada0-1a70efc33328))
+    (pin "1" (uuid 64bbc3c5-50e9-4c5d-b98e-732d1d041322))
     (pin "2" (uuid 9b591103-087d-45d2-8bd7-7becabcf280c))
     (pin "3" (uuid 48c7b3d5-e3f1-4fa3-80c9-7bd39cbed10b))
     (pin "4" (uuid 5217f347-bb40-4668-8ecf-c4772112ca8a))
@@ -9116,7 +9116,7 @@
     )
   )
 
-  (symbol (lib_id "MRDT_Connectors:AndersonPP") (at 20.32 39.37 0) (unit 3)
+  (symbol (lib_id "MRDT_Connectors:AndersonPP") (at 20.32 39.37 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5edd23a-6ee6-49ed-9b36-d67ec49f7ff6)
     (property "Reference" "Conn1" (at 22.86 29.21 0)
@@ -9131,15 +9131,15 @@
     (property "Datasheet" "" (at 16.51 53.34 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 5ed4b8be-bfb5-4847-85c3-b61615ce2543))
+    (pin "1" (uuid 5ed4b8be-bfb5-4847-85c3-b61615ce2544))
     (pin "2" (uuid 801ec2f9-0699-4380-b6dd-d7abeb3c3d6c))
     (pin "3" (uuid e5815791-1ccb-4e01-b8cb-44910ea3569a))
     (pin "4" (uuid ef62b2a1-f7e0-489e-a1dd-fdd97bf7cb19))
-    (pin "1" (uuid 5ed4b8be-bfb5-4847-85c3-b61615ce2543))
+    (pin "1" (uuid 5ed4b8be-bfb5-4847-85c3-b61615ce2544))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
-          (reference "Conn1") (unit 3)
+          (reference "Conn1") (unit 2)
         )
       )
     )
