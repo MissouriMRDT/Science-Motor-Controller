@@ -5444,7 +5444,7 @@
     (pin "2" (uuid 9ba1769b-74d9-4f42-867b-2b6847abdb98))
     (pin "3" (uuid 7540e43a-71ac-430b-8ea6-45dfa9c7b876))
     (pin "4" (uuid e159aeb3-90f4-4ffc-bf67-2d54316e735a))
-    (pin "1" (uuid 3cd340d9-4183-429a-94c7-f84c4ae2f683))
+    (pin "1" (uuid 3cd340d9-4183-429a-94c7-f84c4ae2f684))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
@@ -5504,7 +5504,7 @@
     (pin "2" (uuid 9ba1769b-74d9-4f42-867b-2b6847abdb99))
     (pin "3" (uuid 7540e43a-71ac-430b-8ea6-45dfa9c7b877))
     (pin "4" (uuid e159aeb3-90f4-4ffc-bf67-2d54316e735b))
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c31))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c32))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
@@ -5533,7 +5533,7 @@
     (pin "2" (uuid e3a01f88-29c0-47b8-ad59-929b041358b3))
     (pin "3" (uuid 802d0ef0-b97a-4167-aae5-45d520f9e189))
     (pin "4" (uuid a6cc6d63-4928-428a-a6d2-6518011b30fe))
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea79))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea7a))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
@@ -6788,7 +6788,7 @@
     (property "Value" "470uF" (at 75.565 51.562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 73.1012 54.991 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm" (at 73.1012 54.991 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 72.136 51.181 0)
@@ -6964,7 +6964,7 @@
     (pin "2" (uuid ad3a3945-7cf1-477e-bb20-079f2851e128))
     (pin "3" (uuid 802d0ef0-b97a-4167-aae5-45d520f9e18a))
     (pin "4" (uuid a6cc6d63-4928-428a-a6d2-6518011b30ff))
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea7b))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea7c))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
@@ -7105,7 +7105,7 @@
     (pin "2" (uuid 7393ac83-603e-48fc-9793-0333b8620500))
     (pin "3" (uuid e58a11d6-9c89-48cb-93f1-f7afd42f79cb))
     (pin "4" (uuid 9e3e792f-8c11-4757-a9d5-40b955f475a5))
-    (pin "1" (uuid 1cd28e2a-49ca-4b91-a2f7-b91255c0f3e6))
+    (pin "1" (uuid 1cd28e2a-49ca-4b91-a2f7-b91255c0f3e7))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
@@ -7330,7 +7330,7 @@
     (pin "2" (uuid a4d173dc-9a35-4a50-a708-cde39c8ff65b))
     (pin "3" (uuid 802d0ef0-b97a-4167-aae5-45d520f9e18b))
     (pin "4" (uuid a6cc6d63-4928-428a-a6d2-6518011b3100))
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea7d))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea7e))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
@@ -7568,7 +7568,7 @@
     (property "Value" "330uF" (at 63.246 51.562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 60.4012 54.991 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm" (at 60.4012 54.991 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 59.436 51.181 0)
@@ -7772,11 +7772,11 @@
     (property "Datasheet" "" (at 452.12 210.82 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c32))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c33))
     (pin "2" (uuid 9ba1769b-74d9-4f42-867b-2b6847abdb9a))
     (pin "3" (uuid 7540e43a-71ac-430b-8ea6-45dfa9c7b878))
     (pin "4" (uuid e159aeb3-90f4-4ffc-bf67-2d54316e735c))
-    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c32))
+    (pin "1" (uuid 885817cc-3e81-4d95-b672-c0fc4be66c34))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
@@ -8867,7 +8867,7 @@
     (pin "2" (uuid 9120ee67-8f07-4d4f-95aa-3a52733ea875))
     (pin "3" (uuid 802d0ef0-b97a-4167-aae5-45d520f9e18c))
     (pin "4" (uuid a6cc6d63-4928-428a-a6d2-6518011b3101))
-    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea7f))
+    (pin "1" (uuid 9862fd0d-a704-46da-ad40-9cdb717eea80))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
@@ -9060,7 +9060,7 @@
     (pin "2" (uuid 9ba1769b-74d9-4f42-867b-2b6847abdb9b))
     (pin "3" (uuid 7540e43a-71ac-430b-8ea6-45dfa9c7b879))
     (pin "4" (uuid e159aeb3-90f4-4ffc-bf67-2d54316e735d))
-    (pin "1" (uuid ca2f4250-2287-4eaf-b67e-a34339cf1f71))
+    (pin "1" (uuid ca2f4250-2287-4eaf-b67e-a34339cf1f72))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
@@ -9439,7 +9439,7 @@
     (property "Value" "Blue" (at 300.5455 172.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 298.958 177.673 0)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 298.958 177.673 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 298.958 177.673 0)
@@ -9551,7 +9551,7 @@
     (property "Value" "220uF" (at 50.038 51.689 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 47.7012 55.118 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (at 47.7012 55.118 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 46.736 51.308 0)
@@ -10150,7 +10150,7 @@
     (property "Value" "100uF" (at 37.973 51.435 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 35.1282 54.864 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" (at 35.1282 54.864 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 34.163 51.054 0)
@@ -10242,7 +10242,7 @@
     (pin "2" (uuid 685b727b-e160-4b94-8cef-71e0d4bf355f))
     (pin "3" (uuid 95e2831e-d070-4918-862c-7581cb0bffa4))
     (pin "4" (uuid a61616b7-765b-4ae1-8448-a49f210d1c8b))
-    (pin "1" (uuid 8dad3bbe-b95b-49a7-a42e-8b6107f0dd3a))
+    (pin "1" (uuid 8dad3bbe-b95b-49a7-a42e-8b6107f0dd3b))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
