@@ -1547,6 +1547,9 @@
   (junction (at 48.26 130.81) (diameter 0) (color 0 0 0 0)
     (uuid 5c465167-effc-4c95-8004-64c1bba60976)
   )
+  (junction (at 248.92 227.33) (diameter 0) (color 0 0 0 0)
+    (uuid 5d5dbddf-5be1-4bd5-b1ce-0115ceafbf29)
+  )
   (junction (at 59.69 44.45) (diameter 0) (color 0 0 0 0)
     (uuid 6538ee2f-eae9-4681-934b-70c54e53f3ed)
   )
@@ -1820,6 +1823,10 @@
   (wire (pts (xy 151.13 212.09) (xy 152.4 212.09))
     (stroke (width 0) (type default))
     (uuid 28ad8c8b-6ba9-48c9-af2a-3e1e5d8cad15)
+  )
+  (wire (pts (xy 248.92 227.33) (xy 248.92 228.6))
+    (stroke (width 0) (type default))
+    (uuid 29f1d6de-b710-4828-910e-6d43d4026964)
   )
   (wire (pts (xy 247.65 77.47) (xy 250.19 77.47))
     (stroke (width 0) (type default))
@@ -4466,11 +4473,11 @@
     (property "Datasheet" "" (at 93.98 251.46 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid a5b765e0-6757-4e80-8c75-8d2f46832ec5))
+    (pin "1" (uuid a5b765e0-6757-4e80-8c75-8d2f46832ec6))
     (pin "2" (uuid 635605d0-3a52-4d91-aee5-eb2abf0eefaf))
     (pin "3" (uuid e89a279e-3256-45f4-80e7-b0652fa32956))
     (pin "4" (uuid 3af442ea-53e5-43f9-b02d-0f60aa37ddda))
-    (pin "1" (uuid a5b765e0-6757-4e80-8c75-8d2f46832ec5))
+    (pin "1" (uuid a5b765e0-6757-4e80-8c75-8d2f46832ec6))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
@@ -4730,11 +4737,11 @@
     (property "Datasheet" "" (at 93.98 207.01 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 86849c5c-8865-4b79-8c87-277eea8269fa))
+    (pin "1" (uuid 86849c5c-8865-4b79-8c87-277eea8269fb))
     (pin "2" (uuid c6c6fd6c-108d-4d26-9fb7-bd1824571619))
     (pin "3" (uuid db3ca810-ca29-4724-b49a-646f53a6d5d3))
     (pin "4" (uuid f469c9f7-d254-4cf1-9545-b1047d6d01cd))
-    (pin "1" (uuid 86849c5c-8865-4b79-8c87-277eea8269fa))
+    (pin "1" (uuid 86849c5c-8865-4b79-8c87-277eea8269fb))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
@@ -5373,11 +5380,11 @@
     (property "Datasheet" "" (at 17.78 60.96 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 1cd28e2a-49ca-4b91-a2f7-b91255c0f3e9))
+    (pin "1" (uuid 1cd28e2a-49ca-4b91-a2f7-b91255c0f3ea))
     (pin "2" (uuid 7393ac83-603e-48fc-9793-0333b8620500))
     (pin "3" (uuid e58a11d6-9c89-48cb-93f1-f7afd42f79cb))
     (pin "4" (uuid 9e3e792f-8c11-4757-a9d5-40b955f475a5))
-    (pin "1" (uuid 1cd28e2a-49ca-4b91-a2f7-b91255c0f3e9))
+    (pin "1" (uuid 1cd28e2a-49ca-4b91-a2f7-b91255c0f3ea))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
@@ -5580,11 +5587,11 @@
     (property "Datasheet" "" (at 95.25 154.94 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 86849c5c-8865-4b79-8c87-277eea8269fc))
+    (pin "1" (uuid 86849c5c-8865-4b79-8c87-277eea8269fd))
     (pin "2" (uuid c6c6fd6c-108d-4d26-9fb7-bd182457161a))
     (pin "3" (uuid db3ca810-ca29-4724-b49a-646f53a6d5d4))
     (pin "4" (uuid f469c9f7-d254-4cf1-9545-b1047d6d01ce))
-    (pin "1" (uuid 86849c5c-8865-4b79-8c87-277eea8269fc))
+    (pin "1" (uuid 86849c5c-8865-4b79-8c87-277eea8269fd))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
@@ -5691,11 +5698,11 @@
     (property "Datasheet" "" (at 95.25 102.87 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 86849c5c-8865-4b79-8c87-277eea8269fe))
+    (pin "1" (uuid 86849c5c-8865-4b79-8c87-277eea8269ff))
     (pin "2" (uuid c6c6fd6c-108d-4d26-9fb7-bd182457161b))
     (pin "3" (uuid db3ca810-ca29-4724-b49a-646f53a6d5d5))
     (pin "4" (uuid f469c9f7-d254-4cf1-9545-b1047d6d01cf))
-    (pin "1" (uuid 86849c5c-8865-4b79-8c87-277eea8269fe))
+    (pin "1" (uuid 86849c5c-8865-4b79-8c87-277eea8269ff))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
@@ -5941,11 +5948,11 @@
     (property "Datasheet" "" (at 93.98 259.08 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 86849c5c-8865-4b79-8c87-277eea826a00))
+    (pin "1" (uuid 86849c5c-8865-4b79-8c87-277eea826a01))
     (pin "2" (uuid c6c6fd6c-108d-4d26-9fb7-bd182457161c))
     (pin "3" (uuid db3ca810-ca29-4724-b49a-646f53a6d5d6))
     (pin "4" (uuid f469c9f7-d254-4cf1-9545-b1047d6d01d0))
-    (pin "1" (uuid 86849c5c-8865-4b79-8c87-277eea826a00))
+    (pin "1" (uuid 86849c5c-8865-4b79-8c87-277eea826a01))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
@@ -6340,11 +6347,11 @@
     (property "Datasheet" "" (at 95.25 147.32 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid a5b765e0-6757-4e80-8c75-8d2f46832ec7))
+    (pin "1" (uuid a5b765e0-6757-4e80-8c75-8d2f46832ec8))
     (pin "2" (uuid e03f43d5-a273-4848-a6d2-cc5c5eef21bd))
     (pin "3" (uuid e89a279e-3256-45f4-80e7-b0652fa32957))
     (pin "4" (uuid 3af442ea-53e5-43f9-b02d-0f60aa37dddb))
-    (pin "1" (uuid a5b765e0-6757-4e80-8c75-8d2f46832ec7))
+    (pin "1" (uuid a5b765e0-6757-4e80-8c75-8d2f46832ec8))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
@@ -6806,6 +6813,31 @@
     )
   )
 
+  (symbol (lib_id "power:GND") (at 248.92 228.6 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c5008a93-7497-43d6-87b4-5d41fe74ddf8)
+    (property "Reference" "#PWR053" (at 248.92 234.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 248.92 233.68 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 248.92 228.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 248.92 228.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid dcc307db-900f-41a3-b8fa-ab8f29d68435))
+    (instances
+      (project "Science_Actuation"
+        (path "/a309c31d-a907-45c3-9170-b69a69763088"
+          (reference "#PWR053") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:LED") (at 171.45 267.97 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c742926c-86b0-4c14-a618-7844f05ba3b6)
@@ -7223,11 +7255,11 @@
     (property "Datasheet" "" (at 93.98 199.39 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid a5b765e0-6757-4e80-8c75-8d2f46832ec9))
+    (pin "1" (uuid a5b765e0-6757-4e80-8c75-8d2f46832eca))
     (pin "2" (uuid e70b5866-ac9b-4985-be3d-b2a4d15226f2))
     (pin "3" (uuid e89a279e-3256-45f4-80e7-b0652fa32958))
     (pin "4" (uuid 3af442ea-53e5-43f9-b02d-0f60aa37dddc))
-    (pin "1" (uuid a5b765e0-6757-4e80-8c75-8d2f46832ec9))
+    (pin "1" (uuid a5b765e0-6757-4e80-8c75-8d2f46832eca))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
@@ -7383,11 +7415,11 @@
     (property "Datasheet" "" (at 17.78 44.45 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 8dad3bbe-b95b-49a7-a42e-8b6107f0dd3d))
+    (pin "1" (uuid 8dad3bbe-b95b-49a7-a42e-8b6107f0dd3e))
     (pin "2" (uuid 685b727b-e160-4b94-8cef-71e0d4bf355f))
     (pin "3" (uuid 95e2831e-d070-4918-862c-7581cb0bffa4))
     (pin "4" (uuid a61616b7-765b-4ae1-8448-a49f210d1c8b))
-    (pin "1" (uuid 8dad3bbe-b95b-49a7-a42e-8b6107f0dd3d))
+    (pin "1" (uuid 8dad3bbe-b95b-49a7-a42e-8b6107f0dd3e))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
@@ -7565,11 +7597,11 @@
     (property "Datasheet" "" (at 95.25 95.25 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid a5b765e0-6757-4e80-8c75-8d2f46832ecb))
+    (pin "1" (uuid a5b765e0-6757-4e80-8c75-8d2f46832ecc))
     (pin "2" (uuid 41d7d9f3-4b24-4e4a-b1e9-aac1265918df))
     (pin "3" (uuid e89a279e-3256-45f4-80e7-b0652fa32959))
     (pin "4" (uuid 3af442ea-53e5-43f9-b02d-0f60aa37dddd))
-    (pin "1" (uuid a5b765e0-6757-4e80-8c75-8d2f46832ecb))
+    (pin "1" (uuid a5b765e0-6757-4e80-8c75-8d2f46832ecc))
     (instances
       (project "Science_Actuation"
         (path "/a309c31d-a907-45c3-9170-b69a69763088"
